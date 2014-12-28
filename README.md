@@ -1,7 +1,7 @@
 spring-framework-4-reference
 ============================
 
-![logo](http://99btgc01.info/uploads/2014/12/spring-logo.jpg)
+![logo](http://99btgc01.info/uploads/2014/12/spring_logo.jpg)
 
 Chinese translation of the [Spring Framework 4.x Reference Documentation] (http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/).
 The laset version of the Spring Framework 4.x Reference Documentation is 4.1.4. This is also a GitBook version of the book: [http://waylau.gitbooks.io/spring-framework-4-reference](http://waylau.gitbooks.io/spring-framework-4-reference).

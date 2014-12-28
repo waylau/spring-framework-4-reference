@@ -2,10 +2,10 @@
 
 This is the summary of my book.
 
-* [I. Overview of Spring Framework](I. Overview of Spring Framework/README.md)
-	* [1. Getting Started with Spring](I. Overview of Spring Framework/1. Getting Started with Spring.md)
-	* [2. Introduction to the Spring Framework](I. Overview of Spring Framework/2. Introduction to the Spring Framework.md)
-		* [2.1. Dependency Injection and Inversion of Control](I. Overview of Spring Framework/2.1. Dependency Injection and Inversion of Control.md)
+* [I. Spring Framework 总览](I. Overview of Spring Framework/README.md)
+	* [1. 开始 Spring](I. Overview of Spring Framework/1. Getting Started with Spring.md)
+	* [2. 介绍 Spring Framework](I. Overview of Spring Framework/2. Introduction to the Spring Framework.md)
+		* [2.1. 依赖注入和控制反转](I. Overview of Spring Framework/2.1. Dependency Injection and Inversion of Control.md)
 		* [2.2. Modules](I. Overview of Spring Framework/2.2. Modules.md)
 		* [2.3. Usage scenarios](I. Overview of Spring Framework/2.3. Usage scenarios.md)
 	* [II. What’s New in Spring Framework 4.x](II. What’s New in Spring Framework 4.x/README.md)

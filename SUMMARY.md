@@ -131,7 +131,7 @@ This is the summary of my book.
 		* [16.2. Marshaller and Unmarshaller](IV. Data Access/16.2. Marshaller and Unmarshaller.md)
 		* [16.3. Using Marshaller and Unmarshaller](IV. Data Access/16.3. Using Marshaller and Unmarshaller.md)
 		* [16.4. XML Schema-based Configuration](IV. Data Access/16.4. XML Schema-based Configuration.md)
-		* [16.5. JAXB](IV. Data Access/16.5. JAXB](IV. Data Access/16.5. JAXB.md)
+		* [16.5. JAXB](IV. Data Access/16.5. JAXB.md)
 		* [16.6. Castor](IV. Data Access/16.6. Castor.md)
 		* [16.7. XMLBeans](IV. Data Access/16.7. XMLBeans.md)
 		* [16.8. JiBX](IV. Data Access/16.8. JiBX.md)

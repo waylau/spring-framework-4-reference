@@ -122,7 +122,7 @@ This is the summary of my book.
 		* [14.9. Initializing a DataSource](IV. Data Access/14.9. Initializing a DataSource.md)
 	* [15. 对象关系映射(ORM)数据访问](IV. Data Access/15. Object Relational Mapping Data Access.md)
 		* [15.1. Spring 中的 ORM](IV. Data Access/15.1. Introduction to ORM with Spring.md)
-		* [15.2. General ORM integration considerations](IV. Data Access/15.2. General ORM integration considerations.md)
+		* [15.2. 常见的 ORM 集成方面的注意事项](IV. Data Access/15.2. General ORM integration considerations.md)
 		* [15.3. Hibernate](IV. Data Access/15.3. Hibernate.md)
 		* [15.4. JDO](IV. Data Access/15.4. JDO.md)
 		* [15.5. JPA](IV. Data Access/15.5. JPA.md)

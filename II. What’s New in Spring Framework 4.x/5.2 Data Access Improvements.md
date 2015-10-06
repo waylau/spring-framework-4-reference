@@ -1,0 +1,7 @@
+数据访问改进
+====
+
+* javax.transaction.Transactional 现在可以通过 AspectJ 支持
+* SimpleJdbcCallOperations 现在支持命名绑定
+* 完全支持 Hibernate ORM 5.0: 作为 JPA 供应商 (自动适配)和原生的 API 一样 (在新的 org.springframework.orm.hibernate5 包中涵盖了该内容)
+* 嵌入式数据库可以自动关联唯一名字，并且 `<jdbc:embedded-database>` 支持新的 database-name 属性。见下面“测试改进”内容

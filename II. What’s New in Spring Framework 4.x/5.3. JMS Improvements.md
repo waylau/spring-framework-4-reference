@@ -1,0 +1,8 @@
+JMS 改进
+====
+
+* autoStartup 属性可以通过 JmsListenerContainerFactory 进行控制
+* 应答类型 Destination 可以配置在每个监听器容器
+* @SendTo 的值可以用 SpEL 表达式
+* 响应目的地可以通过 JmsResponse 在[运行时计算](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#jms-annotated-response)
+* @JmsListener 是可以可以重复的注解用于声明多个 JMS 容器在相同的方法上 (若你还没有用上 Java8 请使用新引入的 @JmsListeners)。

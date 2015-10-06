@@ -1,0 +1,25 @@
+Web 改进
+====
+
+* 支持 HTTP Streaming 和 Server-Sent Events , se见 “[HTTP Streaming](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-async-http-streaming)”
+* 内建支持 CORS ，包括全局 (MVC Java 配置和 XML 命名空间) 和本地 (如 @CrossOrigin) 配置。见 26 章, [CORS 支持](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#cors)
+* HTTP 缓存升级
+	* 新的 CacheControl 构建器; 插入 ResponseEntity, WebContentGenerator, ResourceHttpRequestHandler
+	* 改进的 ETag/Last-Modified 在 WebRequest 中支持
+* 自定义映射注解使用 @RequestMapping 作为 元数据注解
+* AbstractHandlerMethodMapping  中的 public 方法用于运行时注册和注销请求映射
+* AbstractDispatcherServletInitializer 中的 Protected createDispatcherServlet 方法用来进一步自定义 DispatcherServlet 实例
+* HandlerMethod 作为 @ExceptionHandler方法的方法参数,特别是方便 @ControllerAdvice 组件
+* java.util.concurrent.CompletableFuture 作为 @Controller 方法返回值类型
+* 字节范围（Byte-range）的请求支持在 HttpHeaders，用于静态资源
+* @ResponseStatus 发现嵌套异常。
+* 在 RestTemplate 中的 UriTemplateHandler 扩展端点
+	* DefaultUriTemplateHandler 暴露 baseUrl 属性和路径段的编码选项
+	* 扩展端点可以使用插入任何 URI 模板库
+* [OkHTTP](http://square.github.io/okhttp/) 与 RestTemplate 集成
+* 自定义 baseUrl 在 MvcUriComponentsBuilder 选择方法。
+* 序列化/反序列化异常消息现在记录为 WARN 级别
+* 默认的 JSON 前缀改变了从`{}&&`改为更安全的`)]}’,`
+* 新的 RequestBodyAdvice 扩展点和内置的实现支持 Jackson 的  在 @RequestBody 的 @JsonView
+* 当使用 GSON 或 Jackson 2.6 +,处理程序方法的返回类型是用于提高参数化类型的序列化，比如 `List<Foo>`
+* 引入的 ScriptTemplateView 作为 JSR-223 的脚本化 web 视图机制为基础,关注 JavaScript 视图模板 Nashorn (JDK 8)。

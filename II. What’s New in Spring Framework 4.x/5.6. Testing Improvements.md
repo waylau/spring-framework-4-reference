@@ -1,0 +1,20 @@
+测试改进
+====
+
+* 基于 JUnit 集成测试现在可以执行 JUnit 规则而不是SpringJUnit4ClassRunner。这允许基于 spring 的集成测试与运行JUnit 的 Parameterized 或第三方 运行器 MockitoJUnitRunner 等。详见 [Spring JUnit 规则](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#testcontext-junit4-rules)
+* Spring MVC Test 框架，现在支持第一类 HtmlUnit，包括集成  Selenium’s WebDriver,允许基于页面的 Web 应用测试而无需部署到 Servlet 容器。详见  [14.6.2, “HtmlUnit 集成”](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#spring-mvc-test-server-htmlunit)
+* AopTestUtils  是一个新的测试工具，允许开发者获得潜在的目标对象的引用隐藏在一个或多个 Spring 代理。详见 [13.2.1, “常见测试工具”](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#unit-testing-utilities)
+* ReflectionTestUtils 现在支持 setting 和 getting static 字段,包括常量
+* bean 定义归档文件的原始顺序，通过 @ActiveProfiles 声明，现在保留为了支持用例,如 Spring 的 ConfigFileApplicationListener 引导加载配置文件基于活动归档文件的名称。
+* @DirtiesContext 支持新 BEFORE_METHOD BEFORE_CLASS,BEFORE_EACH_TEST_METHOD 模式，用于测试之前关闭ApplicationContext——例如,如果一些烦人的(即，有待确定)测试在一个大型测试套件的 ApplicationContext 的原始配置已经损坏。
+* @Commit 是新的注解直接可以用来代替 @Rollback(false)
+* @Rollback 用来配置类级别的默认回滚语义
+	* 因此,现在 @TransactionConfiguration 弃用,在后续版本将被删除。
+* @Sql 现在支持内联 SQL 语句的执行通过一个新的 statements 属性
+* ContextCache 用于缓存测试之间的 ApplicationContext，而现在这是一个公开的 API ，默认的实现可以替代自定义的缓存需求
+* DefaultTestContext, DefaultBootstrapContext, 和 DefaultCacheAwareContextLoaderDelegate 现在是公开的类，支持子包，允许自定义扩展
+* TestContextBootstrapper 现在负责构建 TestContext
+* 在 Spring MVC Test 框架，MvcResult  详情可以被日志记录在 DEBUG 级别或者写入自定义的 OutputStream 或 Writer。详见 log(), print(OutputStream), 和 MockMvcResultHandlers 的 print(Writer) 方法
+* JDBC XML名称空间支持一个新的 `<jdbc:embedded-database>` 的 database-name 属性,允许开发人员为嵌入式数据库设置独特的名字——例如,通过一个 SpEL 表达式或 前活动bean定义配置文件所影响的占位符属性
+* 嵌入式数据库现在可以自动分配一个唯一的名称,允许常用的测试数据库配置在不同的 ApplicationContext 的测试套件中。
+参见[18.8.6“给嵌入式数据库生成惟一名称”](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#jdbc-embedded-database-unique-names)的细节。

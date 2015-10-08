@@ -33,8 +33,8 @@ This is the summary of my book.
 		* [WebSocket 消息改进](II. What’s New in Spring Framework 4.x/5.5. WebSocket Messaging Improvements.md)
 		* [测试改进](II. What’s New in Spring Framework 4.x/5.6. Testing Improvements.md)
 * [III. 核心技术](III. Core Technologies/README.md)
-	* [IoC 容器](III. Core Technologies/6. The IoC container.md)
-		* [6.1. Introduction to the Spring IoC container and beans](III. Core Technologies/6.1. Introduction to the Spring IoC container and beans.md)
+	* IoC 容器
+		* [介绍  Spring IoC 容器和 bean](III. Core Technologies/6.1. Introduction to the Spring IoC container and beans.md)
 		* [5.2. Container overview](III. Core Technologies/5.2. Container overview.md)
 		* [5.3. Bean overview](III. Core Technologies/5.3. Bean overview.md)
 		* [5.4. Dependencies](III. Core Technologies/5.4. Dependencies.md)

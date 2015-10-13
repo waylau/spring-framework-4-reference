@@ -36,7 +36,7 @@ This is the summary of my book.
 	* IoC 容器
 		* [介绍  Spring IoC 容器和 bean](III. Core Technologies/6.1. Introduction to the Spring IoC container and beans.md)
 		* [容器总览](III. Core Technologies/Container overview.md)
-		* [5.3. Bean overview](III. Core Technologies/5.3. Bean overview.md)
+		* [Bean 总览](III. Core Technologies/Bean overview.md)
 		* [5.4. Dependencies](III. Core Technologies/5.4. Dependencies.md)
 		* [5.5. Bean scopes](III. Core Technologies/5.5. Bean scopes.md)
 		* [5.6. Customizing the nature of a bean](III. Core Technologies/5.6. Customizing the nature of a bean.md)

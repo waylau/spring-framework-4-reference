@@ -32,6 +32,7 @@ This is the summary of my book.
 		* [Web 改进](II. What’s New in Spring Framework 4.x/5.4. Web Improvements.md)
 		* [WebSocket 消息改进](II. What’s New in Spring Framework 4.x/5.5. WebSocket Messaging Improvements.md)
 		* [测试改进](II. What’s New in Spring Framework 4.x/5.6. Testing Improvements.md)
+	* [Spring Framework 4.3中的新功能和增强功能](II. What’s New in Spring Framework 4.x/New Features and Enhancements in Spring Framework 4.3.md)
 * [III. 核心技术](III. Core Technologies/README.md)
 	* IoC 容器
 		* [介绍  Spring IoC 容器和 bean](III. Core Technologies/6.1. Introduction to the Spring IoC container and beans.md)

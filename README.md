@@ -12,13 +12,21 @@ Let's [READ](SUMMARY.md)!
  
 利用业余时间对此进行翻译，并在原文的基础上，插入配图，图文并茂方便用户理解。如有勘误欢迎指正，[点此](https://github.com/waylau/spring-framework-4-reference/issues)提问。如有兴趣，也可以参与到本翻译工作中来 :)
 
-从[目录](SUMMARY.md)开始阅读吧
+### Get start 如何开始阅读
 
-###Contact:
+选择下面入口之一：
 
-* Blog:[www.waylau.com](http://www.waylau.com)
-* Gmail: [waylau521@gmail.com](mailto:waylau521@gmail.com)
+* <https://github.com/waylau/spring-framework-4-reference> 的 [SUMMARY.md](SUMMARY.md)
+* <http://waylau.gitbooks.io/spring-framework-4-reference> 的 Read 按钮
+
+### Issue 意见、建议
+
+如有勘误、意见或建议欢迎拍砖 <https://github.com/waylau/spring-framework-4-reference/issues>
+
+### Contact 联系作者:
+
+* Blog: [waylau.com](http://waylau.com)
+* Gmail: [waylau521(at)gmail.com](mailto:waylau521@gmail.com)
 * Weibo: [waylau521](http://weibo.com/waylau521)
 * Twitter: [waylau521](https://twitter.com/waylau521)
 * Github : [waylau](https://github.com/waylau)
-

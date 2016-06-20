@@ -117,7 +117,7 @@ public class ClientService {
 
 使用实例工厂方法实例化
 
-与通过 静态工厂方法 实例化类似，通过调用工厂实例的非静态方法进行实例化。 使用这种方式时，class属性必须为空，而factory-bean属性必须指定为当前(或其祖先)容器中包含工厂方法的bean的名称，而该工厂bean的工厂方法本身必须通过factory-method属性来设定。
+与通过 静态工厂方法 实例化类似，通过调用工厂实例的非静态方法进行实例化。 使用这种方式时，class属性置为空，而factory-bean属性必须指定为当前(或其祖先)容器中包含工厂方法的bean的名称，而该工厂bean的工厂方法本身必须通过factory-method属性来设定。
 
 ```xml
 <!-- 工厂bean，包含createInstance()方法 -->

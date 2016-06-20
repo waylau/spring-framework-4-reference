@@ -1,7 +1,7 @@
 spring-framework-4-reference
 ============================
 
-![logo](http://99btgc01.info/uploads/2014/12/spring_logo.jpg)
+![logo](logo.jpg)
 
 Chinese translation of [Spring Framework 4.x Reference Documentation] (http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/).
 The current version of Spring Framework 4.x is 4.3.0.RELEASE. There is also a GitBook version of the book: [http://waylau.gitbooks.io/spring-framework-4-reference](http://waylau.gitbooks.io/spring-framework-4-reference).

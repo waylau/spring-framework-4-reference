@@ -16,7 +16,7 @@ Spring 4.3 的新功能和增强
 
 `jdbc:initialize-database` 和 `jdbc:embedded-database` 支持可配置的分离器被应用到每个脚本。
 
-## 缓存该井
+## 缓存改进
 
 Spring 4.3 允许在一个给定的 key 并发调用时实现要同步，使得相应的值只计算一次。这是一个可选的功能，通过设置`@Cacheable`的新的 `sync` 属性来启用。此功能引入了`Cache`接口的一个重大更改，即`get(Object key, Callable<T> valueLoader)`方法已添加。
 

@@ -5,7 +5,7 @@ Spring 4.3 的新功能和增强
 
 * 核心容器额外提供了更丰富的元数据来改进编程。
 * 默认 Java 8 的方法检测为 bean 属性的 getter/setter 方法。
-* 如果目标 bean 只定义了一个构造函数,它不再需要指定`@Autowired`注解
+* 如果目标 bean 只定义了一个构造函数,则它无需要指定`@Autowired`注解
 * `@Configuration`类支持构造函数注入。
 * 任何 SpEL 表达式用于指定`@EventListener`的 `condition` 引用到  bean（例如`@beanName.method()`）。
 * 组成注解现在可以用一个包含元注解中的数组属性的数组组件类型的元素来覆盖。例如，`@RequestMapping`的的`String[] path` 可以在组成注解用 `String path` 覆盖。
@@ -43,7 +43,7 @@ Spring 4.3 还改进了缓存抽象如下：
 * 新的 `@SessionAttribute` 注解用于访问 session 属性 (见[例子](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-sessionattrib-global))
 * 新的 `@RequestAttribute` 注解用于访问请求属性 (见[例子](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-requestattrib))
 * `@ModelAttribute` 允许通过 `binding=false` 来避免数据绑定(见引用)
-* 错误和自定义抛出的一次，将被统一到 MCV 异常处理器
+* 错误和自定义抛出，将被统一到 MVC 异常处理器中处理
 * HTTP 消息转换编码一致处理，包括默认 UTF-8 用于多部分文本内容
 * 静态资源处理使用配置的`ContentNegotiationManager`用于媒体类型计算
 * `RestTemplate` 和 `AsyncRestTemplate` 支持通过`DefaultUriTemplateHandler` 来实现严格的URI变量编码

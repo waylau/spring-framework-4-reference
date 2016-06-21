@@ -16,8 +16,8 @@ Let's [READ](SUMMARY.md)!
 
 选择下面入口之一：
 
-* <https://github.com/waylau/spring-framework-4-reference> 的 [SUMMARY.md](SUMMARY.md)
-* <http://waylau.gitbooks.io/spring-framework-4-reference> 的 Read 按钮
+* <https://github.com/waylau/spring-framework-4-reference> 的 [SUMMARY.md](SUMMARY.md)（源码）
+* <http://waylau.gitbooks.io/spring-framework-4-reference> 的 Read 按钮（同步更新，国内访问速度一般）
 
 ### Issue 意见、建议
 

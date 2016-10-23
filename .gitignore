@@ -1,1 +1,4 @@
 _book
+
+# Ignore all ide settings
+.idea

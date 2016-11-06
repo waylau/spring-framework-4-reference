@@ -40,7 +40,7 @@ This is the summary of my book.
 		* [Bean 总览](III. Core Technologies/Bean overview.md)
 		* [依赖](III. Core Technologies/Dependencies.md)
 		* [Bean作用域](III. Core Technologies/Bean scopes.md)
-		* [5.6. Customizing the nature of a bean](III. Core Technologies/5.6. Customizing the nature of a bean.md)
+		* [定制Bean的回调函数](III. Core Technologies/Customizing the nature of a bean.md)
 		* [5.7. Bean definition inheritance](III. Core Technologies/5.7. Bean definition inheritance.md)
 		* [5.8. Container Extension Points](III. Core Technologies/5.8. Container Extension Points.md)
 		* [5.10. Classpath scanning and managed components](III. Core Technologies/5.10. Classpath scanning and managed components.md)

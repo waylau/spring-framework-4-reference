@@ -34,7 +34,7 @@ destruction method | the section called “Destruction callbacks”
 
 每个 bean 都有一个或多个标识符。这些标识符在容器托管 bean 必须是唯一的。bean 通常只有一个标识符,但如果它需要不止一个,可以考虑额外的别名。
 
-在基于 xml 的配置元数据,您可以使用 id 和 / 或名称属性指定 bean 标识符(。id 属性允许您指定一个 id。通常这些名字字母数字(“myBean”、“fooService”,等等),但可以包含特殊字符。如果你想介绍其他别名 bean,您还可以指定属性名称,由逗号分隔(,),分号(;),或白色空格。作为一个历史因素的要注意,在 Spring 3.1 版本之前,id 属性被定义为 xsd:ID类型,它限制可能的字符。3.1,它被定义为一个 xsd:string 类型。注意,bean id 独特性仍由容器执行,虽然不再由 XML 解析器。
+在基于 xml 的配置中,您可以使用 id 和(或)名称属性指定 bean 标识符。(id 属性允许您指定一个 id。通常这些名字使用字母数字(“myBean”、“fooService”,等等),但可以包含特殊字符。如果你想使用bean别名,您可以在`name`属性上定义它们,由逗号(,),分号(;),或白色空格进行分隔。作为一个历史因素的要注意,在 Spring 3.1 版本之前,id 属性被定义为 xsd:ID类型,它限制可能的字符。3.1,它被定义为一个 xsd:string 类型。注意,bean id 独特性仍由容器执行,虽然不再由 XML 解析器。
 
 你不需要提供一个 bean 的名称或id。如果没有显式地提供名称或id, 容器生成一个唯一的名称给 bean 。然而,如果你想引用 bean 的名字,通过使用 ref 元素或使用 [Service Locator（服务定位器）](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans-servicelocator)风格查找,你必须提供一个名称。不使用名称的原因是，[内部 bean](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans-inner-beans) 和[自动装配的合作者](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans-factory-autowire)。
 
@@ -51,7 +51,7 @@ destruction method | the section called “Destruction callbacks”
 
 	<alias name="fromName" alias="toName"/>
 
-在这种情况下，如果容易中存在名为 fromName 的 bean 定义，在增加别名定义后，也可以用 toName 来引用。
+上面示例中，在同一个容器中名为 fromName 的 bean 定义，在增加别名定义后，也可以用 toName 来引用。
 
 例如，在子系统 A 中通过名字 subsystemA-dataSource 配置的数据源。在子系统B中可能通过名字 subsystemB-dataSource 来引用。当两个子系统构成主应用的时候，主应用可能通过名字 myApp-dataSource 引用数据源，将全部三个名字引用同一个对象，你可以将下面的别名定义添加到应用配置中：
 
@@ -85,7 +85,7 @@ Spring IoC 容器可以管理几乎所有你想让它管理的类，它不限于
 当使用基于XML的元数据配置文件，可以这样来指定 bean 类：
 
 	<bean id="exampleBean" class="examples.ExampleBean"/>
-	
+
 	<bean name="anotherExample" class="examples.ExampleBeanTwo"/>
 
 给构造方法指定参数以及为bean实例化设置属性将在后面的[依赖注入](http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans-factory-collaborators)中详细说明。

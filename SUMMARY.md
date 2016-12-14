@@ -41,8 +41,8 @@ This is the summary of my book.
 		* [依赖](III. Core Technologies/Dependencies.md)
 		* [Bean作用域](III. Core Technologies/Bean scopes.md)
 		* [定制Bean的回调函数](III. Core Technologies/Customizing the nature of a bean.md)
-		* [5.7. Bean definition inheritance](III. Core Technologies/5.7. Bean definition inheritance.md)
-		* [5.8. Container Extension Points](III. Core Technologies/5.8. Container Extension Points.md)
+		* [6.7. Bean definition inheritance](III. Core Technologies/6.7. Bean definition inheritance.md)
+		* [6.8. Container Extension Points](III. Core Technologies/6.8. Container Extension Points.md)
 		* [5.10. Classpath scanning and managed components](III. Core Technologies/5.10. Classpath scanning and managed components.md)
 		* [5.11. Using JSR 330 Standard Annotations](III. Core Technologies/5.11. Using JSR 330 Standard Annotations.md)
 		* [5.12. Java-based container configuration](III. Core Technologies/5.12. Java-based container configuration.md)
@@ -321,5 +321,3 @@ This is the summary of my book.
 		* [37.13. the radiobuttons tag](VII. Appendices/37.13. the radiobuttons tag.md)
 		* [37.14. the select tag](VII. Appendices/37.14. the select tag.md)
 		* [37.15. the textarea tag](VII. Appendices/37.15. the textarea tag.md)
- 
-

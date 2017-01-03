@@ -1,19 +1,19 @@
 Dependencies
 ====
 
-Ò»°ãÇé¿öÏÂÆóÒµÓ¦ÓÃ²»»áÖ»ÓÐÒ»¸ö¶ÔÏó£¨»òÕßÊÇSpring Bean£©¡£ÉõÖÁ×î¼òµ¥µÄÓ¦ÓÃ¶¼Òª¶à¸ö¶ÔÏóÀ´Ð­Í¬¹¤×÷À´ÈÃÖÕ¶ËÓÃ»§¿´µ½Ò»¸öÍêÕûµÄÓ¦ÓÃµÄ¡£ÏÂÒ»²¿·Ö½«½âÊÍ¿ª·¢ÕßÈçºÎ´Ó½ö½ö¶¨Òåµ¥¶ÀµÄBean£¬µ½ÈÃÕâÐ©BeanÔÚÒ»¸öÓ¦ÓÃÖÐÐ­Í¬¹¤×÷¡£
+ä¸€èˆ¬æƒ…å†µä¸‹ä¼ä¸šåº”ç”¨ä¸ä¼šåªæœ‰ä¸€ä¸ªå¯¹è±¡ï¼ˆæˆ–è€…æ˜¯Spring Beanï¼‰ã€‚ç”šè‡³æœ€ç®€å•çš„åº”ç”¨éƒ½è¦å¤šä¸ªå¯¹è±¡æ¥ååŒå·¥ä½œæ¥è®©ç»ˆç«¯ç”¨æˆ·çœ‹åˆ°ä¸€ä¸ªå®Œæ•´çš„åº”ç”¨çš„ã€‚ä¸‹ä¸€éƒ¨åˆ†å°†è§£é‡Šå¼€å‘è€…å¦‚ä½•ä»Žä»…ä»…å®šä¹‰å•ç‹¬çš„Beanï¼Œåˆ°è®©è¿™äº›Beanåœ¨ä¸€ä¸ªåº”ç”¨ä¸­ååŒå·¥ä½œã€‚
 
 ### Dependency Injection
 
-*ÒÀÀµ×¢Èë*ÊÇÒ»¸öÈÃ¶ÔÏóÖ»Í¨¹ý¹¹Ôì²ÎÊý£¬¹¤³§·½·¨µÄ²ÎÊý»òÕßÅäÖÃµÄÊôÐÔÀ´¶¨ÒåËûÃÇµÄÒÀÀµµÄ¹ý³Ì¡£ÕâÐ©ÒÀÀµÒ²ÊÇ¶ÔÏóËùÐèÒªÐ­Í¬¹¤×÷µÄ¶ÔÏó¡£ÈÝÆ÷»áÔÚ´´½¨BeanµÄÊ±ºò×¢ÈëÕâÐ©ÒÀÀµ¡£Õû¸ö¹ý³ÌÍêÈ«·´×ªÁËÓÉBean×Ô¼º¿ØÖÆÊµÀý»¯»òÕßÒýÓÃÒÀÀµ£¬ËùÒÔÕâ¸ö¹ý³ÌÒ²³ÆÖ®Îª*¿ØÖÆ·´×ª*¡£
+*ä¾èµ–æ³¨å…¥*æ˜¯ä¸€ä¸ªè®©å¯¹è±¡åªé€šè¿‡æž„é€ å‚æ•°ï¼Œå·¥åŽ‚æ–¹æ³•çš„å‚æ•°æˆ–è€…é…ç½®çš„å±žæ€§æ¥å®šä¹‰ä»–ä»¬çš„ä¾èµ–çš„è¿‡ç¨‹ã€‚è¿™äº›ä¾èµ–ä¹Ÿæ˜¯å¯¹è±¡æ‰€éœ€è¦ååŒå·¥ä½œçš„å¯¹è±¡ã€‚å®¹å™¨ä¼šåœ¨åˆ›å»ºBeançš„æ—¶å€™æ³¨å…¥è¿™äº›ä¾èµ–ã€‚æ•´ä¸ªè¿‡ç¨‹å®Œå…¨åè½¬äº†ç”±Beanè‡ªå·±æŽ§åˆ¶å®žä¾‹åŒ–æˆ–è€…å¼•ç”¨ä¾èµ–ï¼Œæ‰€ä»¥è¿™ä¸ªè¿‡ç¨‹ä¹Ÿç§°ä¹‹ä¸º*æŽ§åˆ¶åè½¬*ã€‚
 
-µ±Ê¹ÓÃÁËÒÀÀµ×¢ÈëµÄ×¼ÔòÒÔºó£¬»á¸üÒ×ÓÚ¹ÜÀíºÍ½âñî¶ÔÏóÖ®¼äµÄÒÀÀµ£¬Ê¹µÃ´úÂë¸ü¼ÓµÄ¼òµ¥¡£¶ÔÏó²»ÔÙ¹Ø×¢ÒÀÀµ£¬Ò²²»ÐèÒªÖªµÀÒÀÀµÀàµÄÎ»ÖÃ¡£ÕâÑùµÄ»°£¬¿ª·¢ÕßµÄÀà¸ü¼ÓÒ×ÓÚ²âÊÔ£¬ÓÈÆäÊÇµ±¿ª·¢ÕßµÄÒÀÀµÊÇ½Ó¿Ú»òÕß³éÏóÀàµÄÇé¿ö£¬¿ª·¢Õß¿ÉÒÔÇáÒ×ÔÚµ¥Ôª²âÊÔÖÐmock¶ÔÏó¡£
+å½“ä½¿ç”¨äº†ä¾èµ–æ³¨å…¥çš„å‡†åˆ™ä»¥åŽï¼Œä¼šæ›´æ˜“äºŽç®¡ç†å’Œè§£è€¦å¯¹è±¡ä¹‹é—´çš„ä¾èµ–ï¼Œä½¿å¾—ä»£ç æ›´åŠ çš„ç®€å•ã€‚å¯¹è±¡ä¸å†å…³æ³¨ä¾èµ–ï¼Œä¹Ÿä¸éœ€è¦çŸ¥é“ä¾èµ–ç±»çš„ä½ç½®ã€‚è¿™æ ·çš„è¯ï¼Œå¼€å‘è€…çš„ç±»æ›´åŠ æ˜“äºŽæµ‹è¯•ï¼Œå°¤å…¶æ˜¯å½“å¼€å‘è€…çš„ä¾èµ–æ˜¯æŽ¥å£æˆ–è€…æŠ½è±¡ç±»çš„æƒ…å†µï¼Œå¼€å‘è€…å¯ä»¥è½»æ˜“åœ¨å•å…ƒæµ‹è¯•ä¸­mockå¯¹è±¡ã€‚
 
-ÒÀÀµ×¢ÈëÖ÷ÒªÊ¹ÓÃÁ½ÖÖ·½Ê½£¬Ò»ÖÖÊÇ»ùÓÚ¹¹Ôìº¯ÊýµÄ×¢Èë£¬ÁíÒ»ÖÖµÄ»ùÓÚSetter·½·¨µÄÒÀÀµ×¢Èë¡£
+ä¾èµ–æ³¨å…¥ä¸»è¦ä½¿ç”¨ä¸¤ç§æ–¹å¼ï¼Œä¸€ç§æ˜¯åŸºäºŽæž„é€ å‡½æ•°çš„æ³¨å…¥ï¼Œå¦ä¸€ç§çš„åŸºäºŽSetteræ–¹æ³•çš„ä¾èµ–æ³¨å…¥ã€‚
 
 ### Constructor-based dependency Injection
 
-»ùÓÚ¹¹Ôìº¯ÊýµÄÒÀÀµ×¢ÈëÊÇÓÉIoCÈÝÆ÷À´µ÷ÓÃÀàµÄ¹¹Ôìº¯Êý£¬¹¹Ôìº¯ÊýµÄ²ÎÊý´ú±íÕâ¸öBeanËùÒÀÀµµÄ¶ÔÏó¡£¸úµ÷ÓÃ´ø²ÎÊýµÄ¾²Ì¬¹¤³§·½·¨»ù±¾Ò»Ñù¡£ÏÂÃæµÄÀý×ÓÕ¹Ê¾ÁËÒ»¸öÀàÍ¨¹ý¹¹Ôìº¯ÊýÀ´ÊµÏÖÒÀÀµ×¢ÈëµÄ¡£ÐèÒª×¢ÒâµÄÊÇ£¬Õâ¸öÀàÃ»ÓÐÈÎºÎ*ÌØÊâ*µÄµØ·½£¬Ö»ÊÇÒ»¸ö¼òµ¥µÄ£¬²»ÒÀÀµÓÚÈÎºÎÈÝÆ÷ÌØÊâ½Ó¿Ú£¬»ùÀà»òÕß×¢½âµÄÆÕÍ¨Àà¡£
+åŸºäºŽæž„é€ å‡½æ•°çš„ä¾èµ–æ³¨å…¥æ˜¯ç”±IoCå®¹å™¨æ¥è°ƒç”¨ç±»çš„æž„é€ å‡½æ•°ï¼Œæž„é€ å‡½æ•°çš„å‚æ•°ä»£è¡¨è¿™ä¸ªBeanæ‰€ä¾èµ–çš„å¯¹è±¡ã€‚è·Ÿè°ƒç”¨å¸¦å‚æ•°çš„é™æ€å·¥åŽ‚æ–¹æ³•åŸºæœ¬ä¸€æ ·ã€‚ä¸‹é¢çš„ä¾‹å­å±•ç¤ºäº†ä¸€ä¸ªç±»é€šè¿‡æž„é€ å‡½æ•°æ¥å®žçŽ°ä¾èµ–æ³¨å…¥çš„ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œè¿™ä¸ªç±»æ²¡æœ‰ä»»ä½•*ç‰¹æ®Š*çš„åœ°æ–¹ï¼Œåªæ˜¯ä¸€ä¸ªç®€å•çš„ï¼Œä¸ä¾èµ–äºŽä»»ä½•å®¹å™¨ç‰¹æ®ŠæŽ¥å£ï¼ŒåŸºç±»æˆ–è€…æ³¨è§£çš„æ™®é€šç±»ã€‚
 
 ```
 public class SimpleMovieLister {
@@ -31,9 +31,9 @@ public class SimpleMovieLister {
 }
 ```
 
-**¹¹Ôìº¯ÊýµÄ²ÎÊý½âÎö**
+**æž„é€ å‡½æ•°çš„å‚æ•°è§£æž**
 
-¹¹Ôìº¯ÊýµÄ²ÎÊý½âÎöÊÇÍ¨¹ý²ÎÊýµÄÀàÐÍÀ´Æ¥ÅäµÄ¡£Èç¹ûÔÚBeanµÄ¹¹Ôìº¯Êý²ÎÊý²»´æÔÚÆçÒå£¬ÄÇÃ´¹¹ÔìÆ÷²ÎÊýµÄË³ÐòÒ²¾ÍÊÇ¾ÍÊÇÕâÐ©²ÎÊýÊµÀý»¯ÒÔ¼°×°ÔØµÄË³Ðò¡£²Î¿¼ÈçÏÂ´úÂë£º
+æž„é€ å‡½æ•°çš„å‚æ•°è§£æžæ˜¯é€šè¿‡å‚æ•°çš„ç±»åž‹æ¥åŒ¹é…çš„ã€‚å¦‚æžœåœ¨Beançš„æž„é€ å‡½æ•°å‚æ•°ä¸å­˜åœ¨æ­§ä¹‰ï¼Œé‚£ä¹ˆæž„é€ å™¨å‚æ•°çš„é¡ºåºä¹Ÿå°±æ˜¯å°±æ˜¯è¿™äº›å‚æ•°å®žä¾‹åŒ–ä»¥åŠè£…è½½çš„é¡ºåºã€‚å‚è€ƒå¦‚ä¸‹ä»£ç ï¼š
 
 ```
 package x.y;
@@ -47,7 +47,7 @@ public class Foo {
 }
 ```
 
-¼ÙÉè`Bar`ºÍ`Baz`ÔÚ¼Ì³Ð²ã´ÎÉÏ²»Ïà¹Ø£¬Ò²Ã»ÓÐÊ²Ã´ÆçÒåµÄ»°£¬ÏÂÃæµÄÅäÖÃÍêÈ«¿ÉÒÔ¹¤×÷Õý³££¬¿ª·¢Õß²»ÐèÒªÔÙÈ¥`<constructor-arg>`ÔªËØÖÐÖ¸¶¨¹¹Ôìº¯Êý²ÎÊýµÄË÷Òý»òÀàÐÍÐÅÏ¢¡£
+å‡è®¾`Bar`å’Œ`Baz`åœ¨ç»§æ‰¿å±‚æ¬¡ä¸Šä¸ç›¸å…³ï¼Œä¹Ÿæ²¡æœ‰ä»€ä¹ˆæ­§ä¹‰çš„è¯ï¼Œä¸‹é¢çš„é…ç½®å®Œå…¨å¯ä»¥å·¥ä½œæ­£å¸¸ï¼Œå¼€å‘è€…ä¸éœ€è¦å†åŽ»`<constructor-arg>`å…ƒç´ ä¸­æŒ‡å®šæž„é€ å‡½æ•°å‚æ•°çš„ç´¢å¼•æˆ–ç±»åž‹ä¿¡æ¯ã€‚
 
 ```
 <beans>
@@ -62,7 +62,7 @@ public class Foo {
 </beans>
 ```
 
-µ±ÒýÓÃÁíÒ»¸öBeanµÄÊ±ºò£¬Èç¹ûÀàÐÍÈ·¶¨µÄ»°£¬Æ¥Åä»á¹¤×÷Õý³££¨ÈçÉÏÃæµÄÀý×Ó£©.µ±Ê¹ÓÃ¼òµ¥µÄÀàÐÍµÄÊ±ºò£¬±ÈÈçËµ`<value>true</value>`£¬Spring IoCÈÝÆ÷ÊÇÎÞ·¨ÅÐ¶ÏÖµµÄÀàÐÍµÄ£¬ËùÒÔÊÇÎÞ·¨Æ¥ÅäµÄ¡£¿¼ÂÇ´úÂëÈçÏÂ£º
+å½“å¼•ç”¨å¦ä¸€ä¸ªBeançš„æ—¶å€™ï¼Œå¦‚æžœç±»åž‹ç¡®å®šçš„è¯ï¼ŒåŒ¹é…ä¼šå·¥ä½œæ­£å¸¸ï¼ˆå¦‚ä¸Šé¢çš„ä¾‹å­ï¼‰.å½“ä½¿ç”¨ç®€å•çš„ç±»åž‹çš„æ—¶å€™ï¼Œæ¯”å¦‚è¯´`<value>true</value>`ï¼ŒSpring IoCå®¹å™¨æ˜¯æ— æ³•åˆ¤æ–­å€¼çš„ç±»åž‹çš„ï¼Œæ‰€ä»¥æ˜¯æ— æ³•åŒ¹é…çš„ã€‚è€ƒè™‘ä»£ç å¦‚ä¸‹ï¼š
 
 ```
 package examples;
@@ -83,7 +83,7 @@ public class ExampleBean {
 }
 ```
 
-ÔÚÉÏÃæ´úÂëÕâÖÖÇé¿öÏÂ£¬ÈÝÆ÷¿ÉÒÔÍ¨¹ýÊ¹ÓÃ¹¹Ôìº¯Êý²ÎÊýµÄ`type`ÊôÐÔÀ´ÊµÏÖ¼òµ¥ÀàÐÍµÄÆ¥Åä¡£±ÈÈç£º
+åœ¨ä¸Šé¢ä»£ç è¿™ç§æƒ…å†µä¸‹ï¼Œå®¹å™¨å¯ä»¥é€šè¿‡ä½¿ç”¨æž„é€ å‡½æ•°å‚æ•°çš„`type`å±žæ€§æ¥å®žçŽ°ç®€å•ç±»åž‹çš„åŒ¹é…ã€‚æ¯”å¦‚ï¼š
 
 ```
 <bean id="exampleBean" class="examples.ExampleBean">
@@ -92,7 +92,7 @@ public class ExampleBean {
 </bean>
 ```
 
-»òÕßÊ¹ÓÃ`index`ÊôÐÔÀ´Ö¸¶¨¹¹Ôì²ÎÊýµÄÎ»ÖÃ£¬±ÈÈç£º
+æˆ–è€…ä½¿ç”¨`index`å±žæ€§æ¥æŒ‡å®šæž„é€ å‚æ•°çš„ä½ç½®ï¼Œæ¯”å¦‚ï¼š
 
 ```
 <bean id="exampleBean" class="examples.ExampleBean">
@@ -101,8 +101,8 @@ public class ExampleBean {
 </bean>
 ```
 
-Õâ¸öË÷ÒýÒ²Í¬Ê±ÊÇÎªÁË½â¾ö¹¹Ôìº¯ÊýÖÐÓÐ¶à¸öÏàÍ¬ÀàÐÍµÄ²ÎÊýÎÞ·¨¾«È·Æ¥ÅäµÄÎÊÌâ¡£ÐèÒª×¢ÒâµÄÊÇ£¬Ë÷ÒýÊÇ»ùÓÚ0¿ªÊ¼µÄ¡£
-¿ª·¢ÕßÒ²¿ÉÒÔÍ¨¹ý²ÎÊýµÄÃû³ÆÀ´È¥³ý¶þÒåÐÔ¡£
+è¿™ä¸ªç´¢å¼•ä¹ŸåŒæ—¶æ˜¯ä¸ºäº†è§£å†³æž„é€ å‡½æ•°ä¸­æœ‰å¤šä¸ªç›¸åŒç±»åž‹çš„å‚æ•°æ— æ³•ç²¾ç¡®åŒ¹é…çš„é—®é¢˜ã€‚éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œç´¢å¼•æ˜¯åŸºäºŽ0å¼€å§‹çš„ã€‚
+å¼€å‘è€…ä¹Ÿå¯ä»¥é€šè¿‡å‚æ•°çš„åç§°æ¥åŽ»é™¤äºŒä¹‰æ€§ã€‚
 
 ```
 <bean id="exampleBean" class="examples.ExampleBean">
@@ -111,7 +111,7 @@ public class ExampleBean {
 </bean>
 ```
 
-ÐèÒª×¢ÒâµÄÊÇ,×öÕâÏî¹¤×÷µÄ´úÂë±ØÐëÆôÓÃÁËµ÷ÊÔ±ê¼Ç±àÒë,ÕâÑùSpring²Å¿ÉÒÔ´Ó¹¹Ôìº¯Êý²éÕÒ²ÎÊýÃû³Æ¡£¿ª·¢ÕßÒ²¿ÉÒÔÊ¹ÓÃ`@ConstructorProperties`×¢½âÀ´ÏÔÊ½ÉùÃ÷¹¹Ôìº¯ÊýµÄÃû³Æ£¬±ÈÈçÈçÏÂ´úÂë£º
+éœ€è¦æ³¨æ„çš„æ˜¯,åšè¿™é¡¹å·¥ä½œçš„ä»£ç å¿…é¡»å¯ç”¨äº†è°ƒè¯•æ ‡è®°ç¼–è¯‘,è¿™æ ·Springæ‰å¯ä»¥ä»Žæž„é€ å‡½æ•°æŸ¥æ‰¾å‚æ•°åç§°ã€‚å¼€å‘è€…ä¹Ÿå¯ä»¥ä½¿ç”¨`@ConstructorProperties`æ³¨è§£æ¥æ˜¾å¼å£°æ˜Žæž„é€ å‡½æ•°çš„åç§°ï¼Œæ¯”å¦‚å¦‚ä¸‹ä»£ç ï¼š
 
 ```
 package examples;
@@ -131,9 +131,9 @@ public class ExampleBean {
 
 ### Setter-based dependency injection
 
-»ùÓÚSetterº¯ÊýµÄÒÀÀµ×¢ÈëÔòÊÇÈÝÆ÷»áµ÷ÓÃBeanµÄÎÞ²Î¹¹Ôìº¯Êý£¬»òÕßÎÞ²ÎÊýµÄ¹¤³§·½·¨£¬È»ºóÔÙÀ´µ÷ÓÃSetter·½·¨À´ÊµÏÖµÄÒÀÀµ×¢Èë¡£
+åŸºäºŽSetterå‡½æ•°çš„ä¾èµ–æ³¨å…¥åˆ™æ˜¯å®¹å™¨ä¼šè°ƒç”¨Beançš„æ— å‚æž„é€ å‡½æ•°ï¼Œæˆ–è€…æ— å‚æ•°çš„å·¥åŽ‚æ–¹æ³•ï¼Œç„¶åŽå†æ¥è°ƒç”¨Setteræ–¹æ³•æ¥å®žçŽ°çš„ä¾èµ–æ³¨å…¥ã€‚
 
-ÏÂÃæµÄÀý×ÓÕ¹Ê¾ÁËÊ¹ÓÃSetter·½·¨½øÐÐµÄÒÀÀµ×¢Èë£¬ÏÂÃæµÄÀà¶ÔÏóÖ»ÊÇ¼òµ¥µÄPOJO¶ÔÏó£¬²»ÒÀÀµÓÚÈÎºÎSpringµÄÌØÊâµÄ½Ó¿Ú£¬»ùÀà»òÕß×¢½â¡£
+ä¸‹é¢çš„ä¾‹å­å±•ç¤ºäº†ä½¿ç”¨Setteræ–¹æ³•è¿›è¡Œçš„ä¾èµ–æ³¨å…¥ï¼Œä¸‹é¢çš„ç±»å¯¹è±¡åªæ˜¯ç®€å•çš„POJOå¯¹è±¡ï¼Œä¸ä¾èµ–äºŽä»»ä½•Springçš„ç‰¹æ®Šçš„æŽ¥å£ï¼ŒåŸºç±»æˆ–è€…æ³¨è§£ã€‚
 
 ```
 public class SimpleMovieLister {
@@ -151,36 +151,36 @@ public class SimpleMovieLister {
 }
 ```
 
-`ApplicationContext`Ëù¹ÜÀíBean¶ÔÓÚ»ùÓÚ¹¹Ôìº¯ÊýµÄÒÀÀµ×¢Èë£¬»òÕß»ùÓÚSetter·½Ê½µÄÒÀÀµ×¢Èë¶¼ÊÇÖ§³ÖµÄ¡£Í¬Ê±Ò²Ö§³ÖÊ¹ÓÃSetter·½Ê½ÔÚÍ¨¹ý¹¹Ôìº¯Êý×¢ÈëÒÀÀµÖ®ºóÔÙ´Î×¢ÈëÒÀÀµ¡£¿ª·¢ÕßÔÚ`BeanDefinition`ÖÐ¿ÉÒÔÊ¹ÓÃ`PropertyEditor`ÊµÀýÀ´×ÔÓÉÑ¡Ôñ×¢ÈëµÄ·½Ê½¡£È»¶ø£¬´ó¶àÊýµÄ¿ª·¢Õß²¢²»Ö±½ÓÊ¹ÓÃÕâÐ©Àà£¬¶øÊÇ¸úÏ²»¶XMLÐÎÊ½µÄ`bean`¶¨Òå£¬»òÕß»ùÓÚ×¢½âµÄ×é¼þ£¨±ÈÈçÊ¹ÓÃ`@Component`£¬`@Controller`µÈ£©»òÕßÔÚÅäÖÃÁË`@Configuration`µÄÀàÉÏÃæÊ¹ÓÃ`@Bean`µÄ·½·¨¡£
+`ApplicationContext`æ‰€ç®¡ç†Beanå¯¹äºŽåŸºäºŽæž„é€ å‡½æ•°çš„ä¾èµ–æ³¨å…¥ï¼Œæˆ–è€…åŸºäºŽSetteræ–¹å¼çš„ä¾èµ–æ³¨å…¥éƒ½æ˜¯æ”¯æŒçš„ã€‚åŒæ—¶ä¹Ÿæ”¯æŒä½¿ç”¨Setteræ–¹å¼åœ¨é€šè¿‡æž„é€ å‡½æ•°æ³¨å…¥ä¾èµ–ä¹‹åŽå†æ¬¡æ³¨å…¥ä¾èµ–ã€‚å¼€å‘è€…åœ¨`BeanDefinition`ä¸­å¯ä»¥ä½¿ç”¨`PropertyEditor`å®žä¾‹æ¥è‡ªç”±é€‰æ‹©æ³¨å…¥çš„æ–¹å¼ã€‚ç„¶è€Œï¼Œå¤§å¤šæ•°çš„å¼€å‘è€…å¹¶ä¸ç›´æŽ¥ä½¿ç”¨è¿™äº›ç±»ï¼Œè€Œæ˜¯è·Ÿå–œæ¬¢XMLå½¢å¼çš„`bean`å®šä¹‰ï¼Œæˆ–è€…åŸºäºŽæ³¨è§£çš„ç»„ä»¶ï¼ˆæ¯”å¦‚ä½¿ç”¨`@Component`ï¼Œ`@Controller`ç­‰ï¼‰æˆ–è€…åœ¨é…ç½®äº†`@Configuration`çš„ç±»ä¸Šé¢ä½¿ç”¨`@Bean`çš„æ–¹æ³•ã€‚
 
-> **»ùÓÚ¹¹Ôìº¯Êý»¹ÊÇ»ùÓÚSetter·½·¨£¿**
-ÒòÎª¿ª·¢Õß¿ÉÒÔ»ìÓÃÁ½Õß£¬ËùÒÔÍ¨³£±È½ÏºÃµÄ·½Ê½ÊÇÍ¨¹ý¹¹Ôìº¯Êý×¢Èë*±ØÒªµÄÒÀÀµ*Í¨¹ýSetter·½Ê½À´×¢ÈëÒ»Ð©*¿ÉÑ¡µÄÒÀÀµ*¡£ÆäÖÐ£¬ÔÚSetter·½·¨ÉÏÃæµÄ`@Required`×¢½â¿ÉÓÃÀ´¹¹Ôì±ØÒªµÄÒÀÀµ¡£
-Spring¶ÓÎéÍÆ¼ö»ùÓÚ¹¹Ôìº¯ÊýµÄ×¢Èë£¬ÒòÎªÕâÖÖ·½Ê½»á´ÙÊ¹¿ª·¢Õß½«×é¼þ¿ª·¢³É*²»¿É±ä¶ÔÏó*¶øÇÒÈ·±£ÁË×¢ÈëµÄÒÀÀµ²»Îª`null`¡£¶øÇÒ£¬»ùÓÚ¹¹Ôìº¯ÊýµÄ×¢ÈëµÄ×é¼þ±»¿Í»§¶Ëµ÷ÓÃµÄÊ±ºòÒ²ÊÇÍêÈ«¹¹ÔìºÃµÄ¡£µ±È»£¬´ÓÁíÒ»·½ÃæÀ´Ëµ£¬¹ý¶àµÄ¹¹Ôìº¯Êý²ÎÊýÒ²ÊÇ·Ç³£²îµÄ´úÂë·½Ê½£¬ÕâÖÖ·½Ê½ËµÃ÷ÀàÃ²ËÆÓÐÁËÌ«¶àµÄ¹¦ÄÜ£¬×îºÃÖØ¹¹½«²»Í¬Ö°ÄÜ·ÖÀë¡£
-»ùÓÚSetterµÄ×¢ÈëÖ»ÊÇÓÃÓÚ¿ÉÑ¡µÄÒÀÀµ£¬µ«ÊÇÒ²×îºÃÅäÖÃÒ»Ð©ºÏÀíµÄÄ¬ÈÏÖµ¡£·ñÔò£¬ÐèÒª¶Ô´úÂëµÄÒÀÀµ½øÐÐ·ÇNULLµÄ¼ì²éÁË¡£»ùÓÚSetter·½·¨µÄ×¢ÈëÓÐÒ»¸ö±ãÀûÖ®´¦ÔÚÓÚÕâÖÖ·½Ê½µÄ×¢ÈëÊÇ¿ÉÒÔ½øÐÐÖØÅäÖÃºÍÖØÐÂ×¢ÈëµÄ¡£
-ÒÀÀµ×¢ÈëµÄÁ½ÖÖ·ç¸ñÊÊºÏ´ó¶àÊýµÄÇé¿ö£¬µ«ÊÇÓÐÊ±Ê¹ÓÃµÚÈý·½µÄ¿âµÄÊ±ºò£¬¿ª·¢Õß¿ÉÄÜ²¢Ã»ÓÐÔ´Âë£¬¶øµÚÈý·½µÄ´úÂëÒ²Ã»ÓÐsetter·½·¨£¬ÄÇÃ´¾ÍÖ»ÄÜÊ¹ÓÃ»ùÓÚ¹¹Ôìº¯ÊýµÄÒÀÀµ×¢ÈëÁË¡£
+> **åŸºäºŽæž„é€ å‡½æ•°è¿˜æ˜¯åŸºäºŽSetteræ–¹æ³•ï¼Ÿ**
+å› ä¸ºå¼€å‘è€…å¯ä»¥æ··ç”¨ä¸¤è€…ï¼Œæ‰€ä»¥é€šå¸¸æ¯”è¾ƒå¥½çš„æ–¹å¼æ˜¯é€šè¿‡æž„é€ å‡½æ•°æ³¨å…¥*å¿…è¦çš„ä¾èµ–*é€šè¿‡Setteræ–¹å¼æ¥æ³¨å…¥ä¸€äº›*å¯é€‰çš„ä¾èµ–*ã€‚å…¶ä¸­ï¼Œåœ¨Setteræ–¹æ³•ä¸Šé¢çš„`@Required`æ³¨è§£å¯ç”¨æ¥æž„é€ å¿…è¦çš„ä¾èµ–ã€‚
+Springé˜Ÿä¼æŽ¨èåŸºäºŽæž„é€ å‡½æ•°çš„æ³¨å…¥ï¼Œå› ä¸ºè¿™ç§æ–¹å¼ä¼šä¿ƒä½¿å¼€å‘è€…å°†ç»„ä»¶å¼€å‘æˆ*ä¸å¯å˜å¯¹è±¡*è€Œä¸”ç¡®ä¿äº†æ³¨å…¥çš„ä¾èµ–ä¸ä¸º`null`ã€‚è€Œä¸”ï¼ŒåŸºäºŽæž„é€ å‡½æ•°çš„æ³¨å…¥çš„ç»„ä»¶è¢«å®¢æˆ·ç«¯è°ƒç”¨çš„æ—¶å€™ä¹Ÿæ˜¯å®Œå…¨æž„é€ å¥½çš„ã€‚å½“ç„¶ï¼Œä»Žå¦ä¸€æ–¹é¢æ¥è¯´ï¼Œè¿‡å¤šçš„æž„é€ å‡½æ•°å‚æ•°ä¹Ÿæ˜¯éžå¸¸å·®çš„ä»£ç æ–¹å¼ï¼Œè¿™ç§æ–¹å¼è¯´æ˜Žç±»è²Œä¼¼æœ‰äº†å¤ªå¤šçš„åŠŸèƒ½ï¼Œæœ€å¥½é‡æž„å°†ä¸åŒèŒèƒ½åˆ†ç¦»ã€‚
+åŸºäºŽSetterçš„æ³¨å…¥åªæ˜¯ç”¨äºŽå¯é€‰çš„ä¾èµ–ï¼Œä½†æ˜¯ä¹Ÿæœ€å¥½é…ç½®ä¸€äº›åˆç†çš„é»˜è®¤å€¼ã€‚å¦åˆ™ï¼Œéœ€è¦å¯¹ä»£ç çš„ä¾èµ–è¿›è¡ŒéžNULLçš„æ£€æŸ¥äº†ã€‚åŸºäºŽSetteræ–¹æ³•çš„æ³¨å…¥æœ‰ä¸€ä¸ªä¾¿åˆ©ä¹‹å¤„åœ¨äºŽè¿™ç§æ–¹å¼çš„æ³¨å…¥æ˜¯å¯ä»¥è¿›è¡Œé‡é…ç½®å’Œé‡æ–°æ³¨å…¥çš„ã€‚
+ä¾èµ–æ³¨å…¥çš„ä¸¤ç§é£Žæ ¼é€‚åˆå¤§å¤šæ•°çš„æƒ…å†µï¼Œä½†æ˜¯æœ‰æ—¶ä½¿ç”¨ç¬¬ä¸‰æ–¹çš„åº“çš„æ—¶å€™ï¼Œå¼€å‘è€…å¯èƒ½å¹¶æ²¡æœ‰æºç ï¼Œè€Œç¬¬ä¸‰æ–¹çš„ä»£ç ä¹Ÿæ²¡æœ‰setteræ–¹æ³•ï¼Œé‚£ä¹ˆå°±åªèƒ½ä½¿ç”¨åŸºäºŽæž„é€ å‡½æ•°çš„ä¾èµ–æ³¨å…¥äº†ã€‚
 
 ### Dependency resolution process
 
-ÈÝÆ÷¶ÔBeanµÄ½âÎöÈçÏÂ£º
+å®¹å™¨å¯¹Beançš„è§£æžå¦‚ä¸‹ï¼š
 
-* ´´½¨²¢¸ù¾ÝÃèÊöµÄÔªÊý¾ÝÀ´ÊµÀý»¯`ApplicationContext`¡£ÅäÖÃÔªÊý¾Ý¿ÉÒÔÍ¨¹ýXML£¬ Java ´úÂë£¬»òÕß×¢½â¡£
-* Ã¿Ò»¸öBeanµÄÒÀÀµÍ¨¹ý¹¹Ôìº¯Êý²ÎÊý»òÕßÊôÐÔ»òÕß¾²Ì¬¹¤³§·½·¨µÄ²ÎÊýµÈÀ´±íÊ¾¡£ÕâÐ©ÒÀÀµ»áÔÚBean´´½¨µÄµÄÊ±ºò×¢ÈëºÍ×°ÔØ¡£
-* Ã¿Ò»¸öÊôÐÔ»òÕß¹¹Ôìº¯ÊýµÄ²ÎÊý¶¼ÊÇÊµ¼Ê¶¨ÒåµÄÖµ»òÕßÒýÓÃÈÝÆ÷ÖÐÆäËûµÄBean¡£
-* Ã¿Ò»¸öÊôÐÔ»òÕß¹¹Ôì²ÎÊý¿ÉÒÔ¸ù¾ÝÆäÖ¸¶¨µÄÀàÐÍ×ª»»¶ø³É¡£SpringÒ²¿ÉÒÔ½«String×ª³ÉÄ¬ÈÏµÄJavaÄÚÔÚµÄÀàÐÍ£¬±ÈÈç`int`,`long`,`String`,`boolean`µÈ¡£
+* åˆ›å»ºå¹¶æ ¹æ®æè¿°çš„å…ƒæ•°æ®æ¥å®žä¾‹åŒ–`ApplicationContext`ã€‚é…ç½®å…ƒæ•°æ®å¯ä»¥é€šè¿‡XMLï¼Œ Java ä»£ç ï¼Œæˆ–è€…æ³¨è§£ã€‚
+* æ¯ä¸€ä¸ªBeançš„ä¾èµ–é€šè¿‡æž„é€ å‡½æ•°å‚æ•°æˆ–è€…å±žæ€§æˆ–è€…é™æ€å·¥åŽ‚æ–¹æ³•çš„å‚æ•°ç­‰æ¥è¡¨ç¤ºã€‚è¿™äº›ä¾èµ–ä¼šåœ¨Beanåˆ›å»ºçš„çš„æ—¶å€™æ³¨å…¥å’Œè£…è½½ã€‚
+* æ¯ä¸€ä¸ªå±žæ€§æˆ–è€…æž„é€ å‡½æ•°çš„å‚æ•°éƒ½æ˜¯å®žé™…å®šä¹‰çš„å€¼æˆ–è€…å¼•ç”¨å®¹å™¨ä¸­å…¶ä»–çš„Beanã€‚
+* æ¯ä¸€ä¸ªå±žæ€§æˆ–è€…æž„é€ å‚æ•°å¯ä»¥æ ¹æ®å…¶æŒ‡å®šçš„ç±»åž‹è½¬æ¢è€Œæˆã€‚Springä¹Ÿå¯ä»¥å°†Stringè½¬æˆé»˜è®¤çš„Javaå†…åœ¨çš„ç±»åž‹ï¼Œæ¯”å¦‚`int`,`long`,`String`,`boolean`ç­‰ã€‚
 
-SpringÈÝÆ÷»áÔÚÈÝÆ÷´´½¨µÄÊ±ºòÕë¶ÔÃ¿Ò»¸öBean½øÐÐÐ£Ñé¡£È»¶ø£¬BeanµÄÊôÐÔÔÚBeanÃ»ÓÐÕæÕý´´½¨µÄÊ±ºòÊÇ²»»áÅäÖÃ½øÈ¥µÄ¡£µ¥ÀýÀàÐÍµÄBeanÊÇÈÝÆ÷´´½¨µÄÊ±ºòÅäÖÃ³ÉÔ¤ÊµÀý×´Ì¬µÄ¡£BeanµÄ`Scope`ÔÚºóÐøÓÐ½éÉÜ¡£ÆäËûµÄBean¶¼Ö»ÓÐÔÚÇëÇóµÄÊ±ºò£¬²Å»á´´½¨¡£ÏÔÈ»´´½¨Bean¶ÔÏó»áÓÐÒ»¸öÒÀÀµµÄÍ¼¡£Õâ¸öÍ¼±íÊ¾BeanÖ®¼äµÄÒÀÀµ¹ØÏµ£¬ÈÝÆ÷¸ù¾Ý´ËÀ´¾ö¶¨´´½¨ºÍÅäÖÃBeanµÄË³Ðò¡£
+Springå®¹å™¨ä¼šåœ¨å®¹å™¨åˆ›å»ºçš„æ—¶å€™é’ˆå¯¹æ¯ä¸€ä¸ªBeanè¿›è¡Œæ ¡éªŒã€‚ç„¶è€Œï¼ŒBeançš„å±žæ€§åœ¨Beanæ²¡æœ‰çœŸæ­£åˆ›å»ºçš„æ—¶å€™æ˜¯ä¸ä¼šé…ç½®è¿›åŽ»çš„ã€‚å•ä¾‹ç±»åž‹çš„Beanæ˜¯å®¹å™¨åˆ›å»ºçš„æ—¶å€™é…ç½®æˆé¢„å®žä¾‹çŠ¶æ€çš„ã€‚Beançš„`Scope`åœ¨åŽç»­æœ‰ä»‹ç»ã€‚å…¶ä»–çš„Beanéƒ½åªæœ‰åœ¨è¯·æ±‚çš„æ—¶å€™ï¼Œæ‰ä¼šåˆ›å»ºã€‚æ˜¾ç„¶åˆ›å»ºBeanå¯¹è±¡ä¼šæœ‰ä¸€ä¸ªä¾èµ–çš„å›¾ã€‚è¿™ä¸ªå›¾è¡¨ç¤ºBeanä¹‹é—´çš„ä¾èµ–å…³ç³»ï¼Œå®¹å™¨æ ¹æ®æ­¤æ¥å†³å®šåˆ›å»ºå’Œé…ç½®Beançš„é¡ºåºã€‚
 
-> **Ñ­»·ÒÀÀµ**
-Èç¹û¿ª·¢ÕßÖ÷ÒªÊ¹ÓÃ»ùÓÚ¹¹Ôìº¯ÊýµÄÒÀÀµ×¢Èë£¬ÄÇÃ´ºÜÓÐ¿ÉÄÜ³öÏÖÒ»¸öÑ­»·ÒÀÀµµÄ³¡¾°¡£
-±ÈÈçËµ£ºÀàAÔÚ¹¹Ôìº¯ÊýÖÐÒÀÀµÓÚÀàBµÄÊµÀý£¬¶øÀàBµÄ¹¹Ôìº¯ÊýÒÀÀµÀàAµÄÊµÀý¡£Èç¹ûÄãÕâÃ´ÅäÖÃÀàAºÍÀàBÏà»¥×¢ÈëµÄ»°£¬Spring IoCÈÝÆ÷»á·¢ÏÖÕâ¸öÔËÐÐÊ±µÄÑ­»·ÒÀÀµ£¬²¢ÇÒÅ×³ö`BeanCurrentlyInCreationException`¡£
-¿ª·¢Õß¿ÉÒÔÍ¨¹ýÊ¹ÓÃSetter·½·¨À´ÅäÖÃÒÀÀµ×¢Èë£¬ÕâÑù¿ÉÒÔ½â¾öÕâ¸öÎÊÌâ¡£»òÕß¾Í²»Ê¹ÓÃ»ùÓÚ¹¹Ôìº¯ÊýµÄÒÀÀµ×¢Èë£¬½ö½öÊ¹ÓÃ»ùÓÚSetter·½·¨µÄÒÀÀµ×¢Èë¡£»»ÑÔÖ®£¬¾¡¹Ü²»ÍÆ¼ö£¬µ«ÊÇ¿ª·¢Õß¿ÉÒÔ½«Ñ­»·ÒÀÀµÅäÖÃÎª»ùÓÚSetter·½·¨µÄÒÀÀµ×¢Èë¡£
+> **å¾ªçŽ¯ä¾èµ–**
+å¦‚æžœå¼€å‘è€…ä¸»è¦ä½¿ç”¨åŸºäºŽæž„é€ å‡½æ•°çš„ä¾èµ–æ³¨å…¥ï¼Œé‚£ä¹ˆå¾ˆæœ‰å¯èƒ½å‡ºçŽ°ä¸€ä¸ªå¾ªçŽ¯ä¾èµ–çš„åœºæ™¯ã€‚
+æ¯”å¦‚è¯´ï¼šç±»Aåœ¨æž„é€ å‡½æ•°ä¸­ä¾èµ–äºŽç±»Bçš„å®žä¾‹ï¼Œè€Œç±»Bçš„æž„é€ å‡½æ•°ä¾èµ–ç±»Açš„å®žä¾‹ã€‚å¦‚æžœä½ è¿™ä¹ˆé…ç½®ç±»Aå’Œç±»Bç›¸äº’æ³¨å…¥çš„è¯ï¼ŒSpring IoCå®¹å™¨ä¼šå‘çŽ°è¿™ä¸ªè¿è¡Œæ—¶çš„å¾ªçŽ¯ä¾èµ–ï¼Œå¹¶ä¸”æŠ›å‡º`BeanCurrentlyInCreationException`ã€‚
+å¼€å‘è€…å¯ä»¥é€šè¿‡ä½¿ç”¨Setteræ–¹æ³•æ¥é…ç½®ä¾èµ–æ³¨å…¥ï¼Œè¿™æ ·å¯ä»¥è§£å†³è¿™ä¸ªé—®é¢˜ã€‚æˆ–è€…å°±ä¸ä½¿ç”¨åŸºäºŽæž„é€ å‡½æ•°çš„ä¾èµ–æ³¨å…¥ï¼Œä»…ä»…ä½¿ç”¨åŸºäºŽSetteræ–¹æ³•çš„ä¾èµ–æ³¨å…¥ã€‚æ¢è¨€ä¹‹ï¼Œå°½ç®¡ä¸æŽ¨èï¼Œä½†æ˜¯å¼€å‘è€…å¯ä»¥å°†å¾ªçŽ¯ä¾èµ–é…ç½®ä¸ºåŸºäºŽSetteræ–¹æ³•çš„ä¾èµ–æ³¨å…¥ã€‚
 
-¿ª·¢Õß¿ÉÒÔÏàÐÅSpringÄÜÕýÈ·´¦ÀíBean¡£SpringÄÜ¹»ÔÚ¼ÓÔØµÄ¹ý³ÌÖÐ·¢ÏÖÅäÖÃµÄÎÊÌâ£¬±ÈÈçÒýÓÃµ½²»´æÔÚµÄBean»òÕßÊÇÑ­»·ÒÀÀµ¡£Spring»á¾¡¿ÉÄÜÍíµÄÔÚBean´´½¨µÄÊ±ºò×°ÔØÊôÐÔ»òÕß½âÎöÒÀÀµ¡£ÕâÒ²ÒâÎ¶×ÅSpringÈÝÆ÷¼ÓÔØÕýÈ·ºó»áÔÚBean×¢ÈëÒÀÀµ³ö´íµÄÊ±ºòÅ×³öÒì³£¡£±ÈÈç£¬BeanÅ×³öÈ±ÉÙÊôÐÔ»òÕßÊôÐÔ²»ºÏ·¨¡£ÕâÑÓ³ÙµÄ½âÎöÒ²ÊÇÎªÊ²Ã´`ApplicationContext`µÄÊµÏÖ»áÁîµ¥ÀýBean´¦ÓÚÔ¤ÊµÀý»¯×´Ì¬¡£ÕâÑù£¬Í¨¹ý`ApplicationContext`µÄ´´½¨£¬¿ÉÒÔÔÚÕæÕýÊ¹ÓÃBeanÖ®Ç°ÏûºÄÒ»Ð©ÄÚ´æ´ú¼Û·¢ÏÖÅäÖÃµÄÎÊÌâ¡£¿ª·¢ÕßÒ²¿ÉÒÔ¸²¸ÇÄ¬ÈÏµÄÐÐÎªÈÃµ¥ÀýBeanÑÓ³Ù¼ÓÔØ£¬¶ø²»ÊÇ´¦ÓÚÔ¤ÊµÀý»¯×´Ì¬¡£
-Èç¹û²»´æÔÚÑ­»·ÒÀÀµµÄ»°£¬BeanËùÒýÓÃµÄÒÀÀµ»áÓÅÏÈÍêÈ«¹¹ÔìÒÀÀµµÄ¡£¾ÙÀýÀ´Ëµ£¬Èç¹ûBean AÒÀÀµÓÚBean B£¬ÄÇÃ´Spring IoCÈÝÆ÷»áÏÈÅäÖÃBean B£¬È»ºóµ÷ÓÃBean AµÄSetter·½·¨À´¹¹ÔìBean A¡£»»ÑÔÖ®£¬BeanÏÈ»áÊµÀý»¯£¬È»ºó×¢ÈëÒÀÀµ£¬È»ºó²ÅÊÇÏà¹ØµÄÉúÃüÖÜÆÚ·½·¨µÄµ÷ÓÃ¡£
+å¼€å‘è€…å¯ä»¥ç›¸ä¿¡Springèƒ½æ­£ç¡®å¤„ç†Beanã€‚Springèƒ½å¤Ÿåœ¨åŠ è½½çš„è¿‡ç¨‹ä¸­å‘çŽ°é…ç½®çš„é—®é¢˜ï¼Œæ¯”å¦‚å¼•ç”¨åˆ°ä¸å­˜åœ¨çš„Beanæˆ–è€…æ˜¯å¾ªçŽ¯ä¾èµ–ã€‚Springä¼šå°½å¯èƒ½æ™šçš„åœ¨Beanåˆ›å»ºçš„æ—¶å€™è£…è½½å±žæ€§æˆ–è€…è§£æžä¾èµ–ã€‚è¿™ä¹Ÿæ„å‘³ç€Springå®¹å™¨åŠ è½½æ­£ç¡®åŽä¼šåœ¨Beanæ³¨å…¥ä¾èµ–å‡ºé”™çš„æ—¶å€™æŠ›å‡ºå¼‚å¸¸ã€‚æ¯”å¦‚ï¼ŒBeanæŠ›å‡ºç¼ºå°‘å±žæ€§æˆ–è€…å±žæ€§ä¸åˆæ³•ã€‚è¿™å»¶è¿Ÿçš„è§£æžä¹Ÿæ˜¯ä¸ºä»€ä¹ˆ`ApplicationContext`çš„å®žçŽ°ä¼šä»¤å•ä¾‹Beanå¤„äºŽé¢„å®žä¾‹åŒ–çŠ¶æ€ã€‚è¿™æ ·ï¼Œé€šè¿‡`ApplicationContext`çš„åˆ›å»ºï¼Œå¯ä»¥åœ¨çœŸæ­£ä½¿ç”¨Beanä¹‹å‰æ¶ˆè€—ä¸€äº›å†…å­˜ä»£ä»·å‘çŽ°é…ç½®çš„é—®é¢˜ã€‚å¼€å‘è€…ä¹Ÿå¯ä»¥è¦†ç›–é»˜è®¤çš„è¡Œä¸ºè®©å•ä¾‹Beanå»¶è¿ŸåŠ è½½ï¼Œè€Œä¸æ˜¯å¤„äºŽé¢„å®žä¾‹åŒ–çŠ¶æ€ã€‚
+å¦‚æžœä¸å­˜åœ¨å¾ªçŽ¯ä¾èµ–çš„è¯ï¼ŒBeanæ‰€å¼•ç”¨çš„ä¾èµ–ä¼šä¼˜å…ˆå®Œå…¨æž„é€ ä¾èµ–çš„ã€‚ä¸¾ä¾‹æ¥è¯´ï¼Œå¦‚æžœBean Aä¾èµ–äºŽBean Bï¼Œé‚£ä¹ˆSpring IoCå®¹å™¨ä¼šå…ˆé…ç½®Bean Bï¼Œç„¶åŽè°ƒç”¨Bean Açš„Setteræ–¹æ³•æ¥æž„é€ Bean Aã€‚æ¢è¨€ä¹‹ï¼ŒBeanå…ˆä¼šå®žä¾‹åŒ–ï¼Œç„¶åŽæ³¨å…¥ä¾èµ–ï¼Œç„¶åŽæ‰æ˜¯ç›¸å…³çš„ç”Ÿå‘½å‘¨æœŸæ–¹æ³•çš„è°ƒç”¨ã€‚
 
 ### Examples of dependency injection
 
-ÏÂÃæµÄÀý×Ó»áÊ¹ÓÃ»ùÓÚXMLÅäÖÃµÄÔªÊý¾Ý£¬È»ºóÊ¹ÓÃSetter·½Ê½½øÐÐÒÀÀµ×¢Èë¡£´úÂëÈçÏÂ£º
+ä¸‹é¢çš„ä¾‹å­ä¼šä½¿ç”¨åŸºäºŽXMLé…ç½®çš„å…ƒæ•°æ®ï¼Œç„¶åŽä½¿ç”¨Setteræ–¹å¼è¿›è¡Œä¾èµ–æ³¨å…¥ã€‚ä»£ç å¦‚ä¸‹ï¼š
 
 ```
 <bean id="exampleBean" class="examples.ExampleBean">
@@ -220,7 +220,7 @@ public class ExampleBean {
 }
 ```
 
-ÔÚÉÏÃæµÄÀý×Óµ±ÖÐ£¬Setter·½·¨µÄÉùÃ÷ºÍXMLÎÄ¼þÖÐÏàÒ»ÖÂ£¬ÏÂÃæµÄÀý×ÓÊÇ»ùÓÚ¹¹Ôìº¯ÊýµÄÒÀÀµ×¢Èë
+åœ¨ä¸Šé¢çš„ä¾‹å­å½“ä¸­ï¼ŒSetteræ–¹æ³•çš„å£°æ˜Žå’ŒXMLæ–‡ä»¶ä¸­ç›¸ä¸€è‡´ï¼Œä¸‹é¢çš„ä¾‹å­æ˜¯åŸºäºŽæž„é€ å‡½æ•°çš„ä¾èµ–æ³¨å…¥
 
 ```
 <bean id="exampleBean" class="examples.ExampleBean">
@@ -256,9 +256,9 @@ public class ExampleBean {
 }
 ```
 
-ÔÚBean¶¨ÒåÖ®ÖÐµÄ¹¹Ôìº¯Êý²ÎÊý¾ÍÊÇÓÃÀ´¹¹Ôì`ExampleBean`µÄÒÀÀµ¡£
+åœ¨Beanå®šä¹‰ä¹‹ä¸­çš„æž„é€ å‡½æ•°å‚æ•°å°±æ˜¯ç”¨æ¥æž„é€ `ExampleBean`çš„ä¾èµ–ã€‚
 
-ÏÂÃæµÄÀý×Ó£¬ÊÇÍ¨¹ý¾²Ì¬µÄ¹¤³§·½·¨À´·µ»ØBeanÊµÀýµÄ¡£
+ä¸‹é¢çš„ä¾‹å­ï¼Œæ˜¯é€šè¿‡é™æ€çš„å·¥åŽ‚æ–¹æ³•æ¥è¿”å›žBeanå®žä¾‹çš„ã€‚
 
 ```
 <bean id="exampleBean" class="examples.ExampleBean" factory-method="createInstance">
@@ -293,15 +293,15 @@ public class ExampleBean {
 }
 ```
 
-¹¤³§·½·¨µÄ²ÎÊý£¬Ò²ÊÇÍ¨¹ý `<constructor-arg/>`±êÇ©À´Ö¸¶¨µÄ£¬ºÍ»ùÓÚ¹¹Ôìº¯ÊýµÄÒÀÀµ×¢ÈëÊÇÒ»ÖÂµÄ¡£Ö®Ç°ÓÐÌáµ½¹ý£¬·µ»ØµÄÀàÐÍ²»ÐèÒª¸ú`exampleBean`ÖÐµÄ`class`ÊôÐÔÒ»ÖÂµÄ£¬`class`Ö¸¶¨µÄÊÇ°üº¬¹¤³§·½·¨µÄÀà¡£µ±È»ÁË£¬ÉÏÃæµÄÀý×ÓÊÇÒ»ÖÂµÄ¡£Ê¹ÓÃ`factory-bean`µÄÊµÀý¹¤³§·½·¨¹¹ÔìBeanµÄ£¬ÕâÀï¾Í²»¶àÃèÊöÁË¡£
+å·¥åŽ‚æ–¹æ³•çš„å‚æ•°ï¼Œä¹Ÿæ˜¯é€šè¿‡ `<constructor-arg/>`æ ‡ç­¾æ¥æŒ‡å®šçš„ï¼Œå’ŒåŸºäºŽæž„é€ å‡½æ•°çš„ä¾èµ–æ³¨å…¥æ˜¯ä¸€è‡´çš„ã€‚ä¹‹å‰æœ‰æåˆ°è¿‡ï¼Œè¿”å›žçš„ç±»åž‹ä¸éœ€è¦è·Ÿ`exampleBean`ä¸­çš„`class`å±žæ€§ä¸€è‡´çš„ï¼Œ`class`æŒ‡å®šçš„æ˜¯åŒ…å«å·¥åŽ‚æ–¹æ³•çš„ç±»ã€‚å½“ç„¶äº†ï¼Œä¸Šé¢çš„ä¾‹å­æ˜¯ä¸€è‡´çš„ã€‚ä½¿ç”¨`factory-bean`çš„å®žä¾‹å·¥åŽ‚æ–¹æ³•æž„é€ Beançš„ï¼Œè¿™é‡Œå°±ä¸å¤šæè¿°äº†ã€‚
 
 ### 7.4.2 Dependencies and configuration in detail
 
-ÈçÇ°ÎÄËùÊö£¬¿ª·¢Õß¿ÉÒÔÍ¨¹ý¶¨ÒåBeanµÄÒÀÀµµÄÀ´ÒýÓÃÆäËûµÄBean»òÕßÊÇÒ»Ð©ÖµµÄ£¬Spring»ùÓÚXMLµÄÅäÖÃÔªÊý¾ÝÍ¨¹ýÖ§³ÖÒ»Ð©×ÓÔªËØ`<property/>`ÒÔ¼°`<constructor-arg/>`À´´ïµ½ÕâÒ»Ä¿µÄ¡£
+å¦‚å‰æ–‡æ‰€è¿°ï¼Œå¼€å‘è€…å¯ä»¥é€šè¿‡å®šä¹‰Beançš„ä¾èµ–çš„æ¥å¼•ç”¨å…¶ä»–çš„Beanæˆ–è€…æ˜¯ä¸€äº›å€¼çš„ï¼ŒSpringåŸºäºŽXMLçš„é…ç½®å…ƒæ•°æ®é€šè¿‡æ”¯æŒä¸€äº›å­å…ƒç´ `<property/>`ä»¥åŠ`<constructor-arg/>`æ¥è¾¾åˆ°è¿™ä¸€ç›®çš„ã€‚
 
 ### Straight values (primitives, Strings, and so on)
 
-ÔªËØ`<property/>`ÓÐ`value`ÊôÐÔÀ´¶ÔÈËÓÑºÃÒ×¶ÁµÄÐÎÊ½ÅäÖÃÒ»¸öÊôÐÔ»òÕß¹¹Ôì²ÎÊý¡£SpringµÄ±ãÀûÖ®´¦¾ÍÊÇÓÃÀ´½«ÕâÐ©×Ö·û´®µÄÖµ×ª»»³ÉÖ¸¶¨µÄÀàÐÍ¡£
+å…ƒç´ `<property/>`æœ‰`value`å±žæ€§æ¥å¯¹äººå‹å¥½æ˜“è¯»çš„å½¢å¼é…ç½®ä¸€ä¸ªå±žæ€§æˆ–è€…æž„é€ å‚æ•°ã€‚Springçš„ä¾¿åˆ©ä¹‹å¤„å°±æ˜¯ç”¨æ¥å°†è¿™äº›å­—ç¬¦ä¸²çš„å€¼è½¬æ¢æˆæŒ‡å®šçš„ç±»åž‹ã€‚
 
 ```
 <bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
@@ -313,7 +313,7 @@ public class ExampleBean {
 </bean>
 ```
 
-ÏÂÃæµÄÀý×ÓÊ¹ÓÃµÄpÃüÃû¿Õ¼ä£¬ÊÇ¸üÎª¼òµ¥µÄXMLÅäÖÃ¡£
+ä¸‹é¢çš„ä¾‹å­ä½¿ç”¨çš„på‘½åç©ºé—´ï¼Œæ˜¯æ›´ä¸ºç®€å•çš„XMLé…ç½®ã€‚
 
 ```
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -332,9 +332,9 @@ public class ExampleBean {
 </beans>
 ```
 
-ÉÏÃæµÄXML¸üÎªµÄ¼ò½à£¬µ«ÊÇÒòÎªÊôÐÔµÄÀàÐÍÊÇÔÚÔËÐÐÊ±È·¶¨µÄ£¬¶ø·ÇÉè¼ÆÊ±È·¶¨µÄ£¬ËùÒÔ³ý·ÇÊ¹ÓÃ[IntelliJ IDEA](http://www.jetbrains.com/idea/)»òÕß[Spring Tool Suite](https://spring.io/tools/sts)ÕâÐ©¹¤¾ß²ÅÄÜÔÚ¶¨ÒåBeanµÄÊ±ºò×Ô¶¯Íê³ÉÊôÐÔÅäÖÃ¡£µ±È»ºÜÍÆ¼öÊ¹ÓÃÕâÐ©IDE¡£
+ä¸Šé¢çš„XMLæ›´ä¸ºçš„ç®€æ´ï¼Œä½†æ˜¯å› ä¸ºå±žæ€§çš„ç±»åž‹æ˜¯åœ¨è¿è¡Œæ—¶ç¡®å®šçš„ï¼Œè€Œéžè®¾è®¡æ—¶ç¡®å®šçš„ï¼Œæ‰€ä»¥é™¤éžä½¿ç”¨[IntelliJ IDEA](http://www.jetbrains.com/idea/)æˆ–è€…[Spring Tool Suite](https://spring.io/tools/sts)è¿™äº›å·¥å…·æ‰èƒ½åœ¨å®šä¹‰Beançš„æ—¶å€™è‡ªåŠ¨å®Œæˆå±žæ€§é…ç½®ã€‚å½“ç„¶å¾ˆæŽ¨èä½¿ç”¨è¿™äº›IDEã€‚
 
-¿ª·¢ÕßÒ²¿ÉÒÔ¶¨ÒåÒ»¸ö`java.util.Properties`ÊµÀý£¬±ÈÈç£º
+å¼€å‘è€…ä¹Ÿå¯ä»¥å®šä¹‰ä¸€ä¸ª`java.util.Properties`å®žä¾‹ï¼Œæ¯”å¦‚ï¼š
 
 ```
 <bean id="mappings"
@@ -350,10 +350,10 @@ public class ExampleBean {
 </bean>
 ```
 
-SpringµÄÈÝÆ÷»á½«`<value/>`ÀïÃæµÄÎÄ±¾Í¨¹ýÊ¹ÓÃJavaBeanµÄ`PropertyEditor`»úÖÆ×ª»»³ÉÒ»¸ö`java.util.Properties`ÊµÀý¡£ÕâÒ²ÊÇÒ»¸ö½Ý¾¶£¬Ò²ÊÇÒ»Ð©SpringÍÅ¶Ó¸üÏ²»¶Ê¹ÓÃÇ¶Ì×µÄ`<value/>`ÔªËØ¶ø²»ÊÇ`value`ÊôÐÔ·ç¸ñ¡£
+Springçš„å®¹å™¨ä¼šå°†`<value/>`é‡Œé¢çš„æ–‡æœ¬é€šè¿‡ä½¿ç”¨JavaBeançš„`PropertyEditor`æœºåˆ¶è½¬æ¢æˆä¸€ä¸ª`java.util.Properties`å®žä¾‹ã€‚è¿™ä¹Ÿæ˜¯ä¸€ä¸ªæ·å¾„ï¼Œä¹Ÿæ˜¯ä¸€äº›Springå›¢é˜Ÿæ›´å–œæ¬¢ä½¿ç”¨åµŒå¥—çš„`<value/>`å…ƒç´ è€Œä¸æ˜¯`value`å±žæ€§é£Žæ ¼ã€‚
 
-**idrefÔªËØ**
-`idref`ÔªËØÊÇÒ»ÖÖ¼òµ¥µÄÌáÇ°Ð£Ñé´íÎóµÄ·½Ê½£¬Í¨¹ýidÀ´¹ØÁªÈÝÆ÷ÖÐµÄÆäËûµÄBeanµÄ·½Ê½¡£
+**idrefå…ƒç´ **
+`idref`å…ƒç´ æ˜¯ä¸€ç§ç®€å•çš„æå‰æ ¡éªŒé”™è¯¯çš„æ–¹å¼ï¼Œé€šè¿‡idæ¥å…³è”å®¹å™¨ä¸­çš„å…¶ä»–çš„Beançš„æ–¹å¼ã€‚
 
 ```
 <bean id="theTargetBean" class="..."/>
@@ -364,7 +364,7 @@ SpringµÄÈÝÆ÷»á½«`<value/>`ÀïÃæµÄÎÄ±¾Í¨¹ýÊ¹ÓÃJavaBeanµÄ`PropertyEditor`»úÖÆ×ª»»³É
     </property>
 </bean>
 ```
-ÉÏÊöµÄBeanµÄ¶¨ÒåÔÚÔËÐÐÊ±£¬ºÍÈçÏÂ¶¨ÒåÊÇÍêÈ«Ò»ÖÂµÄ¡£
+ä¸Šè¿°çš„Beançš„å®šä¹‰åœ¨è¿è¡Œæ—¶ï¼Œå’Œå¦‚ä¸‹å®šä¹‰æ˜¯å®Œå…¨ä¸€è‡´çš„ã€‚
 
 ```
 <bean id="theTargetBean" class="..." />
@@ -374,21 +374,21 @@ SpringµÄÈÝÆ÷»á½«`<value/>`ÀïÃæµÄÎÄ±¾Í¨¹ýÊ¹ÓÃJavaBeanµÄ`PropertyEditor`»úÖÆ×ª»»³É
 </bean>
 ```
 
-µÚÒ»ÖÖ·½Ê½ÊÇ¸üÖµµÃÌá³«µÄ£¬ÒòÎªÊ¹ÓÃÁË`idref`±êÇ©£¬»áÊÇµÄÈÝÆ÷ÔÚ*²¿Êð½×¶Î*¾ÍÕë¶ÔBean½øÐÐÐ£Ñé£¬È·±£BeanÒ»¶¨´æÔÚ¡£¶øµÚ¶þ¸ö°æ±¾µÄ»°£¬ÊÇÃ»ÓÐÈÎºÎÐ£ÑéµÄ¡£Ö»ÓÐÊµ¼ÊÉÏÒýÓÃÁËBean `client`£¬ÔÚÊµÀý»¯clientµÄÊ±ºò²Å»á·¢ÏÖ¡£Èç¹û`client`ÊÇÒ»¸ö`prototype`µÄBean£¬ÄÇÃ´ÀàËÆÆ´Ð´Ö®ÀàµÄ´íÎó»áÔÚÈÝÆ÷²¿ÊðÒÔºóºÜ¾Ã²ÅÄÜ·¢ÏÖ¡£
+ç¬¬ä¸€ç§æ–¹å¼æ˜¯æ›´å€¼å¾—æå€¡çš„ï¼Œå› ä¸ºä½¿ç”¨äº†`idref`æ ‡ç­¾ï¼Œä¼šæ˜¯çš„å®¹å™¨åœ¨*éƒ¨ç½²é˜¶æ®µ*å°±é’ˆå¯¹Beanè¿›è¡Œæ ¡éªŒï¼Œç¡®ä¿Beanä¸€å®šå­˜åœ¨ã€‚è€Œç¬¬äºŒä¸ªç‰ˆæœ¬çš„è¯ï¼Œæ˜¯æ²¡æœ‰ä»»ä½•æ ¡éªŒçš„ã€‚åªæœ‰å®žé™…ä¸Šå¼•ç”¨äº†Bean `client`ï¼Œåœ¨å®žä¾‹åŒ–clientçš„æ—¶å€™æ‰ä¼šå‘çŽ°ã€‚å¦‚æžœ`client`æ˜¯ä¸€ä¸ª`prototype`çš„Beanï¼Œé‚£ä¹ˆç±»ä¼¼æ‹¼å†™ä¹‹ç±»çš„é”™è¯¯ä¼šåœ¨å®¹å™¨éƒ¨ç½²ä»¥åŽå¾ˆä¹…æ‰èƒ½å‘çŽ°ã€‚
 
-> `idref`ÔªËØµÄ`local`ÊôÐÔÔÚ4.0ÒÔºóµÄxsdÖÐÒÑ¾­²»ÔÙÖ§³ÖÁË£¬¶øÊÇÊ¹ÓÃÁË`bean`ÒýÓÃ¡£Èç¹û¸üÐÂÁË°æ±¾µÄ»°£¬ÐèÒª½«`idref local`ÒýÓÃ¶¼×ª»»³É `idref bean`¼´¿É¡£
+> `idref`å…ƒç´ çš„`local`å±žæ€§åœ¨4.0ä»¥åŽçš„xsdä¸­å·²ç»ä¸å†æ”¯æŒäº†ï¼Œè€Œæ˜¯ä½¿ç”¨äº†`bean`å¼•ç”¨ã€‚å¦‚æžœæ›´æ–°äº†ç‰ˆæœ¬çš„è¯ï¼Œéœ€è¦å°†`idref local`å¼•ç”¨éƒ½è½¬æ¢æˆ `idref bean`å³å¯ã€‚
 
 ### References to other beans (collaborators)
 
-`ref`ÔªËØÔÚ`<constructor-arg/>`»òÕß`<property/>`ÖÐµÄÒ»¸öÖÕ¼«±êÇ©¡£¿ª·¢Õß¿ÉÒÔÍ¨¹ýÕâ¸ö±êÇ©ÅäÖÃÒ»¸öBeanÀ´ÒýÓÃÁíÒ»¸öBean¡£µ±ÐèÒªÒýÓÃÒ»¸öBeanµÄÊ±ºò£¬±»ÒýÓÃµÄBean»áÏÈÊµÀý»¯£¬È»ºóÅäÖÃÊôÐÔ£¬Ò²¾ÍÊÇÒýÓÃµÄÒÀÀµ¡£Èç¹û¸ÃBeanÊÇµ¥ÀýBeanµÄ»°£¬ÄÇÃ´¸ÃBean»áÔçÓÉÈÝÆ÷³õÊ¼»¯¡£×îÖÕµÄÒýÓÃÁíÒ»¸ö¶ÔÏóµÄËùÓÐÒýÓÃ¡£BeanµÄ·¶Î§ÒÔ¼°Ð£ÑéÈ¡¾öÓÚ¿ª·¢ÕßÊÇ·ñÍ¨¹ý`bean`,`local`,`parent`ÕâÐ©ÊôÐÔÀ´Ö¸¶¨¶ÔÏóµÄid»òÕßnameÊôÐÔ¡£
+`ref`å…ƒç´ åœ¨`<constructor-arg/>`æˆ–è€…`<property/>`ä¸­çš„ä¸€ä¸ªç»ˆæžæ ‡ç­¾ã€‚å¼€å‘è€…å¯ä»¥é€šè¿‡è¿™ä¸ªæ ‡ç­¾é…ç½®ä¸€ä¸ªBeanæ¥å¼•ç”¨å¦ä¸€ä¸ªBeanã€‚å½“éœ€è¦å¼•ç”¨ä¸€ä¸ªBeançš„æ—¶å€™ï¼Œè¢«å¼•ç”¨çš„Beanä¼šå…ˆå®žä¾‹åŒ–ï¼Œç„¶åŽé…ç½®å±žæ€§ï¼Œä¹Ÿå°±æ˜¯å¼•ç”¨çš„ä¾èµ–ã€‚å¦‚æžœè¯¥Beanæ˜¯å•ä¾‹Beançš„è¯ï¼Œé‚£ä¹ˆè¯¥Beanä¼šæ—©ç”±å®¹å™¨åˆå§‹åŒ–ã€‚æœ€ç»ˆçš„å¼•ç”¨å¦ä¸€ä¸ªå¯¹è±¡çš„æ‰€æœ‰å¼•ç”¨ã€‚Beançš„èŒƒå›´ä»¥åŠæ ¡éªŒå–å†³äºŽå¼€å‘è€…æ˜¯å¦é€šè¿‡`bean`,`local`,`parent`è¿™äº›å±žæ€§æ¥æŒ‡å®šå¯¹è±¡çš„idæˆ–è€…nameå±žæ€§ã€‚
 
-Í¨¹ýÖ¸¶¨BeanµÄ`bean`ÊôÐÔÖÐµÄ`<ref/>`À´Ö¸¶¨ÒÀÀµÊÇ×î³£¼ûµÄÒ»ÖÖ·½Ê½£¬¿ÉÒÔÒýÓÃÈÝÆ÷»òÕß¸¸ÈÝÆ÷ÖÐµÄBean£¬ÎÞÂÛÊÇ·ñÔÚÍ¬Ò»¸öXMLÎÄ¼þ¶¨Òå¶¼¿ÉÒÔÒýÓÃ¡£ÆäÖÐ`bean`ÊôÐÔÖÐµÄÖµ¿ÉÒÔºÍÆäËûÒýÓÃBeanÖÐµÄ`id`ÊôÐÔÒ»ÖÂ£¬»òÕßºÍÆäÖÐµÄÒ»¸ö`name`ÊôÐÔÒ»ÖÂµÄ¡£
+é€šè¿‡æŒ‡å®šBeançš„`bean`å±žæ€§ä¸­çš„`<ref/>`æ¥æŒ‡å®šä¾èµ–æ˜¯æœ€å¸¸è§çš„ä¸€ç§æ–¹å¼ï¼Œå¯ä»¥å¼•ç”¨å®¹å™¨æˆ–è€…çˆ¶å®¹å™¨ä¸­çš„Beanï¼Œæ— è®ºæ˜¯å¦åœ¨åŒä¸€ä¸ªXMLæ–‡ä»¶å®šä¹‰éƒ½å¯ä»¥å¼•ç”¨ã€‚å…¶ä¸­`bean`å±žæ€§ä¸­çš„å€¼å¯ä»¥å’Œå…¶ä»–å¼•ç”¨Beanä¸­çš„`id`å±žæ€§ä¸€è‡´ï¼Œæˆ–è€…å’Œå…¶ä¸­çš„ä¸€ä¸ª`name`å±žæ€§ä¸€è‡´çš„ã€‚
 
 ```
 <ref bean="someBean"/>
 ```
 
-Í¨¹ýÖ¸¶¨BeanµÄ`parent`ÊôÐÔ»á´´½¨Ò»¸öÒýÓÃµ½µ±Ç°ÈÝÆ÷µÄ¸¸ÈÝÆ÷Ö®ÖÐ¡£`parent`ÊôÐÔµÄÖµ¿ÉÒÔ¸ú¸úÄ¿±êBeanµÄ`id`ÊôÐÔÒ»ÖÂ£¬»òÕßºÍÄ¿±êBeanµÄ`name`ÊôÐÔÖÐµÄÒ»¸öÒ»ÖÂ£¬Ä¿±êBean±ØÐëÊÇµ±Ç°ÒýÓÃÄ¿±êBeanÈÝÆ÷µÄ¸¸ÈÝÆ÷¡£¿ª·¢ÕßÒ»°ãÖ»ÓÐÔÚ´æÔÚ²ã´Î»¯ÈÝÆ÷£¬²¢ÇÒÏ£ÍûÍ¨¹ý´úÀíÀ´°ü¹ü¸¸ÈÝÆ÷ÖÐÒ»¸ö´æÔÚµÄBeanµÄÊ±ºò²Å»áÓÃµ½Õâ¸öÊôÐÔ¡£
+é€šè¿‡æŒ‡å®šBeançš„`parent`å±žæ€§ä¼šåˆ›å»ºä¸€ä¸ªå¼•ç”¨åˆ°å½“å‰å®¹å™¨çš„çˆ¶å®¹å™¨ä¹‹ä¸­ã€‚`parent`å±žæ€§çš„å€¼å¯ä»¥è·Ÿè·Ÿç›®æ ‡Beançš„`id`å±žæ€§ä¸€è‡´ï¼Œæˆ–è€…å’Œç›®æ ‡Beançš„`name`å±žæ€§ä¸­çš„ä¸€ä¸ªä¸€è‡´ï¼Œç›®æ ‡Beanå¿…é¡»æ˜¯å½“å‰å¼•ç”¨ç›®æ ‡Beanå®¹å™¨çš„çˆ¶å®¹å™¨ã€‚å¼€å‘è€…ä¸€èˆ¬åªæœ‰åœ¨å­˜åœ¨å±‚æ¬¡åŒ–å®¹å™¨ï¼Œå¹¶ä¸”å¸Œæœ›é€šè¿‡ä»£ç†æ¥åŒ…è£¹çˆ¶å®¹å™¨ä¸­ä¸€ä¸ªå­˜åœ¨çš„Beançš„æ—¶å€™æ‰ä¼šç”¨åˆ°è¿™ä¸ªå±žæ€§ã€‚
 
 ```
 <!-- in the parent context -->
@@ -408,11 +408,11 @@ SpringµÄÈÝÆ÷»á½«`<value/>`ÀïÃæµÄÎÄ±¾Í¨¹ýÊ¹ÓÃJavaBeanµÄ`PropertyEditor`»úÖÆ×ª»»³É
 </bean>
 ```
 
-> Óë`idref`±êÇ©Ò»Ñù£¬`ref`ÔªËØÖÐµÄ`local`±êÇ©ÔÚxsd 4.0ÒÔºóÒÑ¾­²»ÔÙÖ§³ÖÁË£¬¿ª·¢Õß¿ÉÒÔÍ¨¹ý½«ÒÑ´æÔÚµÄ`ref local`¸ÄÎª`ref bean`À´Íê³É¸üÐÂSpring¡£
+> ä¸Ž`idref`æ ‡ç­¾ä¸€æ ·ï¼Œ`ref`å…ƒç´ ä¸­çš„`local`æ ‡ç­¾åœ¨xsd 4.0ä»¥åŽå·²ç»ä¸å†æ”¯æŒäº†ï¼Œå¼€å‘è€…å¯ä»¥é€šè¿‡å°†å·²å­˜åœ¨çš„`ref local`æ”¹ä¸º`ref bean`æ¥å®Œæˆæ›´æ–°Springã€‚
 
 ### Inner beans
 
-¶¨ÒåÔÚ`<bean/>`ÔªËØµÄ`<property/>`»òÕß`<constructor-arg/>`ÔªËØÖ®ÄÚµÄBean½Ð×ö*ÄÚ²¿Bean*
+å®šä¹‰åœ¨`<bean/>`å…ƒç´ çš„`<property/>`æˆ–è€…`<constructor-arg/>`å…ƒç´ ä¹‹å†…çš„Beanå«åš*å†…éƒ¨Bean*
 
 ```
 <bean id="outer" class="...">
@@ -426,14 +426,14 @@ SpringµÄÈÝÆ÷»á½«`<value/>`ÀïÃæµÄÎÄ±¾Í¨¹ýÊ¹ÓÃJavaBeanµÄ`PropertyEditor`»úÖÆ×ª»»³É
 </bean>
 ```
 
-ÄÚ²¿BeanµÄ¶¨ÒåÊÇ²»ÐèÒªÖ¸¶¨id»òÕßÃû×ÖµÄ¡£Èç¹ûÖ¸¶¨ÁË£¬ÈÝÆ÷Ò²²»»áÓÃÖ®×÷Îª·Ö±ðBeanµÄÇø·Ö±êÊ¶¡£ÈÝÆ÷Í¬Ê±Ò²»áÎÞÊÓÄÚ²¿BeanµÄ`scope`±êÇ©£ºÄÚ²¿Bean *×ÜÊÇ* ÄäÃûµÄ£¬¶øÇÒ *×ÜÊÇ* Ëæ×ÅÍâ²¿µÄBeanÍ¬Ê±´´½¨µÄ¡£¿ª·¢ÕßÊÇÎÞ·¨½«ÄÚ²¿µÄBean×¢Èëµ½Íâ²¿BeanÒÔÍâµÄÆäËûBeanµÄ¡£
+å†…éƒ¨Beançš„å®šä¹‰æ˜¯ä¸éœ€è¦æŒ‡å®šidæˆ–è€…åå­—çš„ã€‚å¦‚æžœæŒ‡å®šäº†ï¼Œå®¹å™¨ä¹Ÿä¸ä¼šç”¨ä¹‹ä½œä¸ºåˆ†åˆ«Beançš„åŒºåˆ†æ ‡è¯†ã€‚å®¹å™¨åŒæ—¶ä¹Ÿä¼šæ— è§†å†…éƒ¨Beançš„`scope`æ ‡ç­¾ï¼šå†…éƒ¨Bean *æ€»æ˜¯* åŒ¿åçš„ï¼Œè€Œä¸” *æ€»æ˜¯* éšç€å¤–éƒ¨çš„BeanåŒæ—¶åˆ›å»ºçš„ã€‚å¼€å‘è€…æ˜¯æ— æ³•å°†å†…éƒ¨çš„Beanæ³¨å…¥åˆ°å¤–éƒ¨Beanä»¥å¤–çš„å…¶ä»–Beançš„ã€‚
 
-µ±È»£¬Ò²ÓÐ¿ÉÄÜ´ÓÖ¸¶¨·¶Î§½ÓÊÕµ½ÆÆ»µÐÔ»Øµ÷¡£±ÈÈç£ºÒ»¸öÇëÇó·¶Î§µÄÄÚ²¿Bean°üº¬ÁËÒ»¸öµ¥ÀýµÄBean£¬ÄÇÃ´ÄÚ²¿BeanÊµÀý»á°ó¶¨µ½°üº¬µÄBean£¬¶ø°üº¬µÄBeanÔÊÐí·ÃÎÊµ½`request`µÄ`scope`ÉúÃüÖÜÆÚ¡£ÕâÖÖ³¡¾°²»³£¼û£¬ÄÚ²¿BeanÍ¨³£Ö»ÊÇ¹²ÏíËüµÄÍâ²¿Bean¡£
+å½“ç„¶ï¼Œä¹Ÿæœ‰å¯èƒ½ä»ŽæŒ‡å®šèŒƒå›´æŽ¥æ”¶åˆ°ç ´åæ€§å›žè°ƒã€‚æ¯”å¦‚ï¼šä¸€ä¸ªè¯·æ±‚èŒƒå›´çš„å†…éƒ¨BeanåŒ…å«äº†ä¸€ä¸ªå•ä¾‹çš„Beanï¼Œé‚£ä¹ˆå†…éƒ¨Beanå®žä¾‹ä¼šç»‘å®šåˆ°åŒ…å«çš„Beanï¼Œè€ŒåŒ…å«çš„Beanå…è®¸è®¿é—®åˆ°`request`çš„`scope`ç”Ÿå‘½å‘¨æœŸã€‚è¿™ç§åœºæ™¯ä¸å¸¸è§ï¼Œå†…éƒ¨Beané€šå¸¸åªæ˜¯å…±äº«å®ƒçš„å¤–éƒ¨Beanã€‚
 
 
 ### Collections
 
-ÔÚ`<list/>`,`<set/>`,`<map/>`ºÍ`<props/>`ÔªËØÖÐ£¬¿ª·¢Õß¿ÉÒÔÅäÖÃJava¼¯ºÏÀàÐÍ`List`,`Set`,`Map`ÒÔ¼°`Properties`µÄÊôÐÔºÍ²ÎÊý¡£
+åœ¨`<list/>`,`<set/>`,`<map/>`å’Œ`<props/>`å…ƒç´ ä¸­ï¼Œå¼€å‘è€…å¯ä»¥é…ç½®Javaé›†åˆç±»åž‹`List`,`Set`,`Map`ä»¥åŠ`Properties`çš„å±žæ€§å’Œå‚æ•°ã€‚
 
 ```
 <bean id="moreComplexObject" class="example.ComplexObject">
@@ -469,14 +469,14 @@ SpringµÄÈÝÆ÷»á½«`<value/>`ÀïÃæµÄÎÄ±¾Í¨¹ýÊ¹ÓÃJavaBeanµÄ`PropertyEditor`»úÖÆ×ª»»³É
 </bean>
 ```
 
-µ±È»£¬mapµÄkey»òÕßvalue£¬»òÕßÊÇ¼¯ºÏµÄvalue¶¼¿ÉÒÔÅäÖÃÎªÏÂÁÐÖ®ÖÐµÄÒ»Ð©ÔªËØ£º
+å½“ç„¶ï¼Œmapçš„keyæˆ–è€…valueï¼Œæˆ–è€…æ˜¯é›†åˆçš„valueéƒ½å¯ä»¥é…ç½®ä¸ºä¸‹åˆ—ä¹‹ä¸­çš„ä¸€äº›å…ƒç´ ï¼š
 
 ```
 bean | ref | idref | list | set | map | props | value | null
 ```
 
-**¼¯ºÏºÏ²¢**
-SpringµÄÈÝÆ÷Ò²Ö§³ÖÀ´ºÏ²¢¼¯ºÏ¡£¿ª·¢Õß¿ÉÒÔ¶¨ÒåÒ»¸ö¸¸ÑùÊ½µÄ`<list/>`,`<map/>`,`<set/>`»òÕß`<props/>`£¬Í¬Ê±ÓÐ×ÓÑùÊ½µÄ`<list/>`,`<map/>`,`<set/>`»òÕß`<props/>`¼Ì³Ð²¢ÇÒ¸²¸Ç¸¸¼¯ºÏ¡£Ò²¾ÍÊÇËµ£¬×Ó¼¯ºÏµÄÖµÊÇ¸¸ÔªËØºÍ×ÓÔªËØ¼¯ºÏµÄºÏ²¢Öµ¡£±ÈÈçÏÂÃæµÄÀý×Ó¡£
+**é›†åˆåˆå¹¶**
+Springçš„å®¹å™¨ä¹Ÿæ”¯æŒæ¥åˆå¹¶é›†åˆã€‚å¼€å‘è€…å¯ä»¥å®šä¹‰ä¸€ä¸ªçˆ¶æ ·å¼çš„`<list/>`,`<map/>`,`<set/>`æˆ–è€…`<props/>`ï¼ŒåŒæ—¶æœ‰å­æ ·å¼çš„`<list/>`,`<map/>`,`<set/>`æˆ–è€…`<props/>`ç»§æ‰¿å¹¶ä¸”è¦†ç›–çˆ¶é›†åˆã€‚ä¹Ÿå°±æ˜¯è¯´ï¼Œå­é›†åˆçš„å€¼æ˜¯çˆ¶å…ƒç´ å’Œå­å…ƒç´ é›†åˆçš„åˆå¹¶å€¼ã€‚æ¯”å¦‚ä¸‹é¢çš„ä¾‹å­ã€‚
 
 ```
 <beans>
@@ -500,7 +500,7 @@ SpringµÄÈÝÆ÷Ò²Ö§³ÖÀ´ºÏ²¢¼¯ºÏ¡£¿ª·¢Õß¿ÉÒÔ¶¨ÒåÒ»¸ö¸¸ÑùÊ½µÄ`<list/>`,`<map/>`,`<set
 <beans>
 ```
 
-¿ÉÒÔ·¢ÏÖ£¬ÎÒÃÇÔÚ`child`BeanÉÏÊ¹ÓÃÁË`merge=true`ÊôÐÔ¡£µ±`child`BeanÓÉÈÝÆ÷³õÊ¼»¯ÇÒÊµÀý»¯µÄÊ±ºò£¬ÆäÊµÀýÖÐ°üº¬µÄ`adminEmails`¼¯ºÏ¾ÍÊÇ`child`µÄ`adminEmails`ÒÔ¼°`parent`µÄ`adminEmails`¼¯ºÏ¡£ÈçÏÂ£º
+å¯ä»¥å‘çŽ°ï¼Œæˆ‘ä»¬åœ¨`child`Beanä¸Šä½¿ç”¨äº†`merge=true`å±žæ€§ã€‚å½“`child`Beanç”±å®¹å™¨åˆå§‹åŒ–ä¸”å®žä¾‹åŒ–çš„æ—¶å€™ï¼Œå…¶å®žä¾‹ä¸­åŒ…å«çš„`adminEmails`é›†åˆå°±æ˜¯`child`çš„`adminEmails`ä»¥åŠ`parent`çš„`adminEmails`é›†åˆã€‚å¦‚ä¸‹ï¼š
 
 ```
 administrator=administrator@example.com
@@ -508,16 +508,16 @@ sales=sales@example.com
 support=support@example.co.uk
 ```
 
-`child`µÄ`Properties`¼¯ºÏµÄÖµ¼Ì³ÐÁË`parent`µÄ`<props/>`£¬`child`µÄÖµÒ²Ö§³ÖÖØÐ´`parent`µÄÖµ¡£
+`child`çš„`Properties`é›†åˆçš„å€¼ç»§æ‰¿äº†`parent`çš„`<props/>`ï¼Œ`child`çš„å€¼ä¹Ÿæ”¯æŒé‡å†™`parent`çš„å€¼ã€‚
 
-Õâ¸öºÏ²¢µÄÐÐÎªºÍ`<list/>`,`<map/>`ÒÔ¼°`<set/>`Ö®ÀàµÄ¼¯ºÏÀàÐÍµÄÐÐÎªÊÇÀàËÆµÄ¡£`<list/>`µÄÌØ¶¨µÄÀý×ÓÖÐ£¬Óë`List`¼¯ºÏÀàÐÍÀàËÆ£¬ÓÐÒþº¬µÄ`ordered`¸ÅÄîµÄ¡£ËùÓÐµÄ¸¸ÔªËØÀïÃæµÄÖµ£¬ÊÇÔÚËùÓÐº¢×ÓÔªËØµÄÖµÖ®Ç°µÄ¡£µ«ÊÇÏñ`Map`,`Set`»òÕß`Properties`µÄ¼¯ºÏÀàÐÍ£¬ÊÇ²»´æÔÚË³ÐòµÄ¡£
+è¿™ä¸ªåˆå¹¶çš„è¡Œä¸ºå’Œ`<list/>`,`<map/>`ä»¥åŠ`<set/>`ä¹‹ç±»çš„é›†åˆç±»åž‹çš„è¡Œä¸ºæ˜¯ç±»ä¼¼çš„ã€‚`<list/>`çš„ç‰¹å®šçš„ä¾‹å­ä¸­ï¼Œä¸Ž`List`é›†åˆç±»åž‹ç±»ä¼¼ï¼Œæœ‰éšå«çš„`ordered`æ¦‚å¿µçš„ã€‚æ‰€æœ‰çš„çˆ¶å…ƒç´ é‡Œé¢çš„å€¼ï¼Œæ˜¯åœ¨æ‰€æœ‰å­©å­å…ƒç´ çš„å€¼ä¹‹å‰çš„ã€‚ä½†æ˜¯åƒ`Map`,`Set`æˆ–è€…`Properties`çš„é›†åˆç±»åž‹ï¼Œæ˜¯ä¸å­˜åœ¨é¡ºåºçš„ã€‚
 
-**¼¯ºÏºÏ²¢µÄÏÞÖÆ**
+**é›†åˆåˆå¹¶çš„é™åˆ¶**
 
-¿ª·¢ÕßÊÇ²»ÄÜ¹»ºÏ²¢²»Í¬ÀàÐÍµÄ¼¯ºÏµÄ£¨±ÈÈç`Map`ºÍ`List`ºÏ²¢£©£¬Èç¹û¿ª·¢ÕßÕâÃ´×ö£¬»áÅ×³öÒì³£¡£`merge`µÄÊôÐÔÊÇ±ØÐëÌØÖ¸µ½¸üµÍ¼¶»òÕß¼Ì³ÐÕß£¬×Ó½ÚµãµÄ¶¨ÒåÉÏ¡£ÌØÖ¸`merge`ÊôÐÔµ½¸¸¼¯ºÏµÄ¶¨ÒåÉÏÊÇÈßÓàµÄ£¬¶øÇÒÔÚºÏ²¢ÉÏÒ²Ã»ÓÐÈÎºÎÐ§¹û¡£
+å¼€å‘è€…æ˜¯ä¸èƒ½å¤Ÿåˆå¹¶ä¸åŒç±»åž‹çš„é›†åˆçš„ï¼ˆæ¯”å¦‚`Map`å’Œ`List`åˆå¹¶ï¼‰ï¼Œå¦‚æžœå¼€å‘è€…è¿™ä¹ˆåšï¼Œä¼šæŠ›å‡ºå¼‚å¸¸ã€‚`merge`çš„å±žæ€§æ˜¯å¿…é¡»ç‰¹æŒ‡åˆ°æ›´ä½Žçº§æˆ–è€…ç»§æ‰¿è€…ï¼Œå­èŠ‚ç‚¹çš„å®šä¹‰ä¸Šã€‚ç‰¹æŒ‡`merge`å±žæ€§åˆ°çˆ¶é›†åˆçš„å®šä¹‰ä¸Šæ˜¯å†—ä½™çš„ï¼Œè€Œä¸”åœ¨åˆå¹¶ä¸Šä¹Ÿæ²¡æœ‰ä»»ä½•æ•ˆæžœã€‚
 
-**Ç¿ÀàÐÍ¼¯ºÏ**
-ÔÚJava 5ÒÔºó£¬¿ª·¢Õß¿ÉÒÔÊ¹ÓÃÇ¿ÀàÐÍµÄ¼¯ºÏÁË¡£Ò²¾ÍÊÇ£¬¿ª·¢Õß¿ÉÒÔÉùÃ÷Ò»¸ö`Collection`ÀàÐÍ£¬È»ºóÕâ¸ö¼¯ºÏÖ»°üº¬`String`ÔªËØ£¨¾ÙÀýÀ´Ëµ£©¡£Èç¹û¿ª·¢ÕßÍ¨¹ýSpringÀ´×¢ÈëÇ¿ÀàÐÍµÄ`Collection`µ½BeanÖÐ£¬¿ª·¢Õß¾Í¿ÉÒÔÀûÓÃSpringµÄÀàÐÍ×ª»»Ö§³ÖÀ´×öµ½¡£
+**å¼ºç±»åž‹é›†åˆ**
+åœ¨Java 5ä»¥åŽï¼Œå¼€å‘è€…å¯ä»¥ä½¿ç”¨å¼ºç±»åž‹çš„é›†åˆäº†ã€‚ä¹Ÿå°±æ˜¯ï¼Œå¼€å‘è€…å¯ä»¥å£°æ˜Žä¸€ä¸ª`Collection`ç±»åž‹ï¼Œç„¶åŽè¿™ä¸ªé›†åˆåªåŒ…å«`String`å…ƒç´ ï¼ˆä¸¾ä¾‹æ¥è¯´ï¼‰ã€‚å¦‚æžœå¼€å‘è€…é€šè¿‡Springæ¥æ³¨å…¥å¼ºç±»åž‹çš„`Collection`åˆ°Beanä¸­ï¼Œå¼€å‘è€…å°±å¯ä»¥åˆ©ç”¨Springçš„ç±»åž‹è½¬æ¢æ”¯æŒæ¥åšåˆ°ã€‚
 
 ```
 public class Foo {
@@ -544,11 +544,11 @@ public class Foo {
 </beans>
 ```
 
-µ±`foo`µÄÊôÐÔ`accounts`×¼±¸×¢ÈëµÄÊ±ºò£¬`accounts`µÄ·ºÐÍÐÅÏ¢`Map<String, Float>`¾Í»áÍ¨¹ý·´ÉäÄÃµ½¡£ÕâÑù£¬Spring µÄÀàÐÍ×ª»»ÏµÍ³ÄÜ¹»Ê¶±ð²»Í¬µÄÀàÐÍ£¬ÈçÉÏÃæµÄÀý×Ó`Float`È»ºó½«×Ö·û´®µÄÖµ`9.99, 2.75`ÒÔ¼°`3.99`×ª»»³É¶ÔÓ¦µÄ`Float`ÀàÐÍ¡£
+å½“`foo`çš„å±žæ€§`accounts`å‡†å¤‡æ³¨å…¥çš„æ—¶å€™ï¼Œ`accounts`çš„æ³›åž‹ä¿¡æ¯`Map<String, Float>`å°±ä¼šé€šè¿‡åå°„æ‹¿åˆ°ã€‚è¿™æ ·ï¼ŒSpring çš„ç±»åž‹è½¬æ¢ç³»ç»Ÿèƒ½å¤Ÿè¯†åˆ«ä¸åŒçš„ç±»åž‹ï¼Œå¦‚ä¸Šé¢çš„ä¾‹å­`Float`ç„¶åŽå°†å­—ç¬¦ä¸²çš„å€¼`9.99, 2.75`ä»¥åŠ`3.99`è½¬æ¢æˆå¯¹åº”çš„`Float`ç±»åž‹ã€‚
 
 ### Null and empty string values
 
-Spring½«»á½«ÊôÐÔµÄ¿Õ²ÎÊý£¬Ö±½Óµ±³É¿Õ×Ö·û´®À´´¦Àí¡£ÏÂÃæµÄ»ùÓÚXMLµÄÔªÊý¾ÝÅäÖÃ¾Í»á½«emailÊôÐÔÅäÖÃÎª`String`µÄÖµÎª`""`
+Springå°†ä¼šå°†å±žæ€§çš„ç©ºå‚æ•°ï¼Œç›´æŽ¥å½“æˆç©ºå­—ç¬¦ä¸²æ¥å¤„ç†ã€‚ä¸‹é¢çš„åŸºäºŽXMLçš„å…ƒæ•°æ®é…ç½®å°±ä¼šå°†emailå±žæ€§é…ç½®ä¸º`String`çš„å€¼ä¸º`""`
 
 ```
 <bean class="ExampleBean">
@@ -556,13 +556,13 @@ Spring½«»á½«ÊôÐÔµÄ¿Õ²ÎÊý£¬Ö±½Óµ±³É¿Õ×Ö·û´®À´´¦Àí¡£ÏÂÃæµÄ»ùÓÚXMLµÄÔªÊý¾ÝÅäÖÃ¾Í»á½
 </bean>
 ```
 
-ÉÏÃæµÄÀý×ÓºÍÏÂÁÐJAVA´úÂëÊÇÒ»ÖÂµÄ¡£
+ä¸Šé¢çš„ä¾‹å­å’Œä¸‹åˆ—JAVAä»£ç æ˜¯ä¸€è‡´çš„ã€‚
 
 ```
 exampleBean.setEmail("")
 ```
 
-¶ø`<null/>`ÔªËØÀ´´¦Àí`null`µÄÖµ¡£ÈçÏÂ£º
+è€Œ`<null/>`å…ƒç´ æ¥å¤„ç†`null`çš„å€¼ã€‚å¦‚ä¸‹ï¼š
 
 ```
 <bean class="ExampleBean">
@@ -571,7 +571,7 @@ exampleBean.setEmail("")
     </property>
 </bean>
 ```
-ÉÏÃæµÄ´úÂëºÍÏÂÃæµÄJava´úÂëÊÇÒ»ÑùµÄÐ§¹û£º
+ä¸Šé¢çš„ä»£ç å’Œä¸‹é¢çš„Javaä»£ç æ˜¯ä¸€æ ·çš„æ•ˆæžœï¼š
 
 ```
 exampleBean.setEmail(null)
@@ -579,11 +579,11 @@ exampleBean.setEmail(null)
 
 ### XML shortcut with the p-namespace
 
-pÃüÃû¿Õ¼äÁî¿ª·¢Õß¿ÉÒÔÊ¹ÓÃ`bean`µÄÊôÐÔ£¬¶ø²»ÓÃÊ¹ÓÃÇ¶Ì×µÄ`<property/>`ÔªËØ£¬¾ÍÄÜÃèÊö¿ª·¢ÕßÏëÒª×¢ÈëµÄÒÀÀµ¡£
+på‘½åç©ºé—´ä»¤å¼€å‘è€…å¯ä»¥ä½¿ç”¨`bean`çš„å±žæ€§ï¼Œè€Œä¸ç”¨ä½¿ç”¨åµŒå¥—çš„`<property/>`å…ƒç´ ï¼Œå°±èƒ½æè¿°å¼€å‘è€…æƒ³è¦æ³¨å…¥çš„ä¾èµ–ã€‚
 
-SpringÊÇÖ§³Ö»ùÓÚXMLµÄ¸ñÊ½»¯µÄÃüÃû¿Õ¼äÀ©Õ¹µÄ¡£±¾½ÚÌÖÂÛµÄ`beans`µÄÅäÖÃ¶¼ÊÇ»ùÓÚXMLµÄ£¬pÃüÃû¿Õ¼ä²¢²»ÊÇ¶¨ÒåÔÚXSDÎÄ¼þ£¬¶øÊÇ¶¨ÒåÔÚSpring CoreÖ®ÖÐµÄ¡£
+Springæ˜¯æ”¯æŒåŸºäºŽXMLçš„æ ¼å¼åŒ–çš„å‘½åç©ºé—´æ‰©å±•çš„ã€‚æœ¬èŠ‚è®¨è®ºçš„`beans`çš„é…ç½®éƒ½æ˜¯åŸºäºŽXMLçš„ï¼Œpå‘½åç©ºé—´å¹¶ä¸æ˜¯å®šä¹‰åœ¨XSDæ–‡ä»¶ï¼Œè€Œæ˜¯å®šä¹‰åœ¨Spring Coreä¹‹ä¸­çš„ã€‚
 
-ÏÂÃæÕ¹Ê¾ÁËÁ½ÖÖXMLÆ¬¶ÎÊÇÍ¬ÑùµÄ½âÎö½á¹û£ºµÚÒ»¸öÊ¹ÓÃµÄ±ê×¼µÄXML¸ñÊ½£¬¶øµÚ¶þÖÖÊ¹ÓÃÁËpÃüÃû¿Õ¼ä¡£
+ä¸‹é¢å±•ç¤ºäº†ä¸¤ç§XMLç‰‡æ®µæ˜¯åŒæ ·çš„è§£æžç»“æžœï¼šç¬¬ä¸€ä¸ªä½¿ç”¨çš„æ ‡å‡†çš„XMLæ ¼å¼ï¼Œè€Œç¬¬äºŒç§ä½¿ç”¨äº†på‘½åç©ºé—´ã€‚
 
 ```
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -600,9 +600,9 @@ SpringÊÇÖ§³Ö»ùÓÚXMLµÄ¸ñÊ½»¯µÄÃüÃû¿Õ¼äÀ©Õ¹µÄ¡£±¾½ÚÌÖÂÛµÄ`beans`µÄÅäÖÃ¶¼ÊÇ»ùÓÚXMLµ
         p:email="foo@bar.com"/>
 </beans>
 ```
-ÉÏÃæµÄÀý×ÓÔÚBeanÖÐÕ¹Ê¾ÁËemailÊôÐÔµÄ¶¨Òå¡£ÕâÖÖ¶¨Òå¸æÖªSpringÕâÊÇÒ»¸öÊôÐÔµÄÉùÃ÷¡£ÈçÇ°ÃæËùÃèÊö£¬pÃüÃû¿Õ¼ä²¢Ã»ÓÐ±ê×¼Ä£Ê½¶¨Òå£¬ËùÒÔÄã¿ÉÒÔÅäÖÃÊôÐÔµÄÃû×ÖÎªÒÀÀµÃû×Ö¡£
+ä¸Šé¢çš„ä¾‹å­åœ¨Beanä¸­å±•ç¤ºäº†emailå±žæ€§çš„å®šä¹‰ã€‚è¿™ç§å®šä¹‰å‘ŠçŸ¥Springè¿™æ˜¯ä¸€ä¸ªå±žæ€§çš„å£°æ˜Žã€‚å¦‚å‰é¢æ‰€æè¿°ï¼Œpå‘½åç©ºé—´å¹¶æ²¡æœ‰æ ‡å‡†æ¨¡å¼å®šä¹‰ï¼Œæ‰€ä»¥ä½ å¯ä»¥é…ç½®å±žæ€§çš„åå­—ä¸ºä¾èµ–åå­—ã€‚
 
-ÏÂÃæµÄÀý×Ó°üÀ¨ÁË2¸öBean¶¨Òå£¬ÒýÓÃÁËÁíÍâµÄBean£º
+ä¸‹é¢çš„ä¾‹å­åŒ…æ‹¬äº†2ä¸ªBeanå®šä¹‰ï¼Œå¼•ç”¨äº†å¦å¤–çš„Beanï¼š
 
 ```
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -627,15 +627,15 @@ SpringÊÇÖ§³Ö»ùÓÚXMLµÄ¸ñÊ½»¯µÄÃüÃû¿Õ¼äÀ©Õ¹µÄ¡£±¾½ÚÌÖÂÛµÄ`beans`µÄÅäÖÃ¶¼ÊÇ»ùÓÚXMLµ
 </beans>
 ```
 
-´ÓÉÏÊöµÄÀý×ÓÖÐ¿ÉÒÔ¿´³ö£¬`john-modern`²»Ö¹°üº¬Ò»¸öÊôÐÔ£¬Ò²Í¬Ê±Ê¹ÓÃÁËÌØÊâµÄ¸ñÊ½À´ÉùÃ÷Ò»¸öÒýÓÃÖ¸ÏòÁíÒ»¸öBean¡£µÚÒ»¸öBean¶¨ÒåÊ¹ÓÃµÄÊÇ`<property name="spouse" ref="jane"/>`À´´´½¨µÄBeanÒýÓÃµ½ÁíÍâÒ»¸öBean£¬¶øµÚ¶þ¸öBeanµÄ¶¨ÒåÊ¹ÓÃÁË`p:spouse-ref="jane"`À´×÷ÎªÒ»¸öÖ¸ÏòBeanµÄÒýÓÃ¡£ÔÚÕâ¸öÀý×ÓÖÐ`spouse`ÊÇÊôÐÔµÄÃû×Ö£¬¶ø`-ref`²¿·Ö±íÃûÕâ¸öÒÀÀµ²»ÊÇÖ±½ÓµÄÀàÐÍ£¬¶øÊÇÒýÓÃÁíÒ»¸öBean¡£
+ä»Žä¸Šè¿°çš„ä¾‹å­ä¸­å¯ä»¥çœ‹å‡ºï¼Œ`john-modern`ä¸æ­¢åŒ…å«ä¸€ä¸ªå±žæ€§ï¼Œä¹ŸåŒæ—¶ä½¿ç”¨äº†ç‰¹æ®Šçš„æ ¼å¼æ¥å£°æ˜Žä¸€ä¸ªå¼•ç”¨æŒ‡å‘å¦ä¸€ä¸ªBeanã€‚ç¬¬ä¸€ä¸ªBeanå®šä¹‰ä½¿ç”¨çš„æ˜¯`<property name="spouse" ref="jane"/>`æ¥åˆ›å»ºçš„Beanå¼•ç”¨åˆ°å¦å¤–ä¸€ä¸ªBeanï¼Œè€Œç¬¬äºŒä¸ªBeançš„å®šä¹‰ä½¿ç”¨äº†`p:spouse-ref="jane"`æ¥ä½œä¸ºä¸€ä¸ªæŒ‡å‘Beançš„å¼•ç”¨ã€‚åœ¨è¿™ä¸ªä¾‹å­ä¸­`spouse`æ˜¯å±žæ€§çš„åå­—ï¼Œè€Œ`-ref`éƒ¨åˆ†è¡¨åè¿™ä¸ªä¾èµ–ä¸æ˜¯ç›´æŽ¥çš„ç±»åž‹ï¼Œè€Œæ˜¯å¼•ç”¨å¦ä¸€ä¸ªBeanã€‚
 
-> pÃüÃû¿Õ¼ä²¢²»Í¬±ê×¼µÄXML¸ñÊ½Ò»ÑùÁé»î¡£±ÈÈç£¬ÉùÃ÷ÊôÐÔµÄÒýÓÃ¿ÉÄÜºÍÒ»Ð©ÒÔ`Ref`½áÎ²µÄÊôÐÔÏà³åÍ»£¬¶ø±ê×¼µÄXML¸ñÊ½¾Í²»»á¡£SpringÍÅ¶ÓÍÆ¼ö¿ª·¢ÕßÄÜ¹»ºÍÍÅ¶ÓÉÌÁ¿Ò»ÏÂ£¬ÒªÊ¹ÓÃÄÄÒ»ÖÖ·½Ê½£¬¶ø²»ÒªÍ¬Ê±Ê¹ÓÃ3ÖÖ·½·¨¡£
+> på‘½åç©ºé—´å¹¶ä¸åŒæ ‡å‡†çš„XMLæ ¼å¼ä¸€æ ·çµæ´»ã€‚æ¯”å¦‚ï¼Œå£°æ˜Žå±žæ€§çš„å¼•ç”¨å¯èƒ½å’Œä¸€äº›ä»¥`Ref`ç»“å°¾çš„å±žæ€§ç›¸å†²çªï¼Œè€Œæ ‡å‡†çš„XMLæ ¼å¼å°±ä¸ä¼šã€‚Springå›¢é˜ŸæŽ¨èå¼€å‘è€…èƒ½å¤Ÿå’Œå›¢é˜Ÿå•†é‡ä¸€ä¸‹ï¼Œè¦ä½¿ç”¨å“ªä¸€ç§æ–¹å¼ï¼Œè€Œä¸è¦åŒæ—¶ä½¿ç”¨3ç§æ–¹æ³•ã€‚
 
 
 ### XML shortcut with the c-namespace
 
-ÓëpÃüÃû¿Õ¼äÀàËÆ£¬cÃüÃû¿Õ¼äÊÇÔÚSpring 3.1Ê×´ÎÒýÈëµÄ£¬cÃüÃû¿Õ¼äÔÊÐíÄÚÁªµÄÊôÐÔÀ´ÅäÖÃ¹¹Ôì²ÎÊý¶ø²»ÓÃÊ¹ÓÃ`constructor-arg`ÔªËØ¡£
-ÏÂÃæ¾ÍÊÇÒ»¸öÊ¹ÓÃÁËcÃüÃû¿Õ¼äµÄÀý×Ó£º
+ä¸Žpå‘½åç©ºé—´ç±»ä¼¼ï¼Œcå‘½åç©ºé—´æ˜¯åœ¨Spring 3.1é¦–æ¬¡å¼•å…¥çš„ï¼Œcå‘½åç©ºé—´å…è®¸å†…è”çš„å±žæ€§æ¥é…ç½®æž„é€ å‚æ•°è€Œä¸ç”¨ä½¿ç”¨`constructor-arg`å…ƒç´ ã€‚
+ä¸‹é¢å°±æ˜¯ä¸€ä¸ªä½¿ç”¨äº†cå‘½åç©ºé—´çš„ä¾‹å­ï¼š
 
 ```
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -660,23 +660,23 @@ SpringÊÇÖ§³Ö»ùÓÚXMLµÄ¸ñÊ½»¯µÄÃüÃû¿Õ¼äÀ©Õ¹µÄ¡£±¾½ÚÌÖÂÛµÄ`beans`µÄÅäÖÃ¶¼ÊÇ»ùÓÚXMLµ
 </beans>
 ```
 
-`c:`ÃüÃû¿Õ¼äÊ¹ÓÃÁËºÍ`p:`ÃüÃû¿Õ¼äÏàÀàËÆµÄ·½Ê½£¨Ê¹ÓÃÁË`-ref`À´ÅäÖÃÒýÓÃ£©¡£¶øÇÒ£¬Í¬ÑùµÄ£¬cÃüÃû¿Õ¼äÒ²²»ÊÇ¶¨ÒåÔÚXSDµÄÄ£Ê½Ö®ÖÐ£¨µ«ÊÇÔÚSpring CoreÖ®ÖÐ£©¡£
+`c:`å‘½åç©ºé—´ä½¿ç”¨äº†å’Œ`p:`å‘½åç©ºé—´ç›¸ç±»ä¼¼çš„æ–¹å¼ï¼ˆä½¿ç”¨äº†`-ref`æ¥é…ç½®å¼•ç”¨ï¼‰ã€‚è€Œä¸”ï¼ŒåŒæ ·çš„ï¼Œcå‘½åç©ºé—´ä¹Ÿä¸æ˜¯å®šä¹‰åœ¨XSDçš„æ¨¡å¼ä¹‹ä¸­ï¼ˆä½†æ˜¯åœ¨Spring Coreä¹‹ä¸­ï¼‰ã€‚
 
-ÔÚÉÙÊýµÄÀý×ÓÖ®ÖÐ£¬¹¹Ôìº¯ÊýµÄ²ÎÊýÃû×Ö²¢²»¿ÉÓÃ£¨Í¨³££¬Èç¹û×Ö½ÚÂëÃ»ÓÐdebugÐÅÏ¢µÄ±àÒë£©£¬¿ª·¢Õß¿ÉÒÔÊ¹ÓÃÏÂÃæµÄÀý×Ó£º
+åœ¨å°‘æ•°çš„ä¾‹å­ä¹‹ä¸­ï¼Œæž„é€ å‡½æ•°çš„å‚æ•°åå­—å¹¶ä¸å¯ç”¨ï¼ˆé€šå¸¸ï¼Œå¦‚æžœå­—èŠ‚ç æ²¡æœ‰debugä¿¡æ¯çš„ç¼–è¯‘ï¼‰ï¼Œå¼€å‘è€…å¯ä»¥ä½¿ç”¨ä¸‹é¢çš„ä¾‹å­ï¼š
 
 ```
 <!-- c-namespace index declaration -->
 <bean id="foo" class="x.y.Foo" c:_0-ref="bar" c:_1-ref="baz"/>
 ```
 
-> ¸ù¾ÝXMLÓï·¨£¬Ë÷ÒýµÄ¸ÅÄîµÄ´æÔÚÒªÇóÊ¹ÓÃ`_`×÷ÎªXMLÊôÐÔÃû×Ö²»ÄÜÒÔÊý×Ö¿ªÊ¼¡£
+> æ ¹æ®XMLè¯­æ³•ï¼Œç´¢å¼•çš„æ¦‚å¿µçš„å­˜åœ¨è¦æ±‚ä½¿ç”¨`_`ä½œä¸ºXMLå±žæ€§åå­—ä¸èƒ½ä»¥æ•°å­—å¼€å§‹ã€‚
 
-Êµ¼ÊÉÏ£¬¹¹Ôìº¯ÊýµÄ½âÎö»úÖÆÔÚÆ¥Åä²ÎÊýÊÇºÜ¸ßÐ§µÄ£¬³ý·Ç±ØÒª£¬SpringÍÅ¶ÓÍÆ¼öÔÚÅäÖÃÖÐÊ¹ÓÃÃüÃû¿Õ¼ä¡£
+å®žé™…ä¸Šï¼Œæž„é€ å‡½æ•°çš„è§£æžæœºåˆ¶åœ¨åŒ¹é…å‚æ•°æ˜¯å¾ˆé«˜æ•ˆçš„ï¼Œé™¤éžå¿…è¦ï¼ŒSpringå›¢é˜ŸæŽ¨èåœ¨é…ç½®ä¸­ä½¿ç”¨å‘½åç©ºé—´ã€‚
 
 ### Compound property names
 
-¿ª·¢Õß¿ÉÒÔÔÚÅäÖÃÊôÐÔµÄÊ±ºòÅäÖÃ»ìºÏµÄÊôÐÔ£¬Ö»ÒªËùÓÐµÄ×é¼þÂ·¾¶£¨³ýÁË×îºóÒ»¸öÊôÐÔÃû×Ö£©²»ÄÜÎª`null`¡£
-²Î¿¼ÈçÏÂµÄ¶¨Òå¡£
+å¼€å‘è€…å¯ä»¥åœ¨é…ç½®å±žæ€§çš„æ—¶å€™é…ç½®æ··åˆçš„å±žæ€§ï¼Œåªè¦æ‰€æœ‰çš„ç»„ä»¶è·¯å¾„ï¼ˆé™¤äº†æœ€åŽä¸€ä¸ªå±žæ€§åå­—ï¼‰ä¸èƒ½ä¸º`null`ã€‚
+å‚è€ƒå¦‚ä¸‹çš„å®šä¹‰ã€‚
 
 ```
 <bean id="foo" class="foo.Bar">
@@ -684,18 +684,18 @@ SpringÊÇÖ§³Ö»ùÓÚXMLµÄ¸ñÊ½»¯µÄÃüÃû¿Õ¼äÀ©Õ¹µÄ¡£±¾½ÚÌÖÂÛµÄ`beans`µÄÅäÖÃ¶¼ÊÇ»ùÓÚXMLµ
 </bean>
 ```
 
-`foo`ÓÐÒ»¸ö`fred`µÄÊôÐÔ£¬¶øÆäÖÐ`fred`ÊôÐÔÓÐÒ»¸ö`bob`ÊôÐÔ£¬¶ø`bob`ÊôÐÔÖ®ÖÐÓÐÒ»¸ö`sammy`ÊôÐÔ£¬ÄÇÃ´×îºóÕâ¸ö`sammy`ÊôÐÔ»áÅäÖÃÎª`123`¡£ÏëÒªÉÏÊöµÄÅäÖÃÄÜ¹»ÉúÐ§£¬`fred`ÊôÐÔÐèÒªÓÐÒ»¸ö`bob`ÊôÐÔÇÒÔÚ`fred`¹¹ÔìÖ»ÊÇ¹¹ÔìÖ®ºó²»Îª`null`£¬·ñÔò»áÅ×³ö`NullPointerException`¡£
+`foo`æœ‰ä¸€ä¸ª`fred`çš„å±žæ€§ï¼Œè€Œå…¶ä¸­`fred`å±žæ€§æœ‰ä¸€ä¸ª`bob`å±žæ€§ï¼Œè€Œ`bob`å±žæ€§ä¹‹ä¸­æœ‰ä¸€ä¸ª`sammy`å±žæ€§ï¼Œé‚£ä¹ˆæœ€åŽè¿™ä¸ª`sammy`å±žæ€§ä¼šé…ç½®ä¸º`123`ã€‚æƒ³è¦ä¸Šè¿°çš„é…ç½®èƒ½å¤Ÿç”Ÿæ•ˆï¼Œ`fred`å±žæ€§éœ€è¦æœ‰ä¸€ä¸ª`bob`å±žæ€§ä¸”åœ¨`fred`æž„é€ åªæ˜¯æž„é€ ä¹‹åŽä¸ä¸º`null`ï¼Œå¦åˆ™ä¼šæŠ›å‡º`NullPointerException`ã€‚
 
 ### 7.4.3 Using depends-on
 
-Èç¹ûÒ»¸öBeanÊÇÁíÒ»¸öBeanµÄÒÀÀµµÄ»°£¬Í¨³£À´ËµÕâ¸öBeanÒ²¾ÍÊÇÁíÒ»¸öBeanµÄÊôÐÔÖ®Ò»¡£¶àÊýÇé¿öÏÂ£¬¿ª·¢Õß¿ÉÒÔÔÚÅäÖÃXMLÔªÊý¾ÝµÄÊ±ºòÊ¹ÓÃ`<ref/>`±êÇ©¡£È»¶ø£¬ÓÐÊ±BeanÖ®¼äµÄÒÀÀµ¹ØÏµ²»ÊÇÖ±½Ó¹ØÁªµÄ¡£±ÈÈç£ºÐèÒªµ÷ÓÃÀàµÄ¾²Ì¬ÊµÀý»¯Æ÷À´´¥·¢£¬ÀàËÆÊý¾Ý¿âÇý¶¯×¢²á¡£`depends-on`ÊôÐÔ»áÊ¹Ã÷È·µÄÇ¿ÆÈÒÀÀµµÄBeanÔÚÒýÓÃÖ®Ç°¾Í»á³õÊ¼»¯¡£ÏÂÃæµÄÀý×ÓÊ¹ÓÃ`depends-on`ÊôÐÔÀ´ÈÃ±íÊ¾µ¥ÀýBeanÉÏµÄÒÀÀµµÄ¡£
+å¦‚æžœä¸€ä¸ªBeanæ˜¯å¦ä¸€ä¸ªBeançš„ä¾èµ–çš„è¯ï¼Œé€šå¸¸æ¥è¯´è¿™ä¸ªBeanä¹Ÿå°±æ˜¯å¦ä¸€ä¸ªBeançš„å±žæ€§ä¹‹ä¸€ã€‚å¤šæ•°æƒ…å†µä¸‹ï¼Œå¼€å‘è€…å¯ä»¥åœ¨é…ç½®XMLå…ƒæ•°æ®çš„æ—¶å€™ä½¿ç”¨`<ref/>`æ ‡ç­¾ã€‚ç„¶è€Œï¼Œæœ‰æ—¶Beanä¹‹é—´çš„ä¾èµ–å…³ç³»ä¸æ˜¯ç›´æŽ¥å…³è”çš„ã€‚æ¯”å¦‚ï¼šéœ€è¦è°ƒç”¨ç±»çš„é™æ€å®žä¾‹åŒ–å™¨æ¥è§¦å‘ï¼Œç±»ä¼¼æ•°æ®åº“é©±åŠ¨æ³¨å†Œã€‚`depends-on`å±žæ€§ä¼šä½¿æ˜Žç¡®çš„å¼ºè¿«ä¾èµ–çš„Beanåœ¨å¼•ç”¨ä¹‹å‰å°±ä¼šåˆå§‹åŒ–ã€‚ä¸‹é¢çš„ä¾‹å­ä½¿ç”¨`depends-on`å±žæ€§æ¥è®©è¡¨ç¤ºå•ä¾‹Beanä¸Šçš„ä¾èµ–çš„ã€‚
 
 ```
 <bean id="beanOne" class="ExampleBean" depends-on="manager"/>
 <bean id="manager" class="ManagerBean" />
 ```
 
-Èç¹ûÏëÒªÒÀÀµ¶à¸öBean£¬¿ÉÒÔÌá¹©¶à¸öÃû×Ö×÷Îª`depends-on`µÄÖµ£¬ÒÔ¶ººÅ£¬¿Õ¸ñ£¬»òÕß·ÖºÅ·Ö¸î£¬ÈçÏÂ£º
+å¦‚æžœæƒ³è¦ä¾èµ–å¤šä¸ªBeanï¼Œå¯ä»¥æä¾›å¤šä¸ªåå­—ä½œä¸º`depends-on`çš„å€¼ï¼Œä»¥é€—å·ï¼Œç©ºæ ¼ï¼Œæˆ–è€…åˆ†å·åˆ†å‰²ï¼Œå¦‚ä¸‹ï¼š
 
 ```
 <bean id="beanOne" class="ExampleBean" depends-on="manager,accountDao">
@@ -706,22 +706,22 @@ SpringÊÇÖ§³Ö»ùÓÚXMLµÄ¸ñÊ½»¯µÄÃüÃû¿Õ¼äÀ©Õ¹µÄ¡£±¾½ÚÌÖÂÛµÄ`beans`µÄÅäÖÃ¶¼ÊÇ»ùÓÚXMLµ
 <bean id="accountDao" class="x.y.jdbc.JdbcAccountDao" />
 ```
 
-> BeanÖÐµÄ`depends-on`ÊôÐÔ¿ÉÒÔÍ¬Ê±Ö¸¶¨Ò»¸ö³õÊ¼»¯Ê±¼äµÄÒÀÀµÒÔ¼°Ò»¸öÏàÓ¦µÄÏú»ÙÊ±ÒÀÀµ£¨µ¥ÀýBeanÇé¿ö£©¡£¶ÀÁ¢µÄ¶¨ÒåÁË`depends-on`ÊôÐÔµÄBean»áÓÅÏÈÏú»Ù£¬ÓÅÓÚ±»`depends-on`µÄBeanÀ´Ïú»Ù£¬ÕâÑù`depends-on`¿ÉÒÔ¿ØÖÆÏú»ÙµÄË³Ðò¡£
+> Beanä¸­çš„`depends-on`å±žæ€§å¯ä»¥åŒæ—¶æŒ‡å®šä¸€ä¸ªåˆå§‹åŒ–æ—¶é—´çš„ä¾èµ–ä»¥åŠä¸€ä¸ªç›¸åº”çš„é”€æ¯æ—¶ä¾èµ–ï¼ˆå•ä¾‹Beanæƒ…å†µï¼‰ã€‚ç‹¬ç«‹çš„å®šä¹‰äº†`depends-on`å±žæ€§çš„Beanä¼šä¼˜å…ˆé”€æ¯ï¼Œä¼˜äºŽè¢«`depends-on`çš„Beanæ¥é”€æ¯ï¼Œè¿™æ ·`depends-on`å¯ä»¥æŽ§åˆ¶é”€æ¯çš„é¡ºåºã€‚
 
 ### 7.4.4 Lazy-initialized beans
 
-Ä¬ÈÏÇé¿öÏÂ£¬`ApplicationContext`»áÔÚÊµÀý»¯µÄ¹ý³ÌÖÐ´´½¨ºÍÅäÖÃËùÓÐµÄµ¥ÀýBean¡£×ÜµÄÀ´Ëµ£¬Õâ¸öÔ¤³õÊ¼»¯ÊÇºÜ²»´íµÄ¡£ÒòÎªÕâÑùÄÜ¼°Ê±·¢ÏÖ»·¾³ÉÏµÄÒ»Ð©ÅäÖÃ´íÎó£¬¶ø²»ÊÇÏµÍ³ÔËÐÐÁËºÜ¾ÃÖ®ºó²Å·¢ÏÖ¡£Èç¹ûÕâ¸öÐÐÎª²»ÊÇÆÈÇÐÐèÒªµÄ£¬¿ª·¢Õß¿ÉÒÔÍ¨¹ý½«Bean±ê¼ÇÎªÑÓ³Ù¼ÓÔØ¾ÍÄÜ×èÖ¹Õâ¸öÔ¤³õÊ¼»¯¡£ÑÓ³Ù³õÊ¼»¯µÄBean»áÍ¨ÖªIoC²»ÒªÈÃBeanÔ¤³õÊ¼»¯¶øÊÇÔÚ±»ÒýÓÃµÄÊ±ºò²Å»áÊµÀý»¯¡£
-ÔÚXMLÖÐ£¬¿ÉÒÔÍ¨¹ý`<bean/>`ÔªËØµÄ`lazy-init`ÊôÐÔÀ´¿ØÖÆÕâ¸öÐÐÎª¡£ÈçÏÂ£º
+é»˜è®¤æƒ…å†µä¸‹ï¼Œ`ApplicationContext`ä¼šåœ¨å®žä¾‹åŒ–çš„è¿‡ç¨‹ä¸­åˆ›å»ºå’Œé…ç½®æ‰€æœ‰çš„å•ä¾‹Beanã€‚æ€»çš„æ¥è¯´ï¼Œè¿™ä¸ªé¢„åˆå§‹åŒ–æ˜¯å¾ˆä¸é”™çš„ã€‚å› ä¸ºè¿™æ ·èƒ½åŠæ—¶å‘çŽ°çŽ¯å¢ƒä¸Šçš„ä¸€äº›é…ç½®é”™è¯¯ï¼Œè€Œä¸æ˜¯ç³»ç»Ÿè¿è¡Œäº†å¾ˆä¹…ä¹‹åŽæ‰å‘çŽ°ã€‚å¦‚æžœè¿™ä¸ªè¡Œä¸ºä¸æ˜¯è¿«åˆ‡éœ€è¦çš„ï¼Œå¼€å‘è€…å¯ä»¥é€šè¿‡å°†Beanæ ‡è®°ä¸ºå»¶è¿ŸåŠ è½½å°±èƒ½é˜»æ­¢è¿™ä¸ªé¢„åˆå§‹åŒ–ã€‚å»¶è¿Ÿåˆå§‹åŒ–çš„Beanä¼šé€šçŸ¥IoCä¸è¦è®©Beané¢„åˆå§‹åŒ–è€Œæ˜¯åœ¨è¢«å¼•ç”¨çš„æ—¶å€™æ‰ä¼šå®žä¾‹åŒ–ã€‚
+åœ¨XMLä¸­ï¼Œå¯ä»¥é€šè¿‡`<bean/>`å…ƒç´ çš„`lazy-init`å±žæ€§æ¥æŽ§åˆ¶è¿™ä¸ªè¡Œä¸ºã€‚å¦‚ä¸‹ï¼š
 
 ```
 <bean id="lazy" class="com.foo.ExpensiveToCreateBean" lazy-init="true"/>
 <bean name="not.lazy" class="com.foo.AnotherBean"/>
 ```
 
-µ±½«BeanÅäÖÃÎªÉÏÃæµÄXMLµÄÊ±ºò£¬`ApplicationContext`Ö®ÖÐµÄ`lazy`BeanÊÇ²»»áËæ×Å`ApplicationContext`µÄÆô¶¯¶ø½øÈëµ½Ô¤³õÊ¼»¯×´Ì¬µÄ£¬¶øÄÇÐ©·ÇÑÓ³Ù¼ÓÔØµÄBeanÊÇ´¦ÓÚÔ¤³õÊ¼»¯µÄ×´Ì¬µÄ¡£
+å½“å°†Beané…ç½®ä¸ºä¸Šé¢çš„XMLçš„æ—¶å€™ï¼Œ`ApplicationContext`ä¹‹ä¸­çš„`lazy`Beanæ˜¯ä¸ä¼šéšç€`ApplicationContext`çš„å¯åŠ¨è€Œè¿›å…¥åˆ°é¢„åˆå§‹åŒ–çŠ¶æ€çš„ï¼Œè€Œé‚£äº›éžå»¶è¿ŸåŠ è½½çš„Beanæ˜¯å¤„äºŽé¢„åˆå§‹åŒ–çš„çŠ¶æ€çš„ã€‚
 
-È»¶ø£¬Èç¹ûÒ»¸öÑÓ³Ù¼ÓÔØµÄÀàÊÇ×÷ÎªÒ»¸öµ¥Àý·ÇÑÓ³Ù¼ÓÔØµÄBeanµÄÒÀÀµ¶ø´æÔÚµÄ»°£¬`ApplicationContext`ÈÔÈ»»áÔÚ`ApplicationContext`Æô¶¯µÄÊ±ºò¼ÓÔØ£¬ÒòÎª×÷Îªµ¥ÀýBeanµÄÒÀÀµ£¬»áËæ×Åµ¥ÀýBeanµÄÊµÀý»¯¶øÊµÀý»¯¡£
-¿ª·¢Õß¿ÉÒÔÍ¨¹ýÊ¹ÓÃ`<beans/>`µÄ`default-lazy-init`ÊôÐÔÀ´ÔÚÈÝÆ÷²ã´Î¿ØÖÆBeanÊÇ·ñÑÓ³Ù³õÊ¼»¯£¬±ÈÈç£º
+ç„¶è€Œï¼Œå¦‚æžœä¸€ä¸ªå»¶è¿ŸåŠ è½½çš„ç±»æ˜¯ä½œä¸ºä¸€ä¸ªå•ä¾‹éžå»¶è¿ŸåŠ è½½çš„Beançš„ä¾èµ–è€Œå­˜åœ¨çš„è¯ï¼Œ`ApplicationContext`ä»ç„¶ä¼šåœ¨`ApplicationContext`å¯åŠ¨çš„æ—¶å€™åŠ è½½ï¼Œå› ä¸ºä½œä¸ºå•ä¾‹Beançš„ä¾èµ–ï¼Œä¼šéšç€å•ä¾‹Beançš„å®žä¾‹åŒ–è€Œå®žä¾‹åŒ–ã€‚
+å¼€å‘è€…å¯ä»¥é€šè¿‡ä½¿ç”¨`<beans/>`çš„`default-lazy-init`å±žæ€§æ¥åœ¨å®¹å™¨å±‚æ¬¡æŽ§åˆ¶Beanæ˜¯å¦å»¶è¿Ÿåˆå§‹åŒ–ï¼Œæ¯”å¦‚ï¼š
 
 ```
 <beans default-lazy-init="true">
@@ -731,54 +731,54 @@ SpringÊÇÖ§³Ö»ùÓÚXMLµÄ¸ñÊ½»¯µÄÃüÃû¿Õ¼äÀ©Õ¹µÄ¡£±¾½ÚÌÖÂÛµÄ`beans`µÄÅäÖÃ¶¼ÊÇ»ùÓÚXMLµ
 
 ### 7.4.5 Autowiring collaborators
 
-SpringÈÝÆ÷¿ÉÒÔ¸ù¾ÝBeanÖ®¼äµÄÒÀÀµ¹ØÏµ*×Ô¶¯×°Åä*¡£¿ª·¢Õß¿ÉÒÔÁîSpringÍ¨¹ý`ApplicationContext`À´À´×Ô¶¯½âÎöÕâÐ©¹ØÁª¡£×Ô¶¯µÄ×°ÔØÓÐºÜ¶àµÄÓÅµã£º
+Springå®¹å™¨å¯ä»¥æ ¹æ®Beanä¹‹é—´çš„ä¾èµ–å…³ç³»*è‡ªåŠ¨è£…é…*ã€‚å¼€å‘è€…å¯ä»¥ä»¤Springé€šè¿‡`ApplicationContext`æ¥æ¥è‡ªåŠ¨è§£æžè¿™äº›å…³è”ã€‚è‡ªåŠ¨çš„è£…è½½æœ‰å¾ˆå¤šçš„ä¼˜ç‚¹ï¼š
 
-* ×Ô¶¯×°ÔØÄÜ¹»Ã÷ÏÔµÄ¼õÉÙÖ¸¶¨µÄÊôÐÔ»òÕßÊÇ¹¹Ôì²ÎÊý¡£
-* ×Ô¶¯×°ÔØ¿ÉÒÔÀ©Õ¹¿ª·¢ÕßµÄ¶ÔÏó¡£±ÈÈçËµ£¬Èç¹û¿ª·¢ÕßÐèÒª¼ÓÒ»¸öÒÀÀµ£¬ÒÀÀµ¾ÍÄÜ¹»²»ÐèÒª¿ª·¢ÕßÌØ±ð¹ØÐÄ¸ü¸ÄÅäÖÃ¾ÍÄÜ¹»×Ô¶¯Âú×ã¡£ÕâÑù£¬×Ô¶¯×°ÔØÔÚ¿ª·¢¹ý³ÌÖÐÊÇ¼«¶È¸ßÐ§µÄ£¬²»ÓÃÃ÷È·µÄÑ¡Ôñ×°ÔØµÄÒÀÀµ»áÊ¹ÏµÍ³¸ü¼ÓµÄÎÈ¶¨¡£
+* è‡ªåŠ¨è£…è½½èƒ½å¤Ÿæ˜Žæ˜¾çš„å‡å°‘æŒ‡å®šçš„å±žæ€§æˆ–è€…æ˜¯æž„é€ å‚æ•°ã€‚
+* è‡ªåŠ¨è£…è½½å¯ä»¥æ‰©å±•å¼€å‘è€…çš„å¯¹è±¡ã€‚æ¯”å¦‚è¯´ï¼Œå¦‚æžœå¼€å‘è€…éœ€è¦åŠ ä¸€ä¸ªä¾èµ–ï¼Œä¾èµ–å°±èƒ½å¤Ÿä¸éœ€è¦å¼€å‘è€…ç‰¹åˆ«å…³å¿ƒæ›´æ”¹é…ç½®å°±èƒ½å¤Ÿè‡ªåŠ¨æ»¡è¶³ã€‚è¿™æ ·ï¼Œè‡ªåŠ¨è£…è½½åœ¨å¼€å‘è¿‡ç¨‹ä¸­æ˜¯æžåº¦é«˜æ•ˆçš„ï¼Œä¸ç”¨æ˜Žç¡®çš„é€‰æ‹©è£…è½½çš„ä¾èµ–ä¼šä½¿ç³»ç»Ÿæ›´åŠ çš„ç¨³å®šã€‚
 
-µ±Ê¹ÓÃ»ùÓÚXMLµÄÔªÊý¾ÝÅäÖÃµÄÊ±ºò£¬¿ª·¢Õß¿ÉÒÔÖ¸¶¨×Ô¶¯×°ÅäµÄ·½Ê½¡£Í¨¹ýÅäÖÃ`<bean/>`ÔªËØµÄ`autowire`ÊôÐÔ¾Í¿ÉÒÔÁË¡£×Ô¶¯×°ÔØÓÐÈçÏÂËÄÖÖ·½Ê½£¬¿ª·¢Õß¿ÉÒÔÖ¸¶¨Ã¿¸öBeanµÄ×°ÔØ·½Ê½£¬ÕâÑùBean¾ÍÖªµÀÈçºÎ¼ÓÔØ×Ô¼ºµÄÒÀÀµ¡£
+å½“ä½¿ç”¨åŸºäºŽXMLçš„å…ƒæ•°æ®é…ç½®çš„æ—¶å€™ï¼Œå¼€å‘è€…å¯ä»¥æŒ‡å®šè‡ªåŠ¨è£…é…çš„æ–¹å¼ã€‚é€šè¿‡é…ç½®`<bean/>`å…ƒç´ çš„`autowire`å±žæ€§å°±å¯ä»¥äº†ã€‚è‡ªåŠ¨è£…è½½æœ‰å¦‚ä¸‹å››ç§æ–¹å¼ï¼Œå¼€å‘è€…å¯ä»¥æŒ‡å®šæ¯ä¸ªBeançš„è£…è½½æ–¹å¼ï¼Œè¿™æ ·Beanå°±çŸ¥é“å¦‚ä½•åŠ è½½è‡ªå·±çš„ä¾èµ–ã€‚
 
-|Ä£Ê½|½âÊÍ|
+|æ¨¡å¼|è§£é‡Š|
 |----|----|
-|no|£¨Ä¬ÈÏ£©²»×°ÔØ¡£BeanµÄÒýÓÃ±ØÐëÍ¨¹ý`ref`ÔªËØÀ´Ö¸¶¨¡£¶ÔÓÚ±È½Ï´óÏîÄ¿µÄ²¿Êð£¬²»½¨ÒéÐÞ¸ÄÄ¬ÈÏµÄÅäÖÃ£¬ÒòÎªÌØÖ¸»á¼Ó¾ç¿ØÖÆ¡£ÔÚÄ³ÖÖ³Ì¶ÈÉÏÀ´Ëµ£¬Ä¬ÈÏµÄÐÎÊ½Ò²ËµÃ÷ÁËÏµÍ³µÄ½á¹¹¡£|
-|byName|Í¨¹ýÃû×ÖÀ´×°Åä¡£Spring»á²éÕÒËùÓÐµÄBeanÖ±µ½Ãû×ÖºÍÊôÐÔÏàÍ¬µÄÒ»¸öBeanÀ´½øÐÐ×°ÔØ¡£±ÈÈçËµ£¬Èç¹ûBeanÅäÖÃÎª¸ù¾ÝÃû×ÖÀ´×Ô¶¯×°Åä£¬Ëü°üº¬ÁËÒ»¸öÊôÐÔÃû×ÖÎª`master`(Ò²¾ÍÊÇ°üº¬Ò»¸ö`setMaster(..)`·½·¨)£¬Spring¾Í»á²éÕÒÃû×ÖÎª`master`µÄBean£¬È»ºóÓÃÖ®×°ÔØ|
-|byType|Èç¹ûÐèÒª×Ô¶¯×°ÅäµÄÊôÐÔµÄÀàÐÍÔÚÈÝÆ÷Ö®ÖÐ´æÔÚµÄ»°£¬¾Í»á×Ô¶¯×°Åä¡£Èç¹ûÈÝÆ÷Ö®ÖÐ´æÔÚ²»Ö¹Ò»¸öÀàÐÍÆ¥ÅäµÄ»°£¬¾Í»áÅ×³öÒ»¸öÖØ´óµÄÒì³££¬ËµÃ÷¿ª·¢Õß×îºÃ²»ÒªÊ¹ÓÃbyTypeÀ´×Ô¶¯×°ÅäÄÇ¸öBean¡£Èç¹ûÃ»ÓÐÆ¥ÅäµÄBean´æÔÚµÄ»°£¬²»»áÅ×³öÒì³££¬Ö»ÊÇÊôÐÔ²»»áÅäÖÃ¡£|
-|¹¹Ôìº¯Êý|ÀàËÆÓÚ*byType*µÄ×¢Èë£¬µ«ÊÇÓ¦ÓÃµÄ¹¹Ôìº¯ÊýµÄ²ÎÊý¡£Èç¹ûÃ»ÓÐÒ»¸öBeanµÄÀàÐÍºÍ¹¹Ôìº¯Êý²ÎÊýµÄÀàÐÍÒ»ÖÂ£¬ÄÇÃ´ÈÔÈ»»áÅ×³öÒ»¸öÖØ´óµÄÒì³£|
+|no|ï¼ˆé»˜è®¤ï¼‰ä¸è£…è½½ã€‚Beançš„å¼•ç”¨å¿…é¡»é€šè¿‡`ref`å…ƒç´ æ¥æŒ‡å®šã€‚å¯¹äºŽæ¯”è¾ƒå¤§é¡¹ç›®çš„éƒ¨ç½²ï¼Œä¸å»ºè®®ä¿®æ”¹é»˜è®¤çš„é…ç½®ï¼Œå› ä¸ºç‰¹æŒ‡ä¼šåŠ å‰§æŽ§åˆ¶ã€‚åœ¨æŸç§ç¨‹åº¦ä¸Šæ¥è¯´ï¼Œé»˜è®¤çš„å½¢å¼ä¹Ÿè¯´æ˜Žäº†ç³»ç»Ÿçš„ç»“æž„ã€‚|
+|byName|é€šè¿‡åå­—æ¥è£…é…ã€‚Springä¼šæŸ¥æ‰¾æ‰€æœ‰çš„Beanç›´åˆ°åå­—å’Œå±žæ€§ç›¸åŒçš„ä¸€ä¸ªBeanæ¥è¿›è¡Œè£…è½½ã€‚æ¯”å¦‚è¯´ï¼Œå¦‚æžœBeané…ç½®ä¸ºæ ¹æ®åå­—æ¥è‡ªåŠ¨è£…é…ï¼Œå®ƒåŒ…å«äº†ä¸€ä¸ªå±žæ€§åå­—ä¸º`master`(ä¹Ÿå°±æ˜¯åŒ…å«ä¸€ä¸ª`setMaster(..)`æ–¹æ³•)ï¼ŒSpringå°±ä¼šæŸ¥æ‰¾åå­—ä¸º`master`çš„Beanï¼Œç„¶åŽç”¨ä¹‹è£…è½½|
+|byType|å¦‚æžœéœ€è¦è‡ªåŠ¨è£…é…çš„å±žæ€§çš„ç±»åž‹åœ¨å®¹å™¨ä¹‹ä¸­å­˜åœ¨çš„è¯ï¼Œå°±ä¼šè‡ªåŠ¨è£…é…ã€‚å¦‚æžœå®¹å™¨ä¹‹ä¸­å­˜åœ¨ä¸æ­¢ä¸€ä¸ªç±»åž‹åŒ¹é…çš„è¯ï¼Œå°±ä¼šæŠ›å‡ºä¸€ä¸ªé‡å¤§çš„å¼‚å¸¸ï¼Œè¯´æ˜Žå¼€å‘è€…æœ€å¥½ä¸è¦ä½¿ç”¨byTypeæ¥è‡ªåŠ¨è£…é…é‚£ä¸ªBeanã€‚å¦‚æžœæ²¡æœ‰åŒ¹é…çš„Beanå­˜åœ¨çš„è¯ï¼Œä¸ä¼šæŠ›å‡ºå¼‚å¸¸ï¼Œåªæ˜¯å±žæ€§ä¸ä¼šé…ç½®ã€‚|
+|æž„é€ å‡½æ•°|ç±»ä¼¼äºŽ*byType*çš„æ³¨å…¥ï¼Œä½†æ˜¯åº”ç”¨çš„æž„é€ å‡½æ•°çš„å‚æ•°ã€‚å¦‚æžœæ²¡æœ‰ä¸€ä¸ªBeançš„ç±»åž‹å’Œæž„é€ å‡½æ•°å‚æ•°çš„ç±»åž‹ä¸€è‡´ï¼Œé‚£ä¹ˆä»ç„¶ä¼šæŠ›å‡ºä¸€ä¸ªé‡å¤§çš„å¼‚å¸¸|
 
-Í¨¹ý *byType* »òÕß *¹¹Ôìº¯Êý* µÄ×Ô¶¯×°Åä·½Ê½£¬¿ª·¢Õß¿ÉÒÔ×°ÔØÊý×éºÍÇ¿ÀàÐÍ¼¯ºÏ¡£ÔÚÈç´ËµÄÀý×ÓÖ®ÖÐ£¬ËùÓÐÈÝÆ÷Ö®ÖÐµÄÆ¥ÅäÖ¸¶¨ÀàÐÍµÄBean»á×Ô¶¯×°Åäµ½BeanÉÏÀ´Íê³ÉÒÀÀµ×¢Èë¡£¿ª·¢Õß¿ÉÒÔ×Ô¶¯×°ÅäkeyÎª`String`µÄÇ¿ÀàÐÍµÄ`Map`¡£×Ô¶¯×°ÅäµÄ`Map`Öµ»á°üº¬ËùÓÐµÄBeanÊµÀýÖµÀ´Æ¥ÅäÖ¸¶¨µÄÀàÐÍ£¬`Map`µÄkey»á°üº¬¹ØÁªµÄBeanµÄÃû×Ö¡£
+é€šè¿‡ *byType* æˆ–è€… *æž„é€ å‡½æ•°* çš„è‡ªåŠ¨è£…é…æ–¹å¼ï¼Œå¼€å‘è€…å¯ä»¥è£…è½½æ•°ç»„å’Œå¼ºç±»åž‹é›†åˆã€‚åœ¨å¦‚æ­¤çš„ä¾‹å­ä¹‹ä¸­ï¼Œæ‰€æœ‰å®¹å™¨ä¹‹ä¸­çš„åŒ¹é…æŒ‡å®šç±»åž‹çš„Beanä¼šè‡ªåŠ¨è£…é…åˆ°Beanä¸Šæ¥å®Œæˆä¾èµ–æ³¨å…¥ã€‚å¼€å‘è€…å¯ä»¥è‡ªåŠ¨è£…é…keyä¸º`String`çš„å¼ºç±»åž‹çš„`Map`ã€‚è‡ªåŠ¨è£…é…çš„`Map`å€¼ä¼šåŒ…å«æ‰€æœ‰çš„Beanå®žä¾‹å€¼æ¥åŒ¹é…æŒ‡å®šçš„ç±»åž‹ï¼Œ`Map`çš„keyä¼šåŒ…å«å…³è”çš„Beançš„åå­—ã€‚
 
 ### Limitations and disadvantages of autowiring
 
-×Ô¶¯×°ÔØÈç¹ûÔÚÕû¸öµÄÏîÄ¿µÄ¿ª·¢¹ý³ÌÖÐÊ¹ÓÃ£¬»á¹¤×÷µÄºÜºÃ¡£µ«ÊÇÈç¹û²»ÊÇÈ«¾ÖÊ¹ÓÃ£¬¶øÖ»ÊÇÓÃÖ®À´×Ô¶¯×°Åä¼¸¸öBeanµÄ»°£¬»áºÜÈÝÒ×ÃÔ»ó¿ª·¢Õß¡£
+è‡ªåŠ¨è£…è½½å¦‚æžœåœ¨æ•´ä¸ªçš„é¡¹ç›®çš„å¼€å‘è¿‡ç¨‹ä¸­ä½¿ç”¨ï¼Œä¼šå·¥ä½œçš„å¾ˆå¥½ã€‚ä½†æ˜¯å¦‚æžœä¸æ˜¯å…¨å±€ä½¿ç”¨ï¼Œè€Œåªæ˜¯ç”¨ä¹‹æ¥è‡ªåŠ¨è£…é…å‡ ä¸ªBeançš„è¯ï¼Œä¼šå¾ˆå®¹æ˜“è¿·æƒ‘å¼€å‘è€…ã€‚
 
-ÏÂÃæÊÇÒ»Ð©×Ô¶¯×°ÅäµÄÁÓÊÆºÍÏÞÖÆ
+ä¸‹é¢æ˜¯ä¸€äº›è‡ªåŠ¨è£…é…çš„åŠ£åŠ¿å’Œé™åˆ¶
 
-* ¾«È·µÄ`property`ÒÔ¼°`constructor-arg`²ÎÊýÅäÖÃ£¬»á¸²¸Çµô×Ô¶¯×°ÅäµÄÅäÖÃ¡£¿ª·¢²»ÄÜ¹»×Ô¶¯×°ÅäËùÎ½µÄ¼òµ¥ÊôÐÔ£¬±ÈÈç`Primitive`ÀàÐÍ»òÕß×Ö·û´®¡£
-* ×Ô¶¯×°Åä²¢ÓÐ¾«È·×°Åä×¼È·¡£¾¡¹ÜÈçÉÏÃæµÄ±íËùÃèÊö£¬Spring»á¾¡Á¿Ð¡ÐÄÀ´±ÜÃâ²»±ØÒªµÄ´íÎó×°Åä£¬µ«ÊÇSpring¹ÜÀíµÄ¶ÔÏó¹ØÏµÈÔÈ»²»ÈçÎÄµµÃèÊöµÄÄÇÃ´¾«È·¡£
-* ×°ÅäµÄÐÅÏ¢¶Ô¿ª·¢Õß¿É¼ûÐÔ²»ºÃ£¬ÒòÎªÕâÒ»ÇÐ¶¼ÓÉSpringÈÝÆ÷¹ÜÀí¡£
-* ÈÝÆ÷ÖÐµÄ¿ÉÄÜ»á´æÔÚºÜ¶àµÄBeanÆ¥ÅäSetter·½·¨»òÕß¹¹Ôì²ÎÊý¡£±ÈÈçËµÊý×é£¬¼¯ºÏ»òÕßMapµÈ¡£È»¶øÒÀÀµÈ´Ï£Íû½ö½öÒ»¸öÆ¥ÅäµÄÖµ£¬º¬ºýµÄÐÅÏ¢ÊÇÎÞ·¨½âÎöµÄ¡£Èç¹ûÃ»ÓÐ¶ÀÒ»ÎÞ¶þµÄBean£¬ÄÇÃ´¾Í»áÅ×³öÒì³£¡£
+* ç²¾ç¡®çš„`property`ä»¥åŠ`constructor-arg`å‚æ•°é…ç½®ï¼Œä¼šè¦†ç›–æŽ‰è‡ªåŠ¨è£…é…çš„é…ç½®ã€‚å¼€å‘ä¸èƒ½å¤Ÿè‡ªåŠ¨è£…é…æ‰€è°“çš„ç®€å•å±žæ€§ï¼Œæ¯”å¦‚`Primitive`ç±»åž‹æˆ–è€…å­—ç¬¦ä¸²ã€‚
+* è‡ªåŠ¨è£…é…å¹¶æœ‰ç²¾ç¡®è£…é…å‡†ç¡®ã€‚å°½ç®¡å¦‚ä¸Šé¢çš„è¡¨æ‰€æè¿°ï¼ŒSpringä¼šå°½é‡å°å¿ƒæ¥é¿å…ä¸å¿…è¦çš„é”™è¯¯è£…é…ï¼Œä½†æ˜¯Springç®¡ç†çš„å¯¹è±¡å…³ç³»ä»ç„¶ä¸å¦‚æ–‡æ¡£æè¿°çš„é‚£ä¹ˆç²¾ç¡®ã€‚
+* è£…é…çš„ä¿¡æ¯å¯¹å¼€å‘è€…å¯è§æ€§ä¸å¥½ï¼Œå› ä¸ºè¿™ä¸€åˆ‡éƒ½ç”±Springå®¹å™¨ç®¡ç†ã€‚
+* å®¹å™¨ä¸­çš„å¯èƒ½ä¼šå­˜åœ¨å¾ˆå¤šçš„BeanåŒ¹é…Setteræ–¹æ³•æˆ–è€…æž„é€ å‚æ•°ã€‚æ¯”å¦‚è¯´æ•°ç»„ï¼Œé›†åˆæˆ–è€…Mapç­‰ã€‚ç„¶è€Œä¾èµ–å´å¸Œæœ›ä»…ä»…ä¸€ä¸ªåŒ¹é…çš„å€¼ï¼Œå«ç³Šçš„ä¿¡æ¯æ˜¯æ— æ³•è§£æžçš„ã€‚å¦‚æžœæ²¡æœ‰ç‹¬ä¸€æ— äºŒçš„Beanï¼Œé‚£ä¹ˆå°±ä¼šæŠ›å‡ºå¼‚å¸¸ã€‚
 
-ÔÚºóÃæµÄ³¡¾°£¬¿ª·¢ÕßÓÐÈçÏÂµÄÑ¡Ôñ
+åœ¨åŽé¢çš„åœºæ™¯ï¼Œå¼€å‘è€…æœ‰å¦‚ä¸‹çš„é€‰æ‹©
 
-* ·ÅÆú×Ô¶¯×°ÅäÓÐÀûÓÚ¾«È·×°Åä
-* ¿ÉÒÔÍ¨¹ýÅäÖÃ`autowire-candidate`ÊôÐÔÎª`false`À´×èÖ¹×Ô¶¯×°Åä
-* Í¨¹ýÅäÖÃ`<bean/>`ÔªËØµÄ`primary`ÊôÐÔÎª`true`À´Ö¸¶¨Ò»¸öbeanÎªÖ÷ÒªµÄºòÑ¡Bean
-* ÊµÏÖ¸ü¶àµÄ»ùÓÚ×¢½âµÄÏ¸Á£¶ÈµÄ×°ÅäÅäÖÃ¡£
+* æ”¾å¼ƒè‡ªåŠ¨è£…é…æœ‰åˆ©äºŽç²¾ç¡®è£…é…
+* å¯ä»¥é€šè¿‡é…ç½®`autowire-candidate`å±žæ€§ä¸º`false`æ¥é˜»æ­¢è‡ªåŠ¨è£…é…
+* é€šè¿‡é…ç½®`<bean/>`å…ƒç´ çš„`primary`å±žæ€§ä¸º`true`æ¥æŒ‡å®šä¸€ä¸ªbeanä¸ºä¸»è¦çš„å€™é€‰Bean
+* å®žçŽ°æ›´å¤šçš„åŸºäºŽæ³¨è§£çš„ç»†ç²’åº¦çš„è£…é…é…ç½®ã€‚
 
 
 ### Excluding a bean from autowiring
 
-ÔÚÃ¿¸öBeanµÄ»ù´¡Ö®ÉÏ£¬¿ª·¢Õß¿ÉÒÔ×èÖ¹BeanÀ´×Ô¶¯×°Åä¡£ÔÚ»ùÓÚXMLµÄÅäÖÃÖÐ£¬¿ÉÒÔÅäÖÃ`<bean/>`ÔªËØµÄ`autowire-candidate`ÊôÐÔÎª`false`À´×öµ½ÕâÒ»µã¡£ÈÝÆ÷ÔÚ¶ÁÈ¡µ½Õâ¸öÅäÖÃºó£¬»áÈÃÕâ¸öBean¶ÔÓÚ×Ô¶¯×°ÅäµÄ½á¹¹ÖÐ²»¿É¼û£¨°üÀ¨×¢½âÐÎÊ½µÄÅäÖÃ±ÈÈç`@Autowired`£©
+åœ¨æ¯ä¸ªBeançš„åŸºç¡€ä¹‹ä¸Šï¼Œå¼€å‘è€…å¯ä»¥é˜»æ­¢Beanæ¥è‡ªåŠ¨è£…é…ã€‚åœ¨åŸºäºŽXMLçš„é…ç½®ä¸­ï¼Œå¯ä»¥é…ç½®`<bean/>`å…ƒç´ çš„`autowire-candidate`å±žæ€§ä¸º`false`æ¥åšåˆ°è¿™ä¸€ç‚¹ã€‚å®¹å™¨åœ¨è¯»å–åˆ°è¿™ä¸ªé…ç½®åŽï¼Œä¼šè®©è¿™ä¸ªBeanå¯¹äºŽè‡ªåŠ¨è£…é…çš„ç»“æž„ä¸­ä¸å¯è§ï¼ˆåŒ…æ‹¬æ³¨è§£å½¢å¼çš„é…ç½®æ¯”å¦‚`@Autowired`ï¼‰
 
-¿ª·¢Õß¿ÉÒÔÍ¨¹ýÄ£Ê½Æ¥Åä¶ø²»ÊÇBeanµÄÃû×ÖÀ´ÏÞÖÆ×Ô¶¯×°ÅäµÄºòÑ¡Õß¡£×îÉÏ²ãµÄ`<beans/>`ÔªËØ»áÔÚ`default-autowire-candidates`ÊôÐÔÖÐÀ´ÅäÖÃ¶àÖÖÄ£Ê½¡£±ÈÈç£¬ÏÞÖÆ×Ô¶¯×°ÅäºòÑ¡ÕßµÄÃû×ÖÒÔ*Repository*½áÎ²£¬¿ÉÒÔÅäÖÃ`*Repository`¡£Èç¹ûÐèÒªÅäÖÃ¶àÖÖÄ£Ê½£¬Ö»ÐèÒªÓÃ¶ººÅ·Ö¸ô¿ª¼´¿É¡£µ±È»BeanÖÐÈç¹ûÅäÖÃÁË`autowire-candidate`µÄ»°£¬Õâ¸öÐÅÏ¢ÓµÓÐ¸ü¸ßµÄÓÅÏÈ¼¶¡£
+å¼€å‘è€…å¯ä»¥é€šè¿‡æ¨¡å¼åŒ¹é…è€Œä¸æ˜¯Beançš„åå­—æ¥é™åˆ¶è‡ªåŠ¨è£…é…çš„å€™é€‰è€…ã€‚æœ€ä¸Šå±‚çš„`<beans/>`å…ƒç´ ä¼šåœ¨`default-autowire-candidates`å±žæ€§ä¸­æ¥é…ç½®å¤šç§æ¨¡å¼ã€‚æ¯”å¦‚ï¼Œé™åˆ¶è‡ªåŠ¨è£…é…å€™é€‰è€…çš„åå­—ä»¥*Repository*ç»“å°¾ï¼Œå¯ä»¥é…ç½®`*Repository`ã€‚å¦‚æžœéœ€è¦é…ç½®å¤šç§æ¨¡å¼ï¼Œåªéœ€è¦ç”¨é€—å·åˆ†éš”å¼€å³å¯ã€‚å½“ç„¶Beanä¸­å¦‚æžœé…ç½®äº†`autowire-candidate`çš„è¯ï¼Œè¿™ä¸ªä¿¡æ¯æ‹¥æœ‰æ›´é«˜çš„ä¼˜å…ˆçº§ã€‚
 
-ÉÏÃæµÄÕâÐ©¼¼ÊõÔÚÅäÖÃÄÇÐ©²»ÐèÒª×Ô¶¯×°ÅäµÄBeanÊÇºÜÓÐÐ§µÄ¡£µ±È»Õâ²¢²»ÊÇËµÕâÀàBean±¾ÉíÎÞ·¨×Ô¶¯×°ÅäÆäËûµÄBean£¬¶øÊÇËµÕâÐ©Bean²»ÔÚ×÷Îª×Ô¶¯×°ÅäÒÀÀµµÄºòÑ¡ÁË¡£
+ä¸Šé¢çš„è¿™äº›æŠ€æœ¯åœ¨é…ç½®é‚£äº›ä¸éœ€è¦è‡ªåŠ¨è£…é…çš„Beanæ˜¯å¾ˆæœ‰æ•ˆçš„ã€‚å½“ç„¶è¿™å¹¶ä¸æ˜¯è¯´è¿™ç±»Beanæœ¬èº«æ— æ³•è‡ªåŠ¨è£…é…å…¶ä»–çš„Beanï¼Œè€Œæ˜¯è¯´è¿™äº›Beanä¸åœ¨ä½œä¸ºè‡ªåŠ¨è£…é…ä¾èµ–çš„å€™é€‰äº†ã€‚
 
 ### 7.4.6 Method injection
 
-ÔÚ´ó¶àÊýµÄÓ¦ÓÃ³¡¾°ÏÂ£¬´ó¶àÊýµÄBean¶¼ÊÇµ¥ÀýµÄ¡£µ±Õâ¸öµ¥ÀýµÄBeanÐèÒªºÍÁíÒ»¸öµ¥ÀýµÄ»òÕß·Çµ¥ÀýµÄBeanÁªºÏÊ¹ÓÃµÄÊ±ºò£¬¿ª·¢ÕßÖ»ÐèÒªÅäÖÃÒÀÀµµÄBeanÎªÕâ¸öBeanµÄÊôÐÔ¼´¿É¡£µ«ÊÇÓÐÊ±»áÒòÎª²»Í¬µÄBeanÉúÃüÖÜÆÚµÄ²»Í¬¶ø²úÉúÎÊÌâ¡£¼ÙÉèµ¥ÀýµÄBean AÔÚÃ¿¸ö·½·¨µ÷ÓÃÖÐÊ¹ÓÃÁË·Çµ¥ÀýµÄBean B¡£ÈÝÆ÷Ö»»á´´½¨Bean AÒ»´Î£¬¶øÖ»ÓÐÒ»¸ö»ú»áÀ´ÅäÖÃÊôÐÔ¡£ÄÇÃ´ÈÝÆ÷¾ÍÎÞ·¨¸øBean AÃ¿´Î¶¼Ìá¹©Ò»¸öÐÂµÄBean BµÄÊµÀý¡£
+åœ¨å¤§å¤šæ•°çš„åº”ç”¨åœºæ™¯ä¸‹ï¼Œå¤§å¤šæ•°çš„Beanéƒ½æ˜¯å•ä¾‹çš„ã€‚å½“è¿™ä¸ªå•ä¾‹çš„Beanéœ€è¦å’Œå¦ä¸€ä¸ªå•ä¾‹çš„æˆ–è€…éžå•ä¾‹çš„Beanè”åˆä½¿ç”¨çš„æ—¶å€™ï¼Œå¼€å‘è€…åªéœ€è¦é…ç½®ä¾èµ–çš„Beanä¸ºè¿™ä¸ªBeançš„å±žæ€§å³å¯ã€‚ä½†æ˜¯æœ‰æ—¶ä¼šå› ä¸ºä¸åŒçš„Beanç”Ÿå‘½å‘¨æœŸçš„ä¸åŒè€Œäº§ç”Ÿé—®é¢˜ã€‚å‡è®¾å•ä¾‹çš„Bean Aåœ¨æ¯ä¸ªæ–¹æ³•è°ƒç”¨ä¸­ä½¿ç”¨äº†éžå•ä¾‹çš„Bean Bã€‚å®¹å™¨åªä¼šåˆ›å»ºBean Aä¸€æ¬¡ï¼Œè€Œåªæœ‰ä¸€ä¸ªæœºä¼šæ¥é…ç½®å±žæ€§ã€‚é‚£ä¹ˆå®¹å™¨å°±æ— æ³•ç»™Bean Aæ¯æ¬¡éƒ½æä¾›ä¸€ä¸ªæ–°çš„Bean Bçš„å®žä¾‹ã€‚
 
-Ò»¸ö½â¾ö·½°¸¾ÍÊÇ·ÅÆúÒ»Ð©IoC¡£¿ª·¢Õß¿ÉÒÔÍ¨¹ýÊµÏÖ`ApplicationContextAware`½Ó¿ÚÁîBean A¿ÉÒÔ¿´µ½`ApplicationContext`£¬´Ó¶øÍ¨¹ýµ÷ÓÃ`getBean("B")`À´ÔÚBean A ÐèÒªÐÂµÄÊµÀýµÄÊ±ºòÀ´»ñÈ¡µ½ÐÂµÄBÊµÀý¡£²Î¿¼ÏÂÃæµÄÀý×Ó£º
+ä¸€ä¸ªè§£å†³æ–¹æ¡ˆå°±æ˜¯æ”¾å¼ƒä¸€äº›IoCã€‚å¼€å‘è€…å¯ä»¥é€šè¿‡å®žçŽ°`ApplicationContextAware`æŽ¥å£ä»¤Bean Aå¯ä»¥çœ‹åˆ°`ApplicationContext`ï¼Œä»Žè€Œé€šè¿‡è°ƒç”¨`getBean("B")`æ¥åœ¨Bean A éœ€è¦æ–°çš„å®žä¾‹çš„æ—¶å€™æ¥èŽ·å–åˆ°æ–°çš„Bå®žä¾‹ã€‚å‚è€ƒä¸‹é¢çš„ä¾‹å­ï¼š
 
 ```
 // a class that uses a stateful Command-style class to perform some processing
@@ -813,19 +813,19 @@ public class CommandManager implements ApplicationContextAware {
 }
 ```
 
-ÉÏÃæµÄ´úÂë²¢²»ÊÇÈÃÈËÊ®·ÖÂúÒâ£¬ÒòÎªÒµÎñµÄ´úÂëÒÑ¾­ÓëSpring¿ò¼ÜñîºÏÔÚÁËÒ»Æð¡£SpringÌá¹©ÁËÒ»¸öÉÔÎ¢¸ß¼¶µÄµãÌØÐÔ·½·¨×¢ÈëµÄ·½Ê½£¬¿ÉÒÔÓÃÀ´´¦ÀíÕâÖÖÎÊÌâ¡£
+ä¸Šé¢çš„ä»£ç å¹¶ä¸æ˜¯è®©äººååˆ†æ»¡æ„ï¼Œå› ä¸ºä¸šåŠ¡çš„ä»£ç å·²ç»ä¸ŽSpringæ¡†æž¶è€¦åˆåœ¨äº†ä¸€èµ·ã€‚Springæä¾›äº†ä¸€ä¸ªç¨å¾®é«˜çº§çš„ç‚¹ç‰¹æ€§æ–¹æ³•æ³¨å…¥çš„æ–¹å¼ï¼Œå¯ä»¥ç”¨æ¥å¤„ç†è¿™ç§é—®é¢˜ã€‚
 
 ### Lookup method injection
 
-²éÕÒ·½·¨×¢Èë¾ÍÊÇÈÝÆ÷Ò»ÖÖ¸²¸ÇÈÝÆ÷¹ÜÀíBeanµÄ·½·¨£¬À´·µ»Ø²éÕÒµÄÁíÒ»¸öÈÝÆ÷ÖÐµÄBeanµÄÄÜÁ¦¡£²éÕÒ·½·¨Í¨³£¾Í°üº¬Ç°Ãæ³¡¾°Ìáµ½µÄBean¡£Spring¿ò¼ÜÍ¨¹ýÊ¹ÓÃCGLIB¿âÉú³ÉµÄ×Ö½ÚÂëÀ´¶¯Ì¬Éú³É×ÓÀàÀ´¸²¸Ç¸¸ÀàµÄ·½·¨ÊµÏÖ·½·¨×¢Èë¡£
+æŸ¥æ‰¾æ–¹æ³•æ³¨å…¥å°±æ˜¯å®¹å™¨ä¸€ç§è¦†ç›–å®¹å™¨ç®¡ç†Beançš„æ–¹æ³•ï¼Œæ¥è¿”å›žæŸ¥æ‰¾çš„å¦ä¸€ä¸ªå®¹å™¨ä¸­çš„Beançš„èƒ½åŠ›ã€‚æŸ¥æ‰¾æ–¹æ³•é€šå¸¸å°±åŒ…å«å‰é¢åœºæ™¯æåˆ°çš„Beanã€‚Springæ¡†æž¶é€šè¿‡ä½¿ç”¨CGLIBåº“ç”Ÿæˆçš„å­—èŠ‚ç æ¥åŠ¨æ€ç”Ÿæˆå­ç±»æ¥è¦†ç›–çˆ¶ç±»çš„æ–¹æ³•å®žçŽ°æ–¹æ³•æ³¨å…¥ã€‚
 
-> * ÎªÁËÈÃÕâ¸ö¶¯Ì¬µÄ×ÓÀà·½°¸Õý³££¬ÄÇÃ´SpringÈÝÆ÷ËùÐèÒª¼Ì³ÐµÄÕâ¸öBean²»ÄÜÊÇ`final`µÄ£¬¶ø¸²¸ÇµÄ·½·¨Ò²²»ÄÜÊÇ`final`µÄ¡£
-* Õë¶ÔÕâ¸öÀàµÄµ¥Ôª²âÊÔÒòÎª´æÔÚ³éÏó·½·¨£¬ËùÒÔ±ØÐëÊµÏÖ×ÓÀàÀ´²âÊÔ
-* ×é¼þÉ¨ÃèµÄËùÐèµÄ¾ßÌå·½·¨Ò²ÐèÒª¾ßÌåÀà¡£
-* Ò»¸ö¹Ø¼üµÄÏÞÖÆÔÚÓÚ²éÕÒ·½·¨Óë¹¤³§·½·¨ÊÇ²»ÄÜÐ­Í¬¹¤×÷µÄ£¬ÓÈÆäÊÇ²»ÄÜºÍÅäÖÃÀàÖ®ÖÐµÄ`@Bean`µÄ·½·¨£¬ÒòÎªÈÝÆ÷²»ÔÚ¸ºÔð´´½¨ÊµÀý£¬¶øÊÇ´´½¨Ò»¸öÔËÐÐÊ±µÄ×ÓÀà¡£
-* ×îºó£¬±»×¢ÈëµÄµ½·½·¨µÄ¶ÔÏó²»ÄÜ±»ÐòÁÐ»¯¡£
+> * ä¸ºäº†è®©è¿™ä¸ªåŠ¨æ€çš„å­ç±»æ–¹æ¡ˆæ­£å¸¸ï¼Œé‚£ä¹ˆSpringå®¹å™¨æ‰€éœ€è¦ç»§æ‰¿çš„è¿™ä¸ªBeanä¸èƒ½æ˜¯`final`çš„ï¼Œè€Œè¦†ç›–çš„æ–¹æ³•ä¹Ÿä¸èƒ½æ˜¯`final`çš„ã€‚
+* é’ˆå¯¹è¿™ä¸ªç±»çš„å•å…ƒæµ‹è¯•å› ä¸ºå­˜åœ¨æŠ½è±¡æ–¹æ³•ï¼Œæ‰€ä»¥å¿…é¡»å®žçŽ°å­ç±»æ¥æµ‹è¯•
+* ç»„ä»¶æ‰«æçš„æ‰€éœ€çš„å…·ä½“æ–¹æ³•ä¹Ÿéœ€è¦å…·ä½“ç±»ã€‚
+* ä¸€ä¸ªå…³é”®çš„é™åˆ¶åœ¨äºŽæŸ¥æ‰¾æ–¹æ³•ä¸Žå·¥åŽ‚æ–¹æ³•æ˜¯ä¸èƒ½ååŒå·¥ä½œçš„ï¼Œå°¤å…¶æ˜¯ä¸èƒ½å’Œé…ç½®ç±»ä¹‹ä¸­çš„`@Bean`çš„æ–¹æ³•ï¼Œå› ä¸ºå®¹å™¨ä¸åœ¨è´Ÿè´£åˆ›å»ºå®žä¾‹ï¼Œè€Œæ˜¯åˆ›å»ºä¸€ä¸ªè¿è¡Œæ—¶çš„å­ç±»ã€‚
+* æœ€åŽï¼Œè¢«æ³¨å…¥çš„åˆ°æ–¹æ³•çš„å¯¹è±¡ä¸èƒ½è¢«åºåˆ—åŒ–ã€‚
 
-¿´µ½Ç°ÃæµÄ´úÂëÆ¬¶ÎÖÐµÄ`CommandManager`Àà£¬ÎÒÃÇ·¢ÏÖ·¢ÏÖSpringÈÝÆ÷»á¶¯Ì¬µÄ¸²¸Ç`createCommand()`·½·¨¡£`CommandManager`Àà²»ÔÚÓµÓÐÈÎºÎµÄSpringÒÀÀµ£¬ÈçÏÂ£º
+çœ‹åˆ°å‰é¢çš„ä»£ç ç‰‡æ®µä¸­çš„`CommandManager`ç±»ï¼Œæˆ‘ä»¬å‘çŽ°å‘çŽ°Springå®¹å™¨ä¼šåŠ¨æ€çš„è¦†ç›–`createCommand()`æ–¹æ³•ã€‚`CommandManager`ç±»ä¸åœ¨æ‹¥æœ‰ä»»ä½•çš„Springä¾èµ–ï¼Œå¦‚ä¸‹ï¼š
 
 ```
 package fiona.apple;
@@ -847,13 +847,13 @@ public abstract class CommandManager {
 }
 ```
 
-ÔÚ°üº¬ÐèÒª×¢ÈëµÄ·½·¨µÄ¿Í»§¶ËÀàµ±ÖÐ£¬×¢ÈëµÄ·½·¨ÐèÒªÓÐÈçÏÂµÄº¯ÊýÇ©Ãû 
+åœ¨åŒ…å«éœ€è¦æ³¨å…¥çš„æ–¹æ³•çš„å®¢æˆ·ç«¯ç±»å½“ä¸­ï¼Œæ³¨å…¥çš„æ–¹æ³•éœ€è¦æœ‰å¦‚ä¸‹çš„å‡½æ•°ç­¾å 
 
 ```
 <public|protected> [abstract] <return-type> theMethodName(no-arguments);
 ```
 
-Èç¹û·½·¨Îª³éÏó£¬ÄÇÃ´¶¯Ì¬Éú³ÉµÄ×ÓÀà»áÊµÏÖÕâ¸ö·½·¨¡£·ñÔò£¬¶¯Ì¬Éú³ÉµÄ×ÓÀà»á¸²¸ÇÀàÖÐµÄ¶¨ÒåµÄÔ­·½·¨¡£ÀýÈç£º
+å¦‚æžœæ–¹æ³•ä¸ºæŠ½è±¡ï¼Œé‚£ä¹ˆåŠ¨æ€ç”Ÿæˆçš„å­ç±»ä¼šå®žçŽ°è¿™ä¸ªæ–¹æ³•ã€‚å¦åˆ™ï¼ŒåŠ¨æ€ç”Ÿæˆçš„å­ç±»ä¼šè¦†ç›–ç±»ä¸­çš„å®šä¹‰çš„åŽŸæ–¹æ³•ã€‚ä¾‹å¦‚ï¼š
 
 ```
 <!-- a stateful bean deployed as a prototype (non-singleton) -->
@@ -867,13 +867,13 @@ public abstract class CommandManager {
 </bean>
 ```
 
-ÉÏÃæµÄcommandManagerÔÚµ±ËüÐèÒªÒ»¸öcommand BeanÊµÀýµÄÊ±ºò¾Í»áµ÷ÓÃ×Ô¼ºµÄ·½·¨`createCommand()`¡£¿ª·¢ÕßÒ»¶¨Òª½÷É÷ÅäÖÃ`command` BeanµÄÎªprototypeÀàÐÍµÄBean¡£Èç¹ûËùÐèµÄBeanÎªµ¥ÀýµÄ£¬ÄÇÃ´Õâ¸ö·½·¨×¢Èë·µ»ØµÄ½«¶¼ÊÇÍ¬Ò»¸öÊµÀý¡£
+ä¸Šé¢çš„commandManageråœ¨å½“å®ƒéœ€è¦ä¸€ä¸ªcommand Beanå®žä¾‹çš„æ—¶å€™å°±ä¼šè°ƒç”¨è‡ªå·±çš„æ–¹æ³•`createCommand()`ã€‚å¼€å‘è€…ä¸€å®šè¦è°¨æ…Žé…ç½®`command` Beançš„ä¸ºprototypeç±»åž‹çš„Beanã€‚å¦‚æžœæ‰€éœ€çš„Beanä¸ºå•ä¾‹çš„ï¼Œé‚£ä¹ˆè¿™ä¸ªæ–¹æ³•æ³¨å…¥è¿”å›žçš„å°†éƒ½æ˜¯åŒä¸€ä¸ªå®žä¾‹ã€‚
 
 ### Arbitrary method replacement
 
-´ÓÇ°ÃæµÄÃèÊöÖÐ£¬ÎÒÃÇÖªµÀ²éÕÒ·½·¨ÊÇÓÐÄÜÁ¦À´¸²¸ÇÈÎºÎÓÉÈÝÆ÷¹ÜÀíµÄBeanµÄ·½·¨µÄ¡£¿ª·¢Õß×îºÃÌø¹ýÕâÒ»²¿·Ö£¬³ý·ÇÒ»¶¨ÐèÒªÊ¹ÓÃÕâ¸ö¹¦ÄÜ¡£
+ä»Žå‰é¢çš„æè¿°ä¸­ï¼Œæˆ‘ä»¬çŸ¥é“æŸ¥æ‰¾æ–¹æ³•æ˜¯æœ‰èƒ½åŠ›æ¥è¦†ç›–ä»»ä½•ç”±å®¹å™¨ç®¡ç†çš„Beançš„æ–¹æ³•çš„ã€‚å¼€å‘è€…æœ€å¥½è·³è¿‡è¿™ä¸€éƒ¨åˆ†ï¼Œé™¤éžä¸€å®šéœ€è¦ä½¿ç”¨è¿™ä¸ªåŠŸèƒ½ã€‚
 
-Í¨¹ýÅäÖÃ»ùÓÚXMLµÄÅäÖÃÔªÊý¾Ý£¬¿ª·¢Õß¿ÉÒÔÊ¹ÓÃ`replaced-method`ÔªËØÀ´Ìæ»»Ò»¸ö´æÔÚµÄ·½·¨µÄÊµÏÖ¡£¿¼ÂÇÈçÏÂÇé¿ö£º
+é€šè¿‡é…ç½®åŸºäºŽXMLçš„é…ç½®å…ƒæ•°æ®ï¼Œå¼€å‘è€…å¯ä»¥ä½¿ç”¨`replaced-method`å…ƒç´ æ¥æ›¿æ¢ä¸€ä¸ªå­˜åœ¨çš„æ–¹æ³•çš„å®žçŽ°ã€‚è€ƒè™‘å¦‚ä¸‹æƒ…å†µï¼š
 
 ```
 public class MyValueCalculator {
@@ -887,7 +887,7 @@ public class MyValueCalculator {
 }
 ```
 
-Ò»¸öÊµÏÖÁË`org.springframework.beans.factory.support.MethodReplacer`½Ó¿ÚµÄÀà»áÌá¹©Ò»¸öÐÂ·½·¨µÄ¶¨Òå¡£
+ä¸€ä¸ªå®žçŽ°äº†`org.springframework.beans.factory.support.MethodReplacer`æŽ¥å£çš„ç±»ä¼šæä¾›ä¸€ä¸ªæ–°æ–¹æ³•çš„å®šä¹‰ã€‚
 
 ```
 /**
@@ -905,7 +905,7 @@ public class ReplacementComputeValue implements MethodReplacer {
 }
 ```
 
-Èç¹ûÐèÒª¸²¸ÇBeanµÄ·½·¨ÐèÒªÅäÖÃXMLÈçÏÂ£º
+å¦‚æžœéœ€è¦è¦†ç›–Beançš„æ–¹æ³•éœ€è¦é…ç½®XMLå¦‚ä¸‹ï¼š
 
 ```
 <bean id="myValueCalculator" class="x.y.z.MyValueCalculator">
@@ -918,7 +918,7 @@ public class ReplacementComputeValue implements MethodReplacer {
 <bean id="replacementComputeValue" class="a.b.c.ReplacementComputeValue"/>
 ```
 
-¿ª·¢Õß¿ÉÒÔÊ¹ÓÃ¸ü¶àµÄ`<replaced-method>`ÖÐµÄ`<arg=type/>`ÔªËØÀ´Ö¸¶¨ÐèÒª¸²¸ÇµÄ·½·¨¡£µ±ÐèÒª¸²¸ÇµÄ·½·¨´æÔÚÖØÔØ·½·¨Ê±£¬Ö¸¶¨²ÎÊý²ÅÊÇ±ØÐëµÄ¡£ÎªÁË·½±ãÆð¼û£¬×Ö·û´®µÄÀàÐÍÊÇ»áÆ¥ÅäÈçÏÂÀàÐÍ£¬ÍêÈ«µÈÍ¬ÓÚ`java.lang.String`¡£
+å¼€å‘è€…å¯ä»¥ä½¿ç”¨æ›´å¤šçš„`<replaced-method>`ä¸­çš„`<arg=type/>`å…ƒç´ æ¥æŒ‡å®šéœ€è¦è¦†ç›–çš„æ–¹æ³•ã€‚å½“éœ€è¦è¦†ç›–çš„æ–¹æ³•å­˜åœ¨é‡è½½æ–¹æ³•æ—¶ï¼ŒæŒ‡å®šå‚æ•°æ‰æ˜¯å¿…é¡»çš„ã€‚ä¸ºäº†æ–¹ä¾¿èµ·è§ï¼Œå­—ç¬¦ä¸²çš„ç±»åž‹æ˜¯ä¼šåŒ¹é…å¦‚ä¸‹ç±»åž‹ï¼Œå®Œå…¨ç­‰åŒäºŽ`java.lang.String`ã€‚
 
 ```
 java.lang.String
@@ -926,4 +926,4 @@ String
 Str
 ```
 
-ÒòÎªÍ¨³£À´Ëµ²ÎÊýµÄ¸öÊýÒÑ¾­×ã¹»Çø±ð²»Í¬µÄ·½·¨ÁË£¬ÕâÖÖ¿ì½ÝµÄÐ´·¨¿ÉÒÔÊ¡È¥ºÜ¶àµÄ´úÂë¡£
+å› ä¸ºé€šå¸¸æ¥è¯´å‚æ•°çš„ä¸ªæ•°å·²ç»è¶³å¤ŸåŒºåˆ«ä¸åŒçš„æ–¹æ³•äº†ï¼Œè¿™ç§å¿«æ·çš„å†™æ³•å¯ä»¥çœåŽ»å¾ˆå¤šçš„ä»£ç ã€‚

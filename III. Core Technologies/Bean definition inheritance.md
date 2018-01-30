@@ -24,7 +24,7 @@ bean的定义可以包含很多配置信息，包括构造方法参数，属性�
 
 其余的设置总是取自子bean定义：depends on, autowire mode, dependency check, singleton, scope, lazy init。
 
-上面的例子，通过使用`abstract`属性明确地表明这个父bean定义是抽象的。如果，父bean定义没有明确地指出所属的类，那么标记父bean定义为为`abstract`是必须的，如下：
+上面的例子，通过使用`abstract`属性明确地表明这个父bean定义是抽象的。如果，父bean定义没有明确地指出所属的类，那么标记父bean定义为`abstract`是必须的，如下：
 ```
 <bean id="inheritedTestBeanWithoutClass" abstract="true">
     <property name="name" value="parent"/>

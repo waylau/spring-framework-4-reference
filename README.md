@@ -12,6 +12,8 @@ Let's [READ](SUMMARY.md)!
  
 利用业余时间对此进行翻译，并在原文的基础上，插入配图，图文并茂方便用户理解。如有勘误欢迎指正，[点此](https://github.com/waylau/spring-framework-4-reference/issues)提问。如有兴趣，也可以参与到本翻译工作中来 :)
 
+如果想了解 Spring 5 方面的内容，移步至笔者所著的“[Spring 5 案例大全](https://github.com/waylau/spring-5-book)”项目。
+
 ### Get start 如何开始阅读
 
 选择下面入口之一：
